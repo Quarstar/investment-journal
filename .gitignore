@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# never commit broker screenshots or statements
+screenshots/
+statements/
+# raw broker statements and parsed order files stay private
+private/
+*.pdf
+trades.csv
