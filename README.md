@@ -1,69 +1,82 @@
-# Backtest 001: Long-only pairs tilt, VST vs CEG
+# Investment Journal
 
-**Date:** 9 Oct 2026 · **Data:** daily closes, 9 Oct 2025 → 8 Oct 2026 (251 trading days) · **Code:** [`pairs_vst_ceg.py`](pairs_vst_ceg.py)
+A dated public record of how I invest: the framework, every thesis, every weekly review, every closed trade (wins **and** losses), and the code I use to test ideas.
 
-## The question
-Vistra (VST) and Constellation (CEG) both sell firm nuclear power into the AI data-centre boom. I hold both. When one runs ahead of the other, does tilting toward the laggard beat just holding 50/50?
+I'm a BA (Hons) Esports International Business & Digital Media student and former retail duty manager. I run a concentrated long-only portfolio focused on the physical bottlenecks of AI (power, chips, compute) inside UK Stocks & Shares ISAs. This repo exists so my decisions can be checked against what actually happened. Git timestamps every commit, so nothing here can be quietly rewritten after the fact.
 
-This is a **long-only** version of a pairs trade. Classic stat arb shorts the leader, which I can't do in an ISA, so the rule only decides which of two holdings gets more weight.
+> **Not financial advice.** This is a personal journal of my own decisions. Nothing here is a recommendation to buy or sell anything.
 
-## Is it even a pair?
+**Connect:** [LinkedIn](https://www.linkedin.com/in/james-medeiros-uk)
 
-| Check | Result |
+---
+
+## Repo map
+
+| Folder | What's in it |
 |---|---|
-| 1-year change | VST **−25.6%**, CEG **−25.6%** (identical) |
-| Daily return correlation | **0.81** |
-| VST/CEG ratio | 0.548 today · mean 0.535 · range 0.445 (24 Dec 2025) to 0.650 (7 Jul 2026) |
-| Where it sits now | z = **+0.34** vs the full year, **+0.32** vs the last 60 days. **No signal.** |
-| Mean-reversion half-life | ~**25 trading days** |
+| [`theses/`](theses/) | One page per holding: why I own it, what would make me sell, target size |
+| [`weekly-reviews/`](weekly-reviews/) | Every Wednesday: prices verified, weights, news, gates, decisions |
+| [`trades/`](trades/) | Swing-trade log: entry reason, stop, target, exit, result |
+| [`plans/`](plans/) | Decisions committed in advance, e.g. what I'll do in a market drawdown |
+| [`post-mortems/`](post-mortems/) | What I got wrong and what changed in my process because of it |
+| [`backtests/`](backtests/) | Python tests of trading rules, run on real price data with fees included |
+| [`analysis/`](analysis/) | Scripts that turn broker statements into the trade history |
+| [`data/`](data/) | Price data used by the backtests |
 
-So yes, they behave like a pair: they move together and gaps tend to close within about a month.
+---
 
-## The rule
-- Signal: z-score of log(VST/CEG) vs its rolling 60-day mean.
-- z > +1.5 (VST rich) → hold 25% VST / 75% CEG.
-- z < −1.5 (VST cheap) → hold 75% VST / 25% CEG.
-- |z| < 0.5 → back to 50/50. In between, keep the current tilt.
-- Signal from day *t*'s close, traded at day *t+1*'s close (no look-ahead).
-- 0.15% fee per side on everything traded (my broker's FX fee).
+## The framework
 
-## Results
+### 1. Core thesis
+AI needs **physical** inputs that can't be scaled overnight: electricity (especially firm nuclear power), leading-edge chips, and data-centre compute. I try to own the bottlenecks rather than guess which AI application wins.
 
-| | Return | Max drawdown |
-|---|---|---|
-| Tilt rule (after fees) | −12.4% | −26.5% |
-| 50/50 buy & hold | −11.9% | −25.8% |
-| **Edge** | **−0.5 pts** | |
+### 2. Position limits
 
-8 rebalances, 96 of 192 test days spent tilted.
+| Rule | Limit |
+|---|---|
+| Any single stock | 20% max |
+| Energy / nuclear sleeve | 35% max |
+| Neocloud sleeve | 15% max |
+| Defence sleeve | 15% max |
+| Frenzy / speculative bucket | 10% max |
+| **Cash shield** | **15% floor** — no new offensive buys until it's restored |
 
-![Ratio and equity curves](pairs_vst_ceg.png)
+### 3. Defensive layer
+- **Cash shield (15%)** is dry powder for drawdowns. It's triggered by index falls of 15%+ or core holdings down 30%+ with the thesis intact.
+- **Uncorrelated sleeve:** a health-care ETF (XLVP) and a FTSE 100 tracker (VUKG), chosen for near-zero tech weight.
+- **Emergency fund** is kept outside the portfolio, so life events never force a sale at the bottom.
 
-### Sensitivity (edge vs 50/50, percentage points)
+### 4. Buying gates
+A stock on the watchlist is only bought when its gate is met, usually a specific earnings print or price level, written down **before** the event.
 
-| Window | entry 1.0 | entry 1.5 | entry 2.0 |
-|---|---|---|---|
-| 40 days | −2.0 | −1.0 | −2.0 |
-| 60 days | +0.4 | −0.5 | +2.0 |
-| 90 days | +6.0 | +6.2 | +1.0 |
+### 5. Swing-trade sleeve
+- Max ~1% of the book at risk per trade, with a hard stop placed as a real order.
+- Pre-set take-profit target and a one-month time stop.
+- No holding through earnings.
+- Every trade logged in [`trades/`](trades/) before entry. The sleeve only scales up if 20+ logged trades show an edge **after fees**.
 
-## What broke, and what I learned
-1. **The default rule didn't beat doing nothing.** After fees it was slightly worse. A relationship that "obviously" mean-reverts on a chart doesn't automatically become a profitable rule.
-2. **The rule fights trends.** From January to July the ratio drifted upward, so the rule kept betting against VST while VST kept outperforming. The rolling mean lags, so the bands keep chasing the price.
-3. **The one clean win was the July spike.** The ratio hit 0.650, the rule tilted to CEG, and the gap closed by August. That one episode is most of what the rule is good for.
-4. **The 90-day result (+6%) is the trap.** It looks great, but it's one year of data and a handful of trades. Picking the best cell of a sensitivity table *after* seeing results is overfitting. I won't trade it until it holds up on data it wasn't tuned on.
+### 6. Weekly process (every Wednesday) · [checklist](weekly-reviews/_checklist.md)
+1. Verify every price and recompute weights; no estimates.
+2. Check news, valuation, dilution and gate status for each holding and watchlist name.
+3. Check every limit in the table above.
+4. Write the review and commit it.
 
-## How I'm using it
-Not as an automatic strategy. As a **tie-breaker for new money** into my nuclear sleeve: if the ratio is stretched (roughly above 0.62 or below 0.48), new cash goes to the laggard. Otherwise it's split as normal.
+---
 
-## Next steps
-- [ ] Re-test on 3–5 years of data (needs a longer data source).
-- [ ] Walk-forward test: tune on year 1, test on year 2.
-- [ ] Try the same rule on NVDA/TSM.
-- [ ] Track the live "tie-breaker" decisions in the weekly reviews and compare in 6 months.
+## Current snapshot (weights only)
 
-## Run it yourself
-```bash
-pip install -r requirements.txt
-python backtests/pairs_vst_ceg.py
-```
+See the latest file in [`weekly-reviews/`](weekly-reviews/).
+
+## Track record
+- [**127 round trips across 3 accounts, May 2024 – Oct 2026**](trades/track-record.md): backfilled from official broker statements. 54% win rate, average win +15.6% vs average loss −10.5%. The clearest finding: **the longer I hold, the better I do.** Trades held over 3 months won 71% of the time and averaged +15.3%. Trades held a week or less averaged a loss.
+- [**Post-mortem: IONQ**](post-mortems/2026-IONQ.md): same stock, same crash, two accounts, opposite results, and the rules it created.
+
+## Plans committed in advance
+- [**Concentration plan (10 Oct 2026)**](plans/2026-10-10-concentration-plan.md): moving to 5 core AI-bottleneck names, a defensive layer and a small sandbox, and selling the off-thesis tail.
+- [**Decision prepared for 14 Oct**](plans/2026-10-14-decision-googl.md): should Alphabet replace VST or CEG in the core? The data for all three options.
+- [**Target portfolio**](plans/target-portfolio.md): where the book ends up once every plan is carried out (Jan 2027).
+- [**Watch items**](plans/watch-items.md): Terafab and other developments that could change a thesis.
+- [**Drawdown plan (10 Oct 2026)**](plans/2026-10-10-drawdown-plan.md): the triggers, tranches and buy list I'll follow if the Nasdaq-100 falls 15%, 25% or 35%, written before any fall.
+
+## Projects
+- [**Pairs tilt backtest: VST vs CEG**](backtests/) — can tilting between two near-identical nuclear stocks beat holding both 50/50? (Short answer so far: not reliably.)
