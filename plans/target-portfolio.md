@@ -30,7 +30,9 @@ Funded by:
 | **Exiting** | CELH, GRAB, LVMH | 7.4% | – | sell 14 Oct |
 | | AVAV, MP, NOW | 14.8% | – | sell by 4 Nov unless a thesis wins a core slot |
 
-**Candidate, not in the totals:** MCD (consumer anchor). If its [Q3 gate](2026-10-10-concentration-plan.md) passes, it starts at ~3% from new money after UBER and NU are funded. That takes anchors to ~12% and the AI-linked share to ~59%.
+**Candidates, not in the totals:** **MCD** (consumer) and **BWXT** (defence). The stronger one after both report in early November takes the third anchor slot at ~3%, from new money after UBER and NU are funded. That takes anchors to ~12% and the AI-linked share to ~59%.
+
+**Later (not before mid-2027):** once the anchors are full at 15% and each has two good quarters, [the switch](2026-10-10-concentration-plan.md) moves ~5% from VUKG to a fourth anchor. Anchors go to ~20% and the defensive layer to ~25% (cash 15%, XLVP ~9%, VUKG ~1%).
 
 **What it adds up to**
 - **12 holdings** instead of 17: 5 core, 2 anchors, 2 ETFs, cash and the sandbox.

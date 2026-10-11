@@ -20,8 +20,8 @@ The tail holds six names that are each too small to matter, yet each takes resea
 | Layer | Target | Holdings |
 |---|---|---|
 | Core | ~60% | Up to 5 AI names: NVDA, TSM, CEG, VST, NBIS. AVGO competes for a slot from January if its gate is met. |
-| Anchor sleeve (non-AI) | ≤ 15% | Up to **3** stocks, one per sector, each outside the AI thesis and each passing the diversification test below: **UBER** (transport), **NU** (financials), **MCD** (consumer, candidate) |
-| Defensive | ~25–30% | Cash shield (15% floor), XLVP, VUKG |
+| Anchor sleeve (non-AI) | ≤ 15%, rising to ≤ 20% (see the switch below) | Up to **3** stocks now, **4** after the switch, one per sector, each outside the AI thesis and each passing the diversification test below: **UBER** (transport), **NU** (financials), **MCD** (consumer, candidate), **BWXT** (defence, candidate) |
+| Defensive | ~25–30% (~25% after the switch) | Cash shield (15% floor), XLVP, VUKG (VUKG gives up 5% at the switch) |
 | Sandbox | ≤ 5% | Swing trades (logged in advance) and frenzy-bucket ideas |
 
 Existing caps still apply: 20% single stock, 35% energy/nuclear, 15% neocloud.
@@ -50,7 +50,7 @@ NOW, MP and AVAV each keep their place only if I can write a one-page thesis for
 |---|---|---|
 | NOW | ~4.1% | Is enterprise AI software a bottleneck, or the app layer my thesis avoids? (Strongest case to keep: +49.9% and +47.5% trades.) |
 | MP | ~4.8% | Are rare-earth magnets a real AI/robotics bottleneck, or a separate theme? |
-| AVAV | ~5.9% | Does a defence sleeve still belong, or is it diluting the core? |
+| AVAV | ~5.9% | Does a defence sleeve still belong, or is it diluting the core? Since 11 Oct the bar is higher: its thesis has to beat [BWXT](../theses/BWXT.md), the defence anchor candidate. |
 
 Any name without a finished thesis page by 4 Nov is sold into a green day.
 
@@ -63,13 +63,13 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 | MCD | **Added 10 Oct as the consumer anchor candidate.** See below. |
 | GRAB top-up | Remove. Position being sold. |
 | SOFI | Remove. Outside the thesis. |
-| BWXT | Keep as an alert only. Nuclear fits the thesis, but a sixth core name would need one to leave. |
+| BWXT | **Added 11 Oct as the defence anchor candidate.** Replaces AVAV as my defence idea. See below. |
 
 ## Anchor sleeve (non-AI)
 **Purpose:** reduce my dependence on AI spending with businesses that move differently from it. These are diversifiers, not safe havens: they're still volatile stocks (UBER 30%, NU 40% annualised volatility vs 18% for the Nasdaq-100). Protection in a crash comes from the defensive layer.
 
 **Rules**
-- Maximum **3 names**, one per sector, **15% of the book in total**.
+- Maximum **3 names**, one per sector, **15% of the book in total**, until the switch below lifts it to **4 names and 20%**.
 - Health care and the UK are already covered by XLVP and VUKG, so no single stocks there.
 - Every anchor must pass the **diversification test** on at least a year of weekly data:
   - beta to the Nasdaq-100 below 0.8
@@ -82,6 +82,7 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 | UBER | Transport | 0.69 | 0.24 | −2.4% | ✅ |
 | NU | Financials | 0.57 | 0.07 | −1.5% | ✅ |
 | MCD (candidate) | Consumer | 0.04 | −0.12 | −0.6% | ✅ |
+| BWXT (candidate) | Defence | to run 14 Oct | to run 14 Oct | to run 14 Oct | pending |
 | CELH (sold) | Consumer | 1.47 | – | −7.4% | ❌ |
 | GRAB (sold) | Consumer tech | 1.34 | – | −4.1% | ❌ |
 
@@ -124,7 +125,42 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 
 If Q3 misses the gate, wait for Q4 results (around February) rather than averaging down.
 
-**Size:** start at ~3%, up to ~4% max. UBER (6%) + NU (5%) + MCD (4%) fills the 15% sleeve exactly. Funded only after UBER and NU, and only from new money once the shield is at 15%. Same results morning as UBER: decide each gate separately. Thesis page: [theses/MCD.md](../theses/MCD.md).
+**Size:** start at ~3%, up to ~4% max. UBER (6%) + NU (5%) + one 4% name fills the 15% sleeve; the fourth name only comes in after the switch. Funded only after UBER and NU, and only from new money once the shield is at 15%. Same results morning as UBER: decide each gate separately. Thesis page: [theses/MCD.md](../theses/MCD.md).
+
+### BWXT (candidate, added 11 Oct)
+**Why BWXT:** BWX Technologies is the US Navy's nuclear supplier. It makes the reactors and fuel for submarines and aircraft carriers, and most of its revenue comes from US government work. Backlog was $8.4B at Q2 (+~40%). Navy orders don't depend on AI data-centre spending, so it can offset the core in a way AVAV hasn't had to prove. It also has nuclear upside (commercial nuclear components, the BANR microreactor chosen for a Canadian project on 5 Oct 2026), but that is a bonus, not the reason it's here.
+
+**Why not a core name:** CEG sells power to hyperscalers today at ~20× forward earnings. BWXT's AI link is microreactors years from meaningful revenue, at ~29×. As a core name it would be a second nuclear bet beside VST.
+
+**The catch:** $143.83 on 9 Oct, down ~41% from its $241.82 high, and Truist ($202 → $182) and BofA ($250 → $210) cut targets in the fortnight before. ~29× forward earnings is still a premium.
+
+**Extra test because it's a nuclear name:** on top of the normal anchor test, its weekly correlation with **VST** must be below 0.5. Otherwise it isn't diversifying, just adding to the power sleeve. Its weight also counts toward the 35% energy/nuclear cap.
+
+**Gate (written before the event):** Q3 results **Mon 2 Nov 2026, after the US close**. Buy only after the print, and only if:
+- [ ] It passes the anchor test (run at the 14 Oct review) and has a correlation with VST below 0.5
+- [ ] Backlog holds at $8B or more
+- [ ] 2026 guidance isn't cut
+- [ ] Commercial margins don't pull group margins down
+- [ ] The stock holds above its 52-week low ($131.86) after the print
+
+**Size:** start at ~3%, up to ~4% max. Thesis page: [theses/BWXT.md](../theses/BWXT.md).
+
+### Order of the third and fourth anchors (MCD and BWXT)
+Both can earn a place, but not at once. Decide at the first review after both have reported (BWXT 2 Nov, MCD expected 4 Nov):
+1. A candidate that misses its gate is out until its next results.
+2. If both pass, the **third slot** goes to the one with the lower correlation to the core five, then the smaller average fall in the Nasdaq's 10 worst weeks.
+3. The other waits for the **fourth slot**, which only opens at the switch below.
+4. AVAV is sold by 4 Nov unless its own thesis page beats both.
+
+### The switch: anchors 15% → 20%, decided 11 Oct 2026
+I'm prepared to move 5% of the book from the ETFs to the anchors, but only once the anchors have earned it. **Trigger** (checked at each Wednesday review), all three must be true:
+- [ ] The anchor sleeve is actually full at ~15%
+- [ ] Every anchor held has had **two good quarters** since I bought it, each meeting its gate conditions again
+- [ ] Every anchor still passes the diversification test
+
+**When it triggers:** VUKG goes from ~6% to ~1% (in practice, sold), the anchor cap rises to **20% and 4 names**, and the fourth anchor can be bought. XLVP stays, because it's the best crash hedge I have.
+
+**Why I'm waiting rather than switching now:** over the past year the ETFs protected better than any anchor. XLVP had a beta of −0.21 and *rose* +1.8% on average in the Nasdaq's 10 worst weeks. VUKG had a beta of 0.10, −0.1% in those weeks and 12% volatility. The anchors pass the test, but they're single stocks that can fall on their own news: MCD fell ~32% this year. And the 15% cap isn't the limit yet, because the anchors only reach ~9% by January.
 
 ## Rule going forward
-**One in, one out.** Core is capped at 5 AI names and the anchor sleeve at 3 names / 15%. A new name in either can only come in by removing one, at a Wednesday review, with the reason written down.
+**One in, one out.** Core is capped at 5 AI names and the anchor sleeve at 3 names / 15% (4 names / 20% after the switch). A new name in either can only come in by removing one, at a Wednesday review, with the reason written down.

@@ -37,7 +37,7 @@ AI needs **physical** inputs that can't be scaled overnight: electricity (especi
 | Any single stock | 20% max |
 | Energy / nuclear sleeve | 35% max |
 | Neocloud sleeve | 15% max |
-| Defence sleeve | 15% max |
+| Non-AI anchor sleeve | 15% max, 3 names (20% / 4 names once the anchors earn it) |
 | Frenzy / speculative bucket | 10% max |
 | **Cash shield** | **15% floor** — no new offensive buys until it's restored |
 
