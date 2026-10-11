@@ -42,6 +42,21 @@ If hyperscalers cut capex, the thesis is weaker and I stop deploying until I've 
 
 **Not bought in a drawdown:** speculative and frenzy-bucket names (quantum, micro-caps, unprofitable story stocks). In 2000–02 those were the ones that never came back.
 
+## Fallback: the Nasdaq-100 index (added 11 Oct 2026)
+When I'm unsure which names will survive, the index is the default instead of guessing.
+
+**What I'd buy:** a UK-listed Nasdaq-100 UCITS ETF, such as Invesco EQQQ (ticker EQQQ, London). QQQ itself is US-listed and usually can't be bought in a UK ISA. I'll check which version my ISAs offer before a fall, not during one.
+
+**When a tranche's money goes to the index instead of a single name:**
+- A buy-list name fails the thesis check above, and no other name on the list has room under its caps.
+- I can't tell which of the core names the market is punishing for a real reason. In that case up to **half** of the tranche goes to the index.
+- Single names in the book would breach the 20% cap or the energy/nuclear and neocloud caps.
+
+**Rules that still apply:**
+- The same triggers (−15%, −25%, −35%) and the same two-week spacing. The index fell ~78% in 2000–02 and took until 2015 to recover, so it isn't safe from a long fall. It just can't go to zero.
+- The index is heavy in NVDA and GOOGL, so index money counts toward my AI-linked share.
+- Index units bought in a drawdown are held for at least two years, not swung.
+
 ## January student finance (~29% of the book at its October size)
 | Market in January | Plan |
 |---|---|
