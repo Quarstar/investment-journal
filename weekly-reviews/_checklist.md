@@ -38,6 +38,15 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] [Watch items](../plans/watch-items.md): any Terafab milestone hit?
 - [ ] VST edge check: forward P/E gap to CEG, and VST's correlation with NVDA
 
+## 5b. Build-out → adopter transition (added 12 Oct 2026)
+History says the handover from AI suppliers to AI adopters usually comes through a crash. Track these each week:
+- [ ] **Hyperscaler capex growth slowing** for two quarters in a row (the growth rate, not the total)
+- [ ] **GPU rental prices falling** steadily (a sign of overbuilt capacity)
+- [ ] **Neocloud or AI-lab funding pulled, delayed or repriced** (e.g. Firmus scrapped its IPO, Oct 2026)
+- [ ] **AI-lab revenue missing what was signalled** (e.g. OpenAI ~$50B vs ~$70B signalled)
+
+**Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong. **0 confirmed, 2 to watch.**
+
 ## 6. Swing trades
 - [ ] Open trades: stop still placed as a real order? Time stop or earnings date within the next week?
 - [ ] Close and log any finished trade in [`swing-log.md`](../trades/swing-log.md)
