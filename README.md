@@ -74,7 +74,8 @@ See the latest file in [`weekly-reviews/`](weekly-reviews/).
 ## Plans committed in advance
 - [**Concentration plan (10 Oct 2026)**](plans/2026-10-10-concentration-plan.md): moving to 5 core AI-bottleneck names, a defensive layer and a small sandbox, and selling the off-thesis tail.
 - [**Decision prepared for 14 Oct**](plans/2026-10-14-decision-googl.md): should Alphabet replace VST or CEG in the core? The data for all three options.
-- [**Target portfolio**](plans/target-portfolio.md): where the book ends up once every plan is carried out (Jan 2027).
+- [**Target portfolio**](plans/target-portfolio.md): where the book ends up once every plan is carried out.
+- [**Adaptive rules**](plans/adaptive-rules.md): the five triggers that are allowed to change the targets, the speed limits, and a log of every change.
 - [**Watch items**](plans/watch-items.md): Terafab and other developments that could change a thesis.
 - [**Drawdown plan (10 Oct 2026)**](plans/2026-10-10-drawdown-plan.md): the triggers, tranches and buy list I'll follow if the Nasdaq-100 falls 15%, 25% or 35%, written before any fall.
 

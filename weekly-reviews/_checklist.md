@@ -51,6 +51,11 @@ History says the handover from AI suppliers to AI adopters usually comes through
 - [ ] Open trades: stop still placed as a real order? Time stop or earnings date within the next week?
 - [ ] Close and log any finished trade in [`swing-log.md`](../trades/swing-log.md)
 
+## 6b. Adaptive rules ([rules](../plans/adaptive-rules.md))
+- [ ] Did any of the five triggers fire this week? (situation, 2-of-4 signals, drawdown, gate, drift beyond 3 points)
+- [ ] If yes: change the target, within the 5%-per-review limit, and add a row to the change log
+- [ ] If no: targets stay the same, whatever the news says
+
 ## 7. Write it down
 - [ ] Decisions and the reason for each
 - [ ] Commit

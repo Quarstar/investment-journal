@@ -1,0 +1,36 @@
+# Adaptive rules · written 12 Oct 2026
+
+The targets in the [target portfolio](target-portfolio.md) are not fixed. They change when the market or my situation changes, but **only through the triggers below, only at a Wednesday review, and always with the reason written down.** The point is a portfolio that adapts like a machine with set gears, not one that reacts to every headline.
+
+**Why the limits matter:** my own [track record](../trades/track-record.md) shows trades held over 3 months won 71% of the time (+15.3% average) and trades held a week or less lost money on average. A portfolio that changes on news becomes short-term trading.
+
+## The five triggers
+
+| # | Trigger | What changes | Where it's defined |
+|---|---|---|---|
+| 1 | **My situation:** job lost or started, emergency fund used, big new money (e.g. student finance) | Overall risk level. No income: core AI ~47%. Stable income: review at the next Wednesday, never before | [Target portfolio](target-portfolio.md) |
+| 2 | **Build-out → adopter signals:** 2 of the 4 flip | One core supplier slot moves to a profitable adopter | [Checklist 5b](../weekly-reviews/_checklist.md) |
+| 3 | **Drawdown:** QQQ −15% / −25% / −35% from its high | Cash shield deployed in thirds, two weeks apart | [Drawdown plan](2026-10-10-drawdown-plan.md) |
+| 4 | **Gates:** results or price levels written in advance | A name enters, exits or is resized | Each [thesis](../theses/) and the [concentration plan](2026-10-10-concentration-plan.md) |
+| 5 | **Drift:** a position moves away from its target | Rebalance back to target | Below |
+
+**Not triggers:** a famous investor's filing, a headline, a social-media post, a single green or red day, or a "feeling". These can prompt research but never change a target by themselves.
+
+## Speed limits
+- **Maximum 5% of the book moved between layers per review** (core, anchors, defensive, sandbox). Drawdown tranches and gate-driven entries and exits are exempt, because they were planned in advance.
+- **No target changed twice for the same reason in four weeks.** If I want to reverse a change within four weeks, I write down what new evidence I have.
+- **Every change is a commit,** with the trigger number, the old and new targets, and the reason.
+
+## Drift bands (trigger 5)
+- **Core and anchors:** rebalance only when a position is **more than 3 points** away from its target (e.g. a 10% target drifts above 13% or below 7%).
+- **Defensive:** the cash shield must stay at or above 15% at all times. XLVP and VUKG rebalance only beyond 3 points.
+- **Single-stock cap 20%** and **sector caps** (energy/nuclear 35%, neocloud 15%) always override, whatever the band.
+- **Prefer new money to selling:** move toward targets with new money first, and only trim when a band is broken.
+
+## Change log
+| Date | Trigger | Change | Reason |
+|---|---|---|---|
+| 2026-10-10 | 4 | Concentration plan: 5 core, anchor sleeve, tail sold | Off-thesis tail was dragging returns |
+| 2026-10-11 | 4 | BWXT added as defence anchor candidate; anchor switch 15% → 20% written | Navy-driven revenue independent of AI capex |
+| 2026-10-12 | 1 | Core AI ~55% → ~47%; XLVP 9 → 12; VUKG kept at 6 | Left my job; no income |
+| 2026-10-12 | 2 (structural) | Cut taken from suppliers only; GOOGL kept at 10%; core must hold an adopter | Railway and internet busts hit suppliers hardest |
