@@ -12,7 +12,8 @@ If any of those change, the weights change.
 **Why:** I left my job on 12 Oct and have no wage coming in until the next one. With no income, the book should carry less risk. The AI thesis hasn't changed. This is about my situation, not the companies.
 
 **What changed:**
-- **Core AI target cut by ~8 points.** NBIS 9 → 6 (most speculative), NVDA 13 → 11 (highest beta, 2.22), VST 13 → 11, GOOGL 10 → 8 (least pure AI, so cut least). TSM goes to 11, level with NVDA, subject to its 15 Oct results gate.
+- **Core AI target cut by ~8 points, all from suppliers.** NBIS 9 → 6 (most speculative), NVDA 13 → 10.5 (highest beta, 2.22), VST 13 → 10. TSM goes to 10.5, level with NVDA, subject to its 15 Oct results gate. **GOOGL stays at 10%**, because it's my only *adopter*. In the railway and internet busts, the suppliers and builders were hit hardest (Cisco fell ~86% in 2000–02) and the users with real profits won.
+- **Supplier vs adopter:** my core thesis, owning the bottlenecks, is a supplier strategy. It works during the build-out but is most exposed when spending slows. From now on the core should hold at least one profitable adopter, and any new core candidate is judged on this too.
 - **Freed weight goes mostly to defensive.** XLVP 9 → 12 and VUKG stays at ~6% instead of being cut. XLVP rose +1.8% on average in the Nasdaq's 10 worst weeks over the past year. VUKG fell −0.1%.
 - **The anchor switch is now funded from the AI shave, not VUKG** (see the [concentration plan](2026-10-10-concentration-plan.md)).
 - **Trade-off:** a 30% fall in AI names now costs ~14% of the book instead of ~16.5%. A 30% rise gains ~14% instead of ~16.5%.
@@ -25,10 +26,10 @@ If any of those change, the weights change.
 
 | Layer | Holding | Now (7 Oct) | **January 2027** | **End state** (mid-2027+) |
 |---|---|---|---|---|
-| **Core AI** | NVDA | 11.6% | 11% | 11% |
-| | TSM | 6.4% | 11% | 11% |
-| | VST | 11.2% | 11% | 11% |
-| | GOOGL | – | 8% (after Q3 results) | 8% |
+| **Core AI** | NVDA | 11.6% | 10.5% | 10.5% |
+| | TSM | 6.4% | 10.5% | 10.5% |
+| | VST | 11.2% | 10% | 10% |
+| | GOOGL | – | 10% (after Q3 results) | 10% |
 | | NBIS | 10.1% | 6% | 6% |
 | | CEG | 11.7% | sold in two halves | – |
 | | *Core total* | *~51%* | ***47%*** | ***47%*** |
@@ -55,5 +56,5 @@ If any of those change, the weights change.
 ## What it adds up to
 - **End state: 13 holdings** instead of 17: 5 core, 4 anchors, 2 ETFs, cash and the sandbox.
 - **AI-linked: ~47%** of the book (down from ~55% today). A 30% fall in AI names would cost ~14% of the book.
-- **Caps all hold:** largest single stock 11% (cap 20%), energy/nuclear 15% with VST and BWXT (cap 35%), neocloud 6% (cap 15%), cash 15% at the end state (floor 15%).
+- **Caps all hold:** largest single stock 10.5% (cap 20%), energy/nuclear 14% with VST and BWXT (cap 35%), neocloud 6% (cap 15%), cash 15% at the end state (floor 15%).
 - **Defensive: 43% in January, 33% at the end state.** That funds the [drawdown plan](2026-10-10-drawdown-plan.md) if a correction comes first. If a drawdown trigger is hit, the plan's tranches take priority over these targets.

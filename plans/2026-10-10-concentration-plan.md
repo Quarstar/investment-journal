@@ -48,7 +48,7 @@ NOW, MP and AVAV each keep their place only if I can write a one-page thesis for
 
 | Name | Weight | Question it has to answer |
 |---|---|---|
-| NOW | ~4.1% | Is enterprise AI software a bottleneck, or the app layer my thesis avoids? (Strongest case to keep: +49.9% and +47.5% trades.) |
+| NOW | ~4.1% | Is enterprise AI software a bottleneck, or the app layer my thesis avoids? (Strongest case to keep: +49.9% and +47.5% trades.) **Since 12 Oct the question has changed:** the core now needs adopters, and NOW is a pure one. It sells AI agents to companies without building data centres. If its thesis page is written and its **28 Oct results** hold up, NOW competes with **NBIS** (the most build-out-exposed name) for a core slot, one in, one out. |
 | MP | ~4.8% | Are rare-earth magnets a real AI/robotics bottleneck, or a separate theme? |
 | AVAV | ~5.9% | Does a defence sleeve still belong, or is it diluting the core? Since 11 Oct the bar is higher: its thesis has to beat [BWXT](../theses/BWXT.md), the defence anchor candidate. |
 
@@ -57,7 +57,7 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 ## Watchlist clean-up
 | Name | Decision |
 |---|---|
-| AVGO | **Keep.** Custom AI chips fit the thesis. Gate: January. |
+| AVGO | **Keep.** Custom AI chips fit the thesis. Gate: January. Since 12 Oct the January contest must include at least one **adopter** (e.g. META or MSFT), not only suppliers like AVGO and ASML. |
 | UBER | **Promoted to anchor sleeve.** See below. |
 | NU | **Promoted to anchor sleeve.** See below. |
 | MCD | **Added 10 Oct as the consumer anchor candidate.** See below. |
