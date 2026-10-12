@@ -21,11 +21,28 @@ The targets in the [target portfolio](target-portfolio.md) are not fixed. They c
 - **No target changed twice for the same reason in four weeks.** If I want to reverse a change within four weeks, I write down what new evidence I have.
 - **Every change is a commit,** with the trigger number, the old and new targets, and the reason.
 
+## How the weights move: new money first
+**The main way the portfolio adapts is by where new money goes, not by selling.** When a trigger changes a target, I move toward the new target by filling out the positions that are now furthest below it.
+
+**Each time new money comes in** (wages, student finance, dividends):
+1. Top up the **emergency fund** to its target first, then the **cash shield** to 15%.
+2. Work out each holding's **gap**: target weight minus current weight.
+3. Put the money into the **one or two holdings with the biggest gaps**, as long as their gate is met. A name that hasn't passed its gate is skipped, and its gap waits in cash.
+4. Keep each order above my minimum order size (set privately), to avoid the fee drag that cost me in 2024.
+
+**Selling is only for:**
+- breaking a hard cap (20% single stock, 35% energy/nuclear, 15% neocloud)
+- a position more than **5 points** above target that new money can't realistically dilute within three months
+- a thesis break or a sell trigger written in a thesis page
+- the planned exits (tail, CEG, NBIS excess)
+
+**Limits I accept:** with no wage coming in, the book will drift until the next money arrives (January student finance, or a new job). That's fine. The drawdown plan and the caps still protect it in the meantime.
+
 ## Drift bands (trigger 5)
 - **Core and anchors:** rebalance only when a position is **more than 3 points** away from its target (e.g. a 10% target drifts above 13% or below 7%).
 - **Defensive:** the cash shield must stay at or above 15% at all times. XLVP and VUKG rebalance only beyond 3 points.
 - **Single-stock cap 20%** and **sector caps** (energy/nuclear 35%, neocloud 15%) always override, whatever the band.
-- **Prefer new money to selling:** move toward targets with new money first, and only trim when a band is broken.
+- **Drift is fixed with new money first** (see above). Trims only when the selling rules above apply.
 
 ## Change log
 | Date | Trigger | Change | Reason |
