@@ -19,16 +19,16 @@ The tail holds six names that are each too small to matter, yet each takes resea
 
 | Layer | Target | Holdings |
 |---|---|---|
-| Core | ~60% | Up to 5 AI names: NVDA, TSM, CEG, VST, NBIS. AVGO competes for a slot from January if its gate is met. |
+| Core | ~47% (revised from ~60% on 12 Oct, see the [target portfolio](target-portfolio.md)) | Up to 5 AI names: NVDA, TSM, CEG, VST, NBIS. AVGO competes for a slot from January if its gate is met. |
 | Anchor sleeve (non-AI) | ≤ 15%, rising to ≤ 20% (see the switch below) | Up to **3** stocks now, **4** after the switch, one per sector, each outside the AI thesis and each passing the diversification test below: **UBER** (transport), **NU** (financials), **MCD** (consumer, candidate), **BWXT** (defence, candidate) |
-| Defensive | ~25–30% (~25% after the switch) | Cash shield (15% floor), XLVP, VUKG (VUKG gives up 5% at the switch) |
+| Defensive | ~33% at the end state (revised 12 Oct, see the [target portfolio](target-portfolio.md)) | Cash shield (15% floor), XLVP, VUKG |
 | Sandbox | ≤ 5% | Swing trades (logged in advance) and frenzy-bucket ideas |
 
 Existing caps still apply: 20% single stock, 35% energy/nuclear, 15% neocloud.
 
 **Two things I'm accepting knowingly:**
 1. **Five AI names are one bet, not five.** They fall together if AI capex slows. VST and CEG especially (identical −25.6% over the year, 0.81 daily correlation). I hold both deliberately as a pair and use the ratio as a tie-breaker for new money.
-2. **More AI exposure means a bigger hit in a crash.** Moving to this structure takes AI-linked holdings from ~55% to ~70% of the book. A 30% fall in those names would then cost ~21% instead of ~17%. The defensive layer and the [drawdown plan](2026-10-10-drawdown-plan.md) are what make that acceptable.
+2. **More AI exposure means a bigger hit in a crash.** Moving to this structure takes AI-linked holdings from ~55% to ~70% of the book. A 30% fall in those names would then cost ~21% instead of ~17%. *(Revised 12 Oct: after leaving my job, the target is now ~47% AI-linked, so a 30% fall costs ~14%. See the [target portfolio](target-portfolio.md).)* The defensive layer and the [drawdown plan](2026-10-10-drawdown-plan.md) are what make that acceptable.
 
 ## Phase 1 · Wednesday 14 Oct review
 Sell the names that don't fit the AI-bottleneck thesis:
@@ -158,7 +158,7 @@ I'm prepared to move 5% of the book from the ETFs to the anchors, but only once 
 - [ ] Every anchor held has had **two good quarters** since I bought it, each meeting its gate conditions again
 - [ ] Every anchor still passes the diversification test
 
-**When it triggers:** VUKG goes from ~6% to ~1% (in practice, sold), the anchor cap rises to **20% and 4 names**, and the fourth anchor can be bought. XLVP stays, because it's the best crash hedge I have.
+**When it triggers:** the anchor cap rises to **20% and 4 names**, and the fourth anchor can be bought. Since the 12 Oct revision, the extra ~5% comes from the core AI shave, **not from VUKG**, which stays at ~6%. XLVP stays too, because it's the best crash hedge I have.
 
 **Why I'm waiting rather than switching now:** over the past year the ETFs protected better than any anchor. XLVP had a beta of −0.21 and *rose* +1.8% on average in the Nasdaq's 10 worst weeks. VUKG had a beta of 0.10, −0.1% in those weeks and 12% volatility. The anchors pass the test, but they're single stocks that can fall on their own news: MCD fell ~32% this year. And the 15% cap isn't the limit yet, because the anchors only reach ~9% by January.
 

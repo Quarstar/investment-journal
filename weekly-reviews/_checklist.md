@@ -19,7 +19,8 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Energy/nuclear ≤ 35% · Neocloud ≤ 15%
 - [ ] Sandbox ≤ 5%
 - [ ] Cash shield ≥ 15%
-- [ ] AI-linked share of the book: ____% (know the number; ~70% target means a 30% AI fall costs ~21%)
+- [ ] AI-linked share of the book: ____% (target ~47% since 12 Oct; a 30% AI fall then costs ~14%)
+- [ ] Still without a job? Keep the 12 Oct risk-down targets. New job started? Review them (see the [target portfolio](../plans/target-portfolio.md))
 
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
@@ -31,7 +32,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] UBER gate (4 Nov results) · MCD gate (Q3 results, expected 4 Nov, confirm) · NU gate (Q3 results, mid-Nov) · BWXT gate (Q3 results, Mon 2 Nov after close) · AVGO (January gate)
 - [ ] 14 Oct only: run the anchor test on BWXT, plus its correlation with VST (must be < 0.5)
 - [ ] Third and fourth anchors: MCD and BWXT, order decided after both report (see the [concentration plan](../plans/2026-10-10-concentration-plan.md))
-- [ ] The switch (anchors 15% → 20%, VUKG 6% → ~1%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
+- [ ] The switch (anchors 15% → 20%, funded from the AI shave, VUKG stays ~6%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
 - [ ] 2–4 Nov is crowded (BWXT, UBER and MCD results, Phase 2 deadline): judge each gate on its own, buy UBER first
 - [ ] Anything new must replace a core name, or go in the sandbox
 - [ ] [Watch items](../plans/watch-items.md): any Terafab milestone hit?
