@@ -73,7 +73,7 @@ See the latest file in [`weekly-reviews/`](weekly-reviews/).
 
 ## Plans committed in advance
 - [**Concentration plan (10 Oct 2026)**](plans/2026-10-10-concentration-plan.md): moving to 5 core AI-bottleneck names, a defensive layer and a small sandbox, and selling the off-thesis tail.
-- [**Decision prepared for 14 Oct**](plans/2026-10-14-decision-googl.md): should Alphabet replace VST or CEG in the core, or should the core become power-led? Four options, and a [full comparison with stress tests](plans/2026-10-13-abcd-comparison.md) written the day before.
+- [**Decision prepared for 14 Oct**](plans/2026-10-14-decision-googl.md): should Alphabet replace VST or CEG in the core, or should the core become power-led? Five options, a [full comparison with stress tests](plans/2026-10-13-abcd-comparison.md), and [**slot battles**](plans/2026-10-13-slot-battles.md): every planned holding against the best alternatives in its sector, scored by a written rubric with win probabilities from 1,000 resampled years, plus the [limit orders](trades/limit-orders-2026-10-14.md) drafted for the exits.
 - [**Target portfolio**](plans/target-portfolio.md): where the book ends up once every plan is carried out.
 - [**Adaptive rules**](plans/adaptive-rules.md): the five triggers that are allowed to change the targets, the speed limits, and a log of every change.
 - [**Watch items**](plans/watch-items.md): Terafab and other developments that could change a thesis.

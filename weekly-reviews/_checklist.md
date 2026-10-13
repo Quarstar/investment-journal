@@ -25,12 +25,12 @@ For each one: price, % change since last review, news, valuation, dilution, next
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
-- [ ] 14 Oct only: core decision A/B/C/D → [decision page](../plans/2026-10-14-decision-googl.md) and [comparison](../plans/2026-10-13-abcd-comparison.md)
+- [ ] 14 Oct only: core decision A/B/C/D/E → [decision page](../plans/2026-10-14-decision-googl.md), [comparison](../plans/2026-10-13-abcd-comparison.md) and [slot battles](../plans/2026-10-13-slot-battles.md); then place Phase 1 of the [limit orders](../trades/limit-orders-2026-10-14.md)
 - [ ] VST/CEG ratio: above ~0.62 favours CEG, below ~0.48 favours VST, otherwise split new money
 
 ## 5. Watchlist and gates
 - [ ] UBER gate (4 Nov results) · MCD gate (Q3 results, expected 4 Nov, confirm) · NU gate (Q3 results, mid-Nov) · BWXT gate (Q3 results, Mon 2 Nov after close) · AVGO (January gate)
-- [ ] 14 Oct only: run the anchor test on BWXT, plus its correlation with VST (must be < 0.5)
+- [ ] 14 Oct only: run the anchor test on BWXT, plus its correlation with VST (must be < 0.5). **Done 13 Oct in the [slot battles](../plans/2026-10-13-slot-battles.md): fails on bad weeks (−4.2% vs the index's −3.1%); VST correlation 0.44.** If Option E: anchor gates become UNP and LMT (22 Oct), V (27 Oct), MCD (4 Nov)
 - [ ] Third and fourth anchors: MCD and BWXT, order decided after both report (see the [concentration plan](../plans/2026-10-10-concentration-plan.md))
 - [ ] The switch (anchors 15% → 20%, funded from the AI shave, VUKG stays ~6%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
 - [ ] 2–4 Nov is crowded (BWXT, UBER and MCD results, Phase 2 deadline): judge each gate on its own, buy UBER first

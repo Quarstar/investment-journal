@@ -46,6 +46,8 @@ Execution: limit orders during US hours, sell into a green day where possible, a
 ## Phase 2 · by Wednesday 4 Nov
 NOW, MP and AVAV each keep their place only if I can write a one-page thesis for it using the [template](../theses/_template.md), with a clear sell trigger.
 
+> **Update 13 Oct:** the [slot battles](2026-10-13-slot-battles.md) answered this before any thesis page: NOW lost the adopter slot to GOOGL in 100% of runs, AVAV failed the anchor test in 100% of resampled years, and MP had no slot to compete for. All three are on the [limit-order sheet](../trades/limit-orders-2026-10-14.md) for the week of 15–23 Oct.
+
 | Name | Weight | Question it has to answer |
 |---|---|---|
 | NOW | ~4.1% | Is enterprise AI software a bottleneck, or the app layer my thesis avoids? (Strongest case to keep: +49.9% and +47.5% trades.) **Since 12 Oct the question has changed:** the core now needs adopters, and NOW is a pure one. It sells AI agents to companies without building data centres. If its thesis page is written and its **28 Oct results** hold up, NOW competes with **NBIS** (the most build-out-exposed name) for a core slot, one in, one out. |
@@ -70,6 +72,8 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 | BWXT | **Added 11 Oct as the defence anchor candidate.** Replaces AVAV as my defence idea. See below. |
 
 ## Anchor sleeve (non-AI)
+> **Update 13 Oct:** the [slot battles](2026-10-13-slot-battles.md) put each anchor against the alternatives in its sector. UNP beat UBER (99% of runs), V beat NU (64%), MCD kept the consumer slot on a tie-break, and **BWXT failed the anchor test** (it fell more than the Nasdaq in its ten worst weeks), with LMT taking the defence slot. If Option E is chosen on 14 Oct, the sleeve becomes UNP, V, MCD and LMT; the sections below are kept as the record of how the first list was chosen.
+
 **Purpose:** reduce my dependence on AI spending with businesses that move differently from it. These are diversifiers, not safe havens: they're still volatile stocks (UBER 30%, NU 40% annualised volatility vs 18% for the Nasdaq-100). Protection in a crash comes from the defensive layer.
 
 **Rules**
