@@ -61,6 +61,10 @@ Any name without a finished thesis page by 4 Nov is sold into a green day.
 | UBER | **Promoted to anchor sleeve.** See below. |
 | NU | **Promoted to anchor sleeve.** See below. |
 | MCD | **Added 10 Oct as the consumer anchor candidate.** See below. |
+| GEV (GE Vernova) | **Watch, added 13 Oct.** Gas turbines, grid equipment and small reactors (NRC permit for a BWRX-300 at TVA, Sept 2026). Sells to all power users, not just AI. ~$994, forward P/E ~47, beta ~0.97. Candidate for a power-pillar core slot if Option D is chosen. Results 28 Oct. |
+| CCJ (Cameco) | **Watch, added 13 Oct.** Largest listed uranium miner, plus a stake in Westinghouse. Profitable, but forward P/E ~60 and tied to the uranium price. ~$86, beta ~1.0. Results 30 Oct. |
+| LEU (Centrus) | **Sandbox only, added 13 Oct.** Only US-listed uranium enricher with HALEU contracts (Radiant, Antares). But $2.7B market cap, beta ~1.5, down ~72% from its high, and a $500M share-and-warrant sale in Sept. Results 4 Nov. |
+| OKLO | **Sandbox only, added 13 Oct.** Pre-revenue (~$1.2M ttm, ~$153M loss), down ~84% from its high, a $1B at-the-market share sale in Sept and insider selling. Excluded from drawdown buys as an unprofitable story stock. |
 | GRAB top-up | Remove. Position being sold. |
 | SOFI | Remove. Outside the thesis. |
 | BWXT | **Added 11 Oct as the defence anchor candidate.** Replaces AVAV as my defence idea. See below. |

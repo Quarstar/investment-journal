@@ -31,11 +31,44 @@ VST and CEG are close to one bet (weekly correlation 0.75; both down ~18–19% o
 - **Keep CEG** if I care most about thesis purity: the largest US nuclear fleet, with direct contracts signed with Google and Amazon in October 2026.
 - Either way the energy/nuclear sleeve falls from ~23% to ~12% unless I top up the one I keep (single-stock cap 20%).
 
+## Option D (added 13 Oct): power-led core, NBIS exits
+**The idea:** make electricity the main pillar. Power is needed for AI *and* for everything else (EVs, heat pumps, new factories), so demand doesn't depend on AI capex alone. Under this thesis, holding both VST and CEG is the point, the same way I hold both NVDA and TSM.
+
+**Why it's on the table:** the 12 Oct shave cut VST to reduce AI risk, but over the past year VST barely moved with AI:
+
+| | Beta to Nasdaq | Corr. with NVDA | Nasdaq's 10 worst weeks (index −3.1%) |
+|---|---|---|---|
+| VST | 0.31 | −0.02 | −2.5% |
+| CEG | 0.60 | 0.06 | −3.2% |
+| GOOGL | 1.01 | 0.25 | −2.5% |
+| TSM | 0.88 | 0.43 | −2.4% |
+| NVDA | 1.19 | 1.00 | −4.7% |
+| NBIS | 2.32 | 0.40 | −9.3% |
+
+The real AI risk is in NBIS and NVDA, not the power names.
+
+| | Current plan (C, 12 Oct weights) | **Option D** |
+|---|---|---|
+| VST | 10% | **12%** |
+| CEG | sold in two halves | **kept at 9%** |
+| NVDA | 10.5% | 9% |
+| TSM | 10.5% | 9% |
+| GOOGL | 10% | 8% (still the adopter) |
+| NBIS | 6% | **exit** |
+| Core total | 47% | 47% |
+| Energy/nuclear incl. BWXT | ~14% | ~25% (cap 35%) |
+
+**Trade-offs I accept with D:**
+- VST and CEG move together (weekly correlation 0.75), so the power pillar is close to one bet.
+- Both are capital-heavy and sensitive to long-term interest rates (US 10-year ~5.2–5.3%).
+- NOW would then have to beat NVDA or TSM for a core slot, not NBIS.
+- "Energy" here means **electricity** (generation, nuclear, grid), not oil and gas, which swing with commodity prices.
+
 ## Decision rules for Wednesday
 - [ ] Is the VST/CEG ratio stretched? It's ~0.54 now (neutral; above ~0.62 favours keeping VST, below ~0.48 favours keeping CEG). If neutral, decide on the thesis, not the ratio.
 - [ ] Write a one-page GOOGL thesis with sell triggers before any buy.
 - [ ] **Gate:** buy GOOGL only after its Q3 results, if Google Cloud growth and capex guidance hold. Do the swap in two halves: sell half the outgoing name at the review, the rest after GOOGL's results.
-- [ ] If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
+- [ ] Choose between **A, B, C and D**. If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
 
 ## Lean recorded 10 Oct 2026 (not yet the decision)
 **Leaning to Option C: keep VST, GOOGL replaces CEG.**
