@@ -246,6 +246,24 @@ Option E was built for robustness: the rubrics pay heavily for bad weeks and dra
 
 **The bigger lever is weight, not names.** In the January-stage book, 52% sits in cash, the two ETFs and the anchors; the four growth engines (NVDA, TSM, GOOGL, VST) are 38%. The expected return of cash is zero, so every 10 points of cash costs roughly 10% of whatever the invested book earns. That cash is there for a reason written in the plan (no income until January; the drawdown plan, which is how cash turns into growth by buying falls), and the [adaptive rules](adaptive-rules.md) already say the risk-down targets are revisited at the first review after a new job. **Option G+** is what that revisit should produce: cash to the 15% floor, the core to 55% (VST 14, NVDA 11, TSM 11, GOOGL 10, NEE 9), same anchors. Monte Carlo: 10.8% volatility, 13% chance of a 10% fall, −8.3% in a Nasdaq −25%, +6.6% in a +20% year. More growth bought with weight in names that already won their battles, not with riskier names.
 
+**Option G+ in full** (the trigger is the one already in the plan: the first Wednesday review after a new job starts; the 5%-per-review speed limit means it takes two reviews, with wages doing the lifting):
+
+| Layer | Holding | G+ stage 1 (job started, two anchors) | G+ end state (switch triggered) |
+|---|---|---|---|
+| Core power | VST | 14% | 14% |
+| Core power | NEE | 9% | 9% |
+| Core chips | NVDA | 11% | 11% |
+| Core chips | TSM | 11% | 11% |
+| Core adopter | GOOGL | 10% | 10% |
+| Anchors | UNP · NU | 5% · 4% | 6% · 5% |
+| Anchors | MCD · LMT | – | 4% · 4% |
+| Defensive | Cash shield | 17% (15 floor + 2 for the third anchor) | 15% |
+| Defensive | XLVP | 12% | 10% |
+| Defensive | VUKG | 6% | 0%: sold to fund the switch, as the 11 Oct plan first had it |
+| Sandbox | swing trades, MU/TLN cycle trades | 1% | 1% |
+
+The end state has to give up 8 points somewhere to lift the core from 47% to 55% with cash at its floor and the anchors at 19%; the FTSE tracker goes because it is the weakest diversifier in the book (−0.1% in the Nasdaq's ten worst weeks against XLVP's +1.8%). Caps: largest position 14% (cap 20), power 23% (cap 35), anchors 19% (cap 20), AI-linked ~46% (a 30% AI fall costs ~14% of the book). The Monte Carlo row in §1 is stage 1.
+
 **Why I'd still run E (or G) now and not G+:** the risk that destroys long-term growth is not volatility, it is being forced to sell at the bottom, and a book with no income and a 25% cash buffer can sit through a 30% fall without selling anything. Your own track record says the same thing from the other side: trades held over three months won 71% of the time and the short ones lost. Volatility you can hold through is a cost; volatility that forces a sale is a loss.
 
 ## Sources
