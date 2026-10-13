@@ -75,7 +75,7 @@ The real AI risk is in NBIS and NVDA, not the power names.
 | TSM | 9% | 9% | MU wins the rubric 67/32 on peak-cycle numbers; TSM kept, MU allowed in the sandbox only |
 | GOOGL | 8% | 8% | wins 83% |
 | NBIS | exit | exit | – |
-| Anchors | UBER, NU, then MCD and BWXT | **UNP, V, then MCD and LMT** | UNP 99%, V 64%, MCD a coin flip kept on price, LMT 82%; **BWXT fails the anchor test** |
+| Anchors | UBER, NU, then MCD and BWXT | **UNP, V, then MCD and COST (or LMT)** | UNP 99%, V 64%, MCD a coin flip kept on price, LMT 83% of a weak defence group, COST the best unused anchor overall; **BWXT fails the anchor test** |
 
 **What it buys:** the January-stage book's volatility falls from 12.0% to 8.7%, a Nasdaq −25% costs ~6% instead of ~9.5%, the power pair's rate sensitivity drops from −26% to −19% per point of yield, and VST and NEE are only 0.38 correlated (VST–CEG: 0.74). **What it costs:** about a third of the upside in a strong Nasdaq year (+4.9% vs +7.6% on a +20% index), CEG's contracts (the best in the group), and the AI-linked share of the book falls to ~38%.
 

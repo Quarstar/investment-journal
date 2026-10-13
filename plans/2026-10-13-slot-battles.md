@@ -20,7 +20,7 @@ Script: [`analysis/slot_battles.py`](../analysis/slot_battles.py). Data: [`data/
 | Anchor: transport | UBER | UNP | 99% | **UNP** replaces UBER | **Yes** |
 | Anchor: financials | NU | V | 64% (JPM 33%) | **V** replaces NU (NU wins the growth tilt; see §11) | **Yes** |
 | Anchor: consumer | MCD | COST | 48% (MCD 42%) | **MCD** (tie-break: cheaper; see §7) | No |
-| Anchor: defence | BWXT | LMT | 83% | **LMT** replaces BWXT, which **fails the anchor test** | **Yes** |
+| Anchor: defence | BWXT | LMT | 83% | **COST** (best unused anchor; LMT if a defence name is wanted) replaces BWXT, which **fails the anchor test** | **Yes** |
 
 \* Share of 1,000 runs in which the name wins the slot, where each run resamples the past year's weeks (so every statistic moves) **and** randomly perturbs the rubric weights (so the result doesn't depend on my exact weighting). Method in §3. Monte Carlo figures move by a point or two between runs; the script's seed reproduces these exactly.
 
@@ -38,7 +38,7 @@ A growth-tilted version of every battle, run the same evening after the question
 | Anchor | **UNP** | 5% | 6% | Q3 results 22 Oct |
 | Anchor | **V** | 4% | 5% | Q4 FY results 27 Oct |
 | Anchor | MCD | – | 4% | Q3 results 4 Nov; third anchor |
-| Anchor | **LMT** | – | 4% | Q3 results 22 Oct; fourth anchor, once the switch triggers |
+| Anchor | **COST** (or LMT) | – | 4% | COST: results ~Dec; LMT: 22 Oct. Fourth anchor, once the switch triggers |
 | Defensive | Cash shield | 25% | 15% | – |
 | Defensive | XLVP | 12% | 12% | – |
 | Defensive | VUKG | 6% | 6% | – |
@@ -200,7 +200,7 @@ The anchor sleeve exists to hold up when the AI names don't, so the rubric weigh
 | KTOS | −8.4% | 98% | −67.6% | 44.1 | 26% | 2% | 0% | 0.18 | **29.2** | FAIL: beta, worst-10 (0%) | 0% |
 | AVAV | −9.8% | 99% | −65.1% | 38.9 | 84% | −10% | 0% | 0.17 | **27.5** | FAIL: beta, worst-10 (0%) | 0% |
 
-**BWXT fails the anchor test.** This is the 14 Oct check the checklist asked for, and the answer is no: in the Nasdaq's ten worst weeks it fell 4.2% on average, worse than the index's 3.1%, and it passes the test in only 27% of resampled years. Its correlation with VST (0.44) scrapes under the 0.5 rule, but its fit of 0.33 is the highest of any anchor candidate, which says what it is: a nuclear stock that trades with the AI-power complex. That makes it a possible *core* energy candidate one day, not an anchor. It drops off the anchor list; its 2 Nov results stay on the calendar as a watchlist item only. **LMT takes the slot, 83%:** beta −0.07, 16.5× with a 2.9% yield, −2.0% in bad weeks. It is not a perfect anchor (33% volatility this year and a 24.8% fall inside the window, hence a 50% drawdown probability), but it is the only defence name that passes. AVAV and KTOS fail in 100% of resamples: 86% and 75% volatility, falls of 65% and 68%. AVAV therefore goes on the sell list without waiting for a thesis page. Gate for LMT: Q3 results 22 Oct.
+**BWXT fails the anchor test.** This is the 14 Oct check the checklist asked for, and the answer is no: in the Nasdaq's ten worst weeks it fell 4.2% on average, worse than the index's 3.1%, and it passes the test in only 27% of resampled years. Its correlation with VST (0.44) scrapes under the 0.5 rule, but its fit of 0.33 is the highest of any anchor candidate, which says what it is: a nuclear stock that trades with the AI-power complex. That makes it a possible *core* energy candidate one day, not an anchor. It drops off the anchor list; its 2 Nov results stay on the calendar as a watchlist item only. **LMT takes the slot, 83%:** beta −0.07, 16.5× with a 2.9% yield, −2.0% in bad weeks. It is not a perfect anchor (33% volatility this year and a 24.8% fall inside the window, hence a 50% drawdown probability), but it is the only defence name that passes. **Added 22:10:** nothing in the rules requires a defence name, and the defence slot only existed because I owned AVAV. Across all four sub-battles the best unused anchor is **COST** (passes 100%, 5% drawdown probability, a different GICS sector from MCD), so the fourth anchor is COST unless I decide I want LMT's government revenue stream for its own sake; see the [watch items](watch-items.md) for the gold, Rolls-Royce and Coinbase alternatives, none of which qualify. AVAV and KTOS fail in 100% of resamples: 86% and 75% volatility, falls of 65% and 68%. AVAV therefore goes on the sell list without waiting for a thesis page. Gate for LMT: Q3 results 22 Oct.
 
 ---
 
@@ -256,7 +256,7 @@ Option E was built for robustness: the rubrics pay heavily for bad weeks and dra
 | Core chips | TSM | 11% | 11% |
 | Core adopter | GOOGL | 10% | 10% |
 | Anchors | UNP · NU | 5% · 4% | 6% · 5% |
-| Anchors | MCD · LMT | – | 4% · 4% |
+| Anchors | MCD · COST (or LMT) | – | 4% · 4% |
 | Defensive | Cash shield | 17% (15 floor + 2 for the third anchor) | 15% |
 | Defensive | XLVP | 12% | 10% |
 | Defensive | VUKG | 6% | 0%: sold to fund the switch, as the 11 Oct plan first had it |
