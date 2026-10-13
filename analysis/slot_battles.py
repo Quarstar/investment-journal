@@ -33,6 +33,9 @@ Then:
   3. a joint block bootstrap of the January-stage book (same weeks drawn for every name, so the
      correlations survive) for Option D versus the battle winners versus my recommendation.
 
+Two weight sets are scored: the 13 Oct 'base' rubric (risk-aware) and a 'growth' tilt added the same evening
+(more weight on growth, price and consensus upside, none on bad weeks). Both get win probabilities.
+
 Run:  python3 analysis/slot_battles.py     (about two minutes; most of it is the robustness run)
 """
 import csv, json, sys
@@ -59,6 +62,7 @@ F = {}
 for r in csv.DictReader(open(FU)):
     f = {k: (float(v) if v not in ('', None) and k not in ('ticker', 'role', 'next_results') else v) for k, v in r.items()}
     f['net_margin'] = 100 * f['net_income_ttm_bn'] / f['revenue_ttm_bn']
+    f['upside_pct'] = 100 * (f['analyst_target'] / f['price_usd'] - 1)   # consensus target vs price; optimistic by nature, used only in the growth tilt
     F[r['ticker']] = f
 NAMES = list(F)
 
@@ -139,6 +143,10 @@ def rank_scores(values, higher_better=True):
     return 10 * (k - ranks) / k if k else np.full(len(v), 10.0)
 
 # criteria: (label, weight, source, key, higher_better); source 'F' = fundamentals, 'S' = statistics
+# Two weight sets per battle. 'base' is the rubric written on 13 Oct (robust, risk-aware: the one the
+# recommendation uses). 'growth' is the tilt asked for on 13 Oct evening: more weight on growth and price,
+# less on bad weeks and drawdowns, plus a 10-point 'upside' criterion (consensus target vs price). The
+# anchor test still applies to anchors under both.
 BATTLES = {
     'chips': dict(
         names=['NVDA', 'TSM', 'AVGO', 'AMD', 'ASML', 'MU'], slots=2,
@@ -147,19 +155,23 @@ BATTLES = {
                   ('quality', 10, 'F', 'net_margin', True),
                   ('risk', 20, 'S', 'p_dd20', False),
                   ('worst10', 10, 'S', 'worst10', True),
-                  ('fit', 15, 'S', 'fit', False)],
+                  ('fit', 15, 'S', 'fit', False),
+                  ('upside', 0, 'F', 'upside_pct', True)],
         manual=('durability', 10, {'NVDA': 8, 'TSM': 10, 'AVGO': 8, 'AMD': 6, 'ASML': 10, 'MU': 3}),
+        growth={'growth': 25, 'valuation': 25, 'quality': 10, 'risk': 10, 'worst10': 0, 'fit': 10, 'upside': 10, 'durability': 10},
     ),
     'power': dict(
-        names=['VST', 'CEG', 'TLN', 'NRG', 'GEV', 'NEE'], slots=2,
+        names=['VST', 'CEG', 'TLN', 'NRG', 'GEV', 'NEE', 'DUK', 'SO', 'AEP'], slots=2,
         criteria=[('valuation', 20, 'F', 'fwd_pe', False),
                   ('growth', 10, 'F', 'rev_growth_ttm_pct', True),
                   ('profitability', 10, 'F', 'net_margin', True),
                   ('rates', 15, 'S', 'rate', True),
                   ('risk', 15, 'S', 'p_dd20', False),
                   ('worst10', 10, 'S', 'worst10', True),
-                  ('fit', 10, 'S', 'fit', False)],
-        manual=('contracts', 10, {'VST': 8, 'CEG': 10, 'TLN': 9, 'NRG': 5, 'GEV': 6, 'NEE': 5}),
+                  ('fit', 10, 'S', 'fit', False),
+                  ('upside', 0, 'F', 'upside_pct', True)],
+        manual=('contracts', 10, {'VST': 8, 'CEG': 10, 'TLN': 9, 'NRG': 5, 'GEV': 6, 'NEE': 5, 'DUK': 4, 'SO': 4, 'AEP': 4}),
+        growth={'valuation': 25, 'growth': 20, 'profitability': 10, 'rates': 10, 'risk': 10, 'worst10': 0, 'fit': 5, 'upside': 10, 'contracts': 10},
     ),
     'adopter': dict(
         names=['GOOGL', 'META', 'MSFT', 'AMZN', 'NOW'], slots=1,
@@ -168,8 +180,10 @@ BATTLES = {
                   ('quality', 10, 'F', 'net_margin', True),
                   ('risk', 15, 'S', 'p_dd20', False),
                   ('worst10', 10, 'S', 'worst10', True),
-                  ('fit', 15, 'S', 'fit', False)],
+                  ('fit', 15, 'S', 'fit', False),
+                  ('upside', 0, 'F', 'upside_pct', True)],
         manual=('purity', 10, {'GOOGL': 7, 'META': 10, 'MSFT': 5, 'AMZN': 4, 'NOW': 9}),
+        growth={'growth': 25, 'valuation': 25, 'quality': 10, 'risk': 10, 'worst10': 0, 'fit': 10, 'upside': 10, 'purity': 10},
     ),
 }
 ANCHOR_CRITERIA = [('worst10', 25, 'S', 'worst10', True),
@@ -179,10 +193,14 @@ ANCHOR_CRITERIA = [('worst10', 25, 'S', 'worst10', True),
                    ('growth', 15, 'F', 'rev_growth_ttm_pct', True),
                    ('quality', 10, 'F', 'net_margin', True),
                    ('dividend', 5, 'F', 'div_yield_pct', True),
-                   ('corrN', 5, 'S', 'corrN', False)]
+                   ('corrN', 5, 'S', 'corrN', False),
+                   ('upside', 0, 'F', 'upside_pct', True)]
+ANCHOR_GROWTH = {'worst10': 15, 'risk': 10, 'maxdd': 0, 'valuation': 20, 'growth': 25, 'quality': 15, 'dividend': 0, 'corrN': 5, 'upside': 10}
 for sub, names in {'transport': ['UBER', 'DASH', 'UNP'], 'financials': ['NU', 'NDAQ', 'JPM', 'V'],
                    'consumer': ['MCD', 'WMT', 'COST', 'CMG'], 'defence': ['BWXT', 'AVAV', 'LMT', 'KTOS']}.items():
-    BATTLES['anchor-' + sub] = dict(names=names, slots=1, criteria=ANCHOR_CRITERIA, manual=None)
+    BATTLES['anchor-' + sub] = dict(names=names, slots=1, criteria=ANCHOR_CRITERIA, manual=None, growth=ANCHOR_GROWTH)
+for b in BATTLES.values():
+    assert sum(b['growth'].values()) == 100, b['growth']
 
 def anchor_test(t, S):
     s = S[t]
@@ -213,15 +231,17 @@ def winners(name, tot, passes):
     ranked = sorted([t for t in BATTLES[name]['names'] if passes[t]], key=lambda t: -tot[t])
     return ranked[:BATTLES[name]['slots']]
 
-RESULTS = {}
+RESULTS = {}; RESULTS_G = {}
 for name in BATTLES:
     table, full, passes = score_battle(name, ST)
     _, num, _ = score_battle(name, ST, manual_on=False)
     RESULTS[name] = (table, num, full, passes)
+    RESULTS_G[name] = score_battle(name, ST, BATTLES[name]['growth'])
 
 # ---------- robustness: resample the year, perturb the weights ----------
 B = 60 if QUICK else 1000
 WIN = {name: {t: 0 for t in BATTLES[name]['names']} for name in BATTLES}
+WIN_G = {name: {t: 0 for t in BATTLES[name]['names']} for name in BATTLES}
 PASS = {t: 0 for t in NAMES}
 for bi in range(B):
     idx = sbb_indices(n, n, 1, L)[0]
@@ -232,10 +252,15 @@ for bi in range(B):
     for name, b in BATTLES.items():
         labels = [c[0] for c in b['criteria']] + ([b['manual'][0]] if b['manual'] else [])
         base = [c[1] for c in b['criteria']] + ([b['manual'][1]] if b['manual'] else [])
-        wts = {l: w * np.exp(rng.normal(0, 0.4)) for l, w in zip(labels, base)}
+        noise = {l: np.exp(rng.normal(0, 0.4)) for l in labels}
+        wts = {l: w * noise[l] for l, w in zip(labels, base)}
         _, tot, passes = score_battle(name, Sb, wts)
         for t in winners(name, tot, passes):
             WIN[name][t] += 1
+        wts_g = {l: b['growth'][l] * noise[l] for l in labels}
+        _, tot_g, passes_g = score_battle(name, Sb, wts_g)
+        for t in winners(name, tot_g, passes_g):
+            WIN_G[name][t] += 1
 
 # ---------- team Monte Carlo ----------
 ETF = {'XLVP': 12, 'VUKG': 6}       # January-stage defensive layer; cash 25% and sandbox 1% treated as cash
@@ -267,6 +292,11 @@ def pick(name, use_manual=True):
 
 pw, ch, ad = pick('power'), pick('chips'), pick('adopter')
 an = [pick('anchor-' + s)[0] for s in ('transport', 'financials', 'consumer', 'defence')]
+def pick_g(name):
+    _, tot, passes = RESULTS_G[name]
+    return winners(name, tot, passes)
+pwg, chg, adg = pick_g('power'), pick_g('chips'), pick_g('adopter')
+ang = [pick_g('anchor-' + s)[0] for s in ('transport', 'financials', 'consumer', 'defence')]
 TEAMS = {
     'Option D (13 Oct plan)': ({'VST': 12, 'CEG': 9, 'NVDA': 9, 'TSM': 9, 'GOOGL': 8}, {'UBER': 5, 'NU': 4}),
     'Battle winners, literal': ({pw[0]: 12, pw[1]: 9, ch[0]: 9, ch[1]: 9, ad[0]: 8}, {an[0]: 5, an[1]: 4}),
@@ -274,6 +304,9 @@ TEAMS = {
     'Recommended + MU instead of TSM': ({'VST': 12, 'NEE': 9, 'NVDA': 9, 'MU': 9, 'GOOGL': 8}, {'UNP': 5, 'V': 4}),
     'Option D core + new anchors': ({'VST': 12, 'CEG': 9, 'NVDA': 9, 'TSM': 9, 'GOOGL': 8}, {'UNP': 5, 'V': 4}),
     'Recommended core + old anchors': ({'VST': 12, 'NEE': 9, 'NVDA': 9, 'TSM': 9, 'GOOGL': 8}, {'UBER': 5, 'NU': 4}),
+    'Growth tilt, literal winners': ({pwg[0]: 12, pwg[1]: 9, chg[0]: 9, chg[1]: 9, adg[0]: 8}, {ang[0]: 5, ang[1]: 4}),
+    'Option G (growth tilt, judged: E with NU for V)': ({'VST': 12, 'NEE': 9, 'NVDA': 9, 'TSM': 9, 'GOOGL': 8}, {'UNP': 5, 'NU': 4}),
+    'Option G+ (after a job: cash to the 15% floor, core 55%)': ({'VST': 14, 'NEE': 9, 'NVDA': 11, 'TSM': 11, 'GOOGL': 10}, {'UNP': 5, 'NU': 4}),
 }
 
 # ---------- output ----------
@@ -299,8 +332,8 @@ print()
 
 for name, b in BATTLES.items():
     table, num, full, passes = RESULTS[name]
-    labels = [c[0] for c in b['criteria']] + ([b['manual'][0]] if b['manual'] else [])
-    weights = [c[1] for c in b['criteria']] + ([b['manual'][1]] if b['manual'] else [])
+    labels = [c[0] for c in b['criteria'] if c[1] > 0] + ([b['manual'][0]] if b['manual'] else [])
+    weights = [c[1] for c in b['criteria'] if c[1] > 0] + ([b['manual'][1]] if b['manual'] else [])
     print(f'\n## Battle: {name}  (slots: {b["slots"]})')
     print('| Name | ' + ' | '.join(f'{l} ({w})' for l, w in zip(labels, weights)) + ' | Numbers only | Total | Anchor test | P(wins slot) |')
     print('|---|' + '---|' * (len(labels) + 4))
@@ -315,8 +348,12 @@ for name, b in BATTLES.items():
             at_s += f' · passes in {100 * PASS[t] / B:.0f}% of resamples'
         print(f'| {t} | ' + ' | '.join(cells) + f' | {num[t]:.1f} | **{full[t]:.1f}** | {at_s} | {100 * WIN[name][t] / B:.0f}% |')
     print('Winners (numbers + judgment):', pick(name, True), ' numbers only:', pick(name, False))
+    _, tot_g, passes_g = RESULTS_G[name]
+    gl = ', '.join(f"{t} {tot_g[t]:.0f} ({100 * WIN_G[name][t] / B:.0f}%)" for t in sorted(b['names'], key=lambda t: -tot_g[t]))
+    print(f"Growth tilt ({', '.join(f'{k} {v}' for k, v in b['growth'].items() if v)}): {gl}; upside vs consensus: "
+          + ', '.join(f"{t} {F[t]['upside_pct']:+.0f}%" for t in b['names']) + f"  → winners {pick_g(name)}")
 
-print('\n## Teams (January-stage book: core 47% + anchors 9% + XLVP 12 + VUKG 6 + cash 26)')
+print('\n## Teams (January-stage book: core 47% + anchors 9% + XLVP 12 + VUKG 6 + cash 26; G+ has core 55% and cash 18%)')
 print('| Team | Core | Anchors | Vol | Beta | Worst-10 | Max DD | 1y ret | Rate %/pt | QQQ −25% | NVDA −40% | +50bp & QQQ −5% | QQQ +20% | P(DD≥10%) | P(DD≥15%) | 5th pct 26w |')
 print('|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|')
 TEAM_OUT = {}
@@ -333,7 +370,8 @@ for label, o in TEAM_OUT.items():
     m = o['mc_with_drift']
     print(f"  {label}: P(DD>=15%) {m['p_dd15']:.0f}%, 5th pct {m['q05']:+.1f}%, median {m['med']:+.1f}%")
 
-json.dump({'stats': ST, 'battles': {k: {'num': v[1], 'full': v[2], 'passes': v[3], 'win_prob': {t: WIN[k][t] / B for t in WIN[k]}}
+json.dump({'stats': ST, 'battles': {k: {'num': v[1], 'full': v[2], 'passes': v[3], 'win_prob': {t: WIN[k][t] / B for t in WIN[k]},
+                                         'growth_total': RESULTS_G[k][1], 'growth_win_prob': {t: WIN_G[k][t] / B for t in WIN_G[k]}}
                                      for k, v in RESULTS.items()},
            'anchor_test_pass_rate': {t: PASS[t] / B for t in NAMES}, 'teams': TEAM_OUT, 'resamples': B},
           open(ROOT / 'analysis' / 'slot_battles_output.json', 'w'), default=float, indent=1)

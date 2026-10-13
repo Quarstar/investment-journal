@@ -81,11 +81,13 @@ The real AI risk is in NBIS and NVDA, not the power names.
 
 **Gates:** NEE 21 Oct results (buy only in step with the CEG halves, one out, one in); UNP and LMT 22 Oct; V 27 Oct; GOOGL 28 Oct; MCD 4 Nov. Same three conditions as D.
 
+**Later the same evening:** three regulated utilities (DUK, SO, AEP) were added to the power battle. DUK edges NEE on the risk rubric, NEE edges DUK on the growth tilt; NEE keeps the slot with DUK as the alternate. A growth-tilted re-run of every battle (§11 of the battles page) changes one slot: **Option G** = E with NU instead of V. **Option G+** is the re-risk for the first review after a new job: cash to the 15% floor, core to 55% (VST 14, NVDA 11, TSM 11, GOOGL 10, NEE 9).
+
 ## Decision rules for Wednesday
 - [ ] Is the VST/CEG ratio stretched? It's ~0.54 now (neutral; above ~0.62 favours keeping VST, below ~0.48 favours keeping CEG). If neutral, decide on the thesis, not the ratio.
 - [ ] Write a one-page GOOGL thesis with sell triggers before any buy.
 - [ ] **Gate:** buy GOOGL only after its Q3 results, if Google Cloud growth and capex guidance hold. Do the swap in two halves: sell half the outgoing name at the review, the rest after GOOGL's results.
-- [ ] Choose between **A, B, C, D and E**, having read the [comparison](2026-10-13-abcd-comparison.md) and the [slot battles](2026-10-13-slot-battles.md). If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
+- [ ] Choose between **A, B, C, D, E and G**, having read the [comparison](2026-10-13-abcd-comparison.md) and the [slot battles](2026-10-13-slot-battles.md). If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
 - [ ] If D or E: apply the three conditions (GOOGL gate, NBIS out in two halves before 10 Nov, the written rate rule) and do the housekeeping listed on the comparison page. If E: the CEG halves go only as NEE passes its 21 Oct gate, and the anchor gates move to UNP/LMT 22 Oct, V 27 Oct, MCD 4 Nov.
 - [ ] Place the Phase 1 orders from the [limit-order sheet](../trades/limit-orders-2026-10-14.md) once the option is chosen.
 
