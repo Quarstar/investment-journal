@@ -1,6 +1,6 @@
 # Decision for Wednesday 14 Oct review: does GOOGL replace VST or CEG in the core?
 
-> Prepared 10 Oct 2026 with data to 9 Oct. Decide at the review, not before. Under the [concentration plan](2026-10-10-concentration-plan.md), the core is capped at 5 AI names, one in, one out.
+> Prepared 10 Oct 2026 with data to 9 Oct; Option D added 13 Oct. Decide at the review, not before. **A full comparison of A, B, C and D, with stress tests and a recommendation (D, with conditions), is on the [comparison page](2026-10-13-abcd-comparison.md), written 13 Oct.** Under the [concentration plan](2026-10-10-concentration-plan.md), the core is capped at 5 AI names, one in, one out.
 
 ## The question
 VST and CEG are close to one bet (weekly correlation 0.75; both down ~18–19% over the year). Would the core be better with Alphabet in one of those slots? Alphabet would fill the big-tech slot that's been empty since I sold AMZN.
@@ -68,7 +68,8 @@ The real AI risk is in NBIS and NVDA, not the power names.
 - [ ] Is the VST/CEG ratio stretched? It's ~0.54 now (neutral; above ~0.62 favours keeping VST, below ~0.48 favours keeping CEG). If neutral, decide on the thesis, not the ratio.
 - [ ] Write a one-page GOOGL thesis with sell triggers before any buy.
 - [ ] **Gate:** buy GOOGL only after its Q3 results, if Google Cloud growth and capex guidance hold. Do the swap in two halves: sell half the outgoing name at the review, the rest after GOOGL's results.
-- [ ] Choose between **A, B, C and D**. If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
+- [ ] Choose between **A, B, C and D**, having read the [comparison](2026-10-13-abcd-comparison.md). If I can't decide by the end of the review, the default is **Option A (no change)**, and I revisit with AVGO in January.
+- [ ] If D: apply its three conditions (GOOGL gate, NBIS out in two halves before 10 Nov, the written rate rule) and do the housekeeping listed on the comparison page.
 
 ## Lean recorded 10 Oct 2026 (not yet the decision)
 **Leaning to Option C: keep VST, GOOGL replaces CEG.**

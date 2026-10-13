@@ -25,7 +25,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
-- [ ] 14 Oct only: GOOGL vs VST/CEG core decision → [decision page](../plans/2026-10-14-decision-googl.md)
+- [ ] 14 Oct only: core decision A/B/C/D → [decision page](../plans/2026-10-14-decision-googl.md) and [comparison](../plans/2026-10-13-abcd-comparison.md)
 - [ ] VST/CEG ratio: above ~0.62 favours CEG, below ~0.48 favours VST, otherwise split new money
 
 ## 5. Watchlist and gates
