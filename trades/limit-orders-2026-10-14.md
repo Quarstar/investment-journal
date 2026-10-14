@@ -25,18 +25,18 @@ The names leaving the book under the [concentration plan](../plans/2026-10-10-co
 
 Decision taken 14 Oct: Option G. The NBIS lines stand.
 
-## Phase 2a · place Thu 15 Oct (the battles decided these; no thesis page needed)
+## Phase 2a · place Thu 15 Oct (NOW); MP's order is in Phase 2b with the bounce limit
 
 | # | Name | Account | Why it's leaving | Ref. price (13 Oct) | Step-1 limit | Valid to | Backstop | Next results |
 |---|---|---|---|---|---|---|---|---|
 | 5 | NOW, **down to 2%** (about half the position; whole shares by limit) | Revolut ISA | Lost the adopter battle in 100% of runs (31× forward, 11% margin, −55% fall inside the window), but the agentic thesis is real: 2% stays as a sandbox position if the thesis page is written and the 28 Oct print holds; otherwise the rest sells on the same ladder | $138.61 close 13 Oct | **$140.00** | Fri 16 Oct | Mon 19 / Tue 20 Oct | 28 Oct |
-| 6 | MP, **down to 2%** (about half the position; whole shares by limit) | T212 ISA | No slot in the plan, but a real strategic thesis (DoD price floor and offtake): 2% stays as a sandbox position if the thesis page is written and the 5 Nov print holds; otherwise the rest sells | $42.43 close 13 Oct (52-wk low 37.81) | **$42.85** | Fri 16 Oct | Mon 19 / Tue 20 Oct | 5 Nov |
+| 6 | MP, **down to 2%** (11 of the shares, whole shares by limit) | T212 ISA | No slot in the plan, but a real strategic thesis (DoD price floor and offtake): 2% stays as a sandbox position if the thesis page is written and the 5 Nov print holds; otherwise the rest sells | $42.43 close 13 Oct (52-wk low 37.81) | **$48.00** — my bounce level, placed **today (14 Oct)** | **Fri 23 Oct** | Mon 26 Oct: last × 1.01 for one day; Tue 27 Oct: market | 5 Nov |
 
-## Phase 2b · week of 19 Oct
+## Phase 2b · placed 14 Oct, deadline 23 Oct (AVAV, MP); CEG after NEE's gate
 
 | # | Name | Account | Why it's leaving | Ref. price (13 Oct) | Step-1 limit | Valid to | Backstop | Next results |
 |---|---|---|---|---|---|---|---|---|
-| 7 | AVAV | T212 ISA (whole shares); Revolut ISA (fraction, market) | Fails the anchor test in 100% of resampled years: 86% volatility, −65% fall, −9.8% in bad weeks | $128.01 (prev. close 131.51; 52-wk low 125.20) | last × 1.01 on the day (≈ **$129.30** at the 13 Oct price) | Fri 23 Oct | Mon 26 / Tue 27 Oct | ~Dec |
+| 7 | AVAV, full exit | T212 ISA (3 whole shares); Revolut ISA (5 whole shares by limit, the fraction at market) | Fails the anchor test in 100% of resampled years: 86% volatility, −65% fall, −9.8% in bad weeks; at its 52-week low | $127.13 close 13 Oct (52-wk low 125.20) | **$140.00** (+10%) — my bounce level, placed **today (14 Oct)** | **Fri 23 Oct** | **market Mon 26 Oct** | ~Dec |
 | 8 | CEG, **first half** (Option G: only once NEE passes its 21 Oct gate) | Revolut ISA and T212 ISA, half of each | Replaced by NEE in the power pair; sold as NEE is bought, one out, one in | $297.25 (prev. close 293.89) | last × 1.01 on the day (≈ **$300** at the 13 Oct price) | Fri 23 Oct | Mon 26 / Tue 27 Oct | 9 Nov |
 
 ## Phase 3 · the second halves
@@ -60,3 +60,4 @@ Decision taken 14 Oct: Option G. The NBIS lines stand.
 - **The open swing trade (IREN)** is untouched: stop $31.90, target $52.20, out by 8 Nov regardless.
 - **If a limit doesn't fill by the Tuesday**, the market order goes in. The one exception is a gap down of more than 5% on the day with no company news: then wait one more day, once.
 - Limit prices above are the step-1 prices at the 13 Oct reference; every order placed on a later day uses that day's last price × 1.01, not the number in the table.
+- **Bounce limits (MP $48, AVAV $140):** my read is that these names get a pump before the real correction. The rule from 14 Oct: that read becomes a limit price with a two-week deadline, placed the day the sale is decided, never an open-ended hold. If the bounce comes, I've sold higher than the plan; if it doesn't, the ladder runs from Mon 26 Oct and the cost of waiting was ten trading days.

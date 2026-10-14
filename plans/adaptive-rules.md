@@ -36,6 +36,8 @@ The targets in the [target portfolio](target-portfolio.md) are not fixed. They c
 - a thesis break or a sell trigger written in a thesis page
 - the planned exits (tail, CEG, NBIS excess)
 
+**How a planned sale is executed (added 14 Oct 2026):** a view that a name will bounce first is expressed as a limit price with a deadline, never as an open-ended hold. The limit goes in on the day the sale is decided (a spike fills a resting order in seconds), it runs for at most two weeks, and when the deadline passes the ladder on the [order sheet](../trades/limit-orders-2026-10-14.md) takes over. Statistics set the deadline; the feeling sets the price.
+
 **Limits I accept:** with no wage coming in, the book will drift until the next money arrives (January student finance, or a new job). That's fine. The drawdown plan and the caps still protect it in the meantime.
 
 ## Drift bands (trigger 5)
@@ -55,3 +57,4 @@ The targets in the [target portfolio](target-portfolio.md) are not fixed. They c
 | 2026-10-14 | 4 (structural) | Core eligibility: P(20%+ drawdown in 26 weeks) ≤ 75%; anchor tie-break: cheaper on forward P/E within 10 points of win probability; power pair: merchant generator first, different bet second | Rules written on the battles page after MU, COST and the utilities run |
 | 2026-10-14 | 1 | G+ (cash to the 15% floor, core 55%) starts at the first review after the January student finance lands or a job starts, whichever first | Forced-seller risk ends when money comes in, job or not |
 | 2026-10-14 | 4 (structural) | Deep-value single-name buys from the shield, under written triggers ([drawdown plan](2026-10-10-drawdown-plan.md)) | My best returns came from buying beaten-down names with growth intact; made a rule so it isn't an impulse |
+| 2026-10-14 | 4 (structural) | Planned sales: a bounce view becomes a limit with a two-week deadline, then the ladder; never an open-ended hold | Keeps my read of the tape in the process without letting it renegotiate the plan |
