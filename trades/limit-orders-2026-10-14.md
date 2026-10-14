@@ -36,7 +36,7 @@ Decision taken 14 Oct: Option G. The NBIS lines stand.
 
 | # | Name | Account | Why it's leaving | Ref. price (13 Oct) | Step-1 limit | Valid to | Backstop | Next results |
 |---|---|---|---|---|---|---|---|---|
-| 7 | AVAV, full exit | T212 ISA (3 whole shares); Revolut ISA (5 whole shares by limit, the fraction at market) | Fails the anchor test in 100% of resampled years: 86% volatility, −65% fall, −9.8% in bad weeks; at its 52-week low | $127.13 close 13 Oct (52-wk low 125.20) | **$140.00** (+10%) — my bounce level, placed **today (14 Oct)** | **Fri 23 Oct** | **market Mon 26 Oct** | ~Dec |
+| 7 | AVAV, **T212 lot only** (3 whole shares). **The Revolut ISA lot (~3.6% of the book) is kept, my call, against the battle result** — see the review | T212 ISA | Fails the anchor test in 100% of resampled years: 86% volatility, −65% fall, −9.8% in bad weeks; at its 52-week low | $127.13 close 13 Oct (52-wk low 125.20) | **$140.00** (+10%) — my bounce level, placed **today (14 Oct)** | **Fri 23 Oct** | **market Mon 26 Oct** | ~Dec |
 | 8 | CEG, **first half** (Option G: only once NEE passes its 21 Oct gate) | Revolut ISA and T212 ISA, half of each | Replaced by NEE in the power pair; sold as NEE is bought, one out, one in | $297.25 (prev. close 293.89) | last × 1.01 on the day (≈ **$300** at the 13 Oct price) | Fri 23 Oct | Mon 26 / Tue 27 Oct | 9 Nov |
 
 ## Phase 3 · the second halves
