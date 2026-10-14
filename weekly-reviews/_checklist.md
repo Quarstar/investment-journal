@@ -19,19 +19,20 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Energy/nuclear ≤ 35% · Neocloud ≤ 15%
 - [ ] Sandbox ≤ 5%
 - [ ] Cash shield ≥ 15%
-- [ ] AI-linked share of the book: ____% (target ~47% since 12 Oct; a 30% AI fall then costs ~14%)
+- [ ] AI-linked share of the book: ____% (target ~38% under G, ~46% under G+)
 - [ ] Still without a job? Keep the 12 Oct risk-down targets. New job started? Review them (see the [target portfolio](../plans/target-portfolio.md))
 
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
-- [ ] 14 Oct only: core decision A/B/C/D/E → [decision page](../plans/2026-10-14-decision-googl.md), [comparison](../plans/2026-10-13-abcd-comparison.md) and [slot battles](../plans/2026-10-13-slot-battles.md); then place Phase 1 of the [limit orders](../trades/limit-orders-2026-10-14.md)
-- [ ] VST/CEG ratio: above ~0.62 favours CEG, below ~0.48 favours VST, otherwise split new money
+- [ ] Option G in progress (decided 14 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ starts at the first review after the January student finance or a job
+- [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
-- [ ] UBER gate (4 Nov results) · MCD gate (Q3 results, expected 4 Nov, confirm) · NU gate (Q3 results, mid-Nov) · BWXT gate (Q3 results, Mon 2 Nov after close) · AVGO (January gate)
-- [ ] 14 Oct only: run the anchor test on BWXT, plus its correlation with VST (must be < 0.5). **Done 13 Oct in the [slot battles](../plans/2026-10-13-slot-battles.md): fails on bad weeks (−4.2% vs the index's −3.1%); VST correlation 0.44.** If Option E: anchor gates become UNP and LMT (22 Oct), V (27 Oct), MCD (4 Nov)
-- [ ] Third and fourth anchors: MCD and BWXT, order decided after both report (see the [concentration plan](../plans/2026-10-10-concentration-plan.md))
+- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct (top-up) · NEE 21 Oct (CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · DUK 5 Nov (NEE's alternate) · NU 12 Nov · AVGO (January)
+- [ ] BWXT fails the anchor test (13 Oct: bad weeks −4.2% vs the index's −3.1%); watchlist only. UBER passes in only 54% of resampled years; not an anchor
+- [ ] Third anchor MCD (4 Nov); fourth slot stays open until the switch, re-battled then with RTX, Rolls-Royce, Dominion and any new sectors
+- [ ] Deep-value list ([drawdown plan](../plans/2026-10-10-drawdown-plan.md)): any name through its trigger price? All four checks written down before any order
 - [ ] The switch (anchors 15% → 20%, funded from the AI shave, VUKG stays ~6%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
 - [ ] 2–4 Nov is crowded (BWXT, UBER and MCD results, Phase 2 deadline): judge each gate on its own, buy UBER first
 - [ ] Anything new must replace a core name, or go in the sandbox

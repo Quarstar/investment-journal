@@ -30,6 +30,8 @@ Existing caps still apply: 20% single stock, 35% energy/nuclear, 15% neocloud.
 1. **Five AI names are one bet, not five.** They fall together if AI capex slows. VST and CEG especially (identical −25.6% over the year, 0.81 daily correlation). I hold both deliberately as a pair and use the ratio as a tie-breaker for new money.
 2. **More AI exposure means a bigger hit in a crash.** Moving to this structure takes AI-linked holdings from ~55% to ~70% of the book. A 30% fall in those names would then cost ~21% instead of ~17%. *(Revised 12 Oct: after leaving my job, the target is now ~47% AI-linked, so a 30% fall costs ~14%. See the [target portfolio](target-portfolio.md).)* The defensive layer and the [drawdown plan](2026-10-10-drawdown-plan.md) are what make that acceptable.
 
+> **Status 14 Oct 2026:** Option G chosen at the review (see the [decision page](2026-10-14-decision-googl.md)). Phase 1 placed 14 Oct; NOW and MP cut to 2% sandbox positions rather than fully sold, pending thesis pages and their prints; AVAV sells the week of 19 Oct; CEG and NBIS in halves. The [target portfolio](target-portfolio.md) carries the G weights.
+
 ## Phase 1 · Wednesday 14 Oct review
 Sell the names that don't fit the AI-bottleneck thesis:
 

@@ -105,7 +105,9 @@ Despite this, VST trades at ~15× forward earnings vs CEG's ~20×, and its weekl
 
 **Risk I'm accepting:** if the Nvidia link tightens, VST will start moving with NVDA and diversify the core less.
 
-## My decision (fill in at the review)
-- Option chosen:
-- Reason:
-- Date:
+## My decision
+- **Option chosen: G** (Option E with NU in V's slot): VST 12, NEE 9, NVDA 9, TSM 9, GOOGL 8; anchors UNP, NU, then MCD, fourth slot open.
+- **Reason:** the slot battles, read with the growth tilt, which is the weighting that matches what I want from the book: a slightly higher growth ceiling, with the defence done by the anchors and the shield rather than by the core. NEE over CEG because the power pair was one bet held twice (0.74 correlated, both −26% per point of yield); NEE is a different bet (0.38) that still owns nuclear sold to an AI buyer. TSM over MU because MU's case is a cycle top. NU over V because, at 25 defence points instead of 50, NU's growth wins and it still passes the anchor test. Not E, because I want the growth version; not G+ yet, because there is no income behind the book until January.
+- **Conditions carried over from D:** GOOGL gate 28 Oct; NBIS out in two halves before 10 Nov; the rate rule (10-year above 5.50% two Wednesdays running → power pair to 16%, VST trimmed first).
+- **Added:** the cash shield doubles as a deep-value buying pot under written triggers (drawdown plan); G+ starts at the first review after the January student finance or a job, whichever comes first.
+- **Date:** Wed 14 Oct 2026, 09:15, before the US open. Weights at decision: CEG 12.1, VST 11.9, NVDA 11.4, NBIS 9.2, TSM 6.1, cash 11.1.

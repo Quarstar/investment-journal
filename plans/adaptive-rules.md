@@ -51,3 +51,7 @@ The targets in the [target portfolio](target-portfolio.md) are not fixed. They c
 | 2026-10-11 | 4 | BWXT added as defence anchor candidate; anchor switch 15% → 20% written | Navy-driven revenue independent of AI capex |
 | 2026-10-12 | 1 | Core AI ~55% → ~47%; XLVP 9 → 12; VUKG kept at 6 | Left my job; no income |
 | 2026-10-12 | 2 (structural) | Cut taken from suppliers only; GOOGL kept at 10%; core must hold an adopter | Railway and internet busts hit suppliers hardest |
+| 2026-10-14 | planned decision | **Option G adopted:** NEE replaces CEG in the power pair; anchors become UNP, NU, MCD, fourth slot open; NBIS exits; NOW and MP cut to 2% sandbox | [Slot battles](2026-10-13-slot-battles.md) with the growth tilt |
+| 2026-10-14 | 4 (structural) | Core eligibility: P(20%+ drawdown in 26 weeks) ≤ 75%; anchor tie-break: cheaper on forward P/E within 10 points of win probability; power pair: merchant generator first, different bet second | Rules written on the battles page after MU, COST and the utilities run |
+| 2026-10-14 | 1 | G+ (cash to the 15% floor, core 55%) starts at the first review after the January student finance lands or a job starts, whichever first | Forced-seller risk ends when money comes in, job or not |
+| 2026-10-14 | 4 (structural) | Deep-value single-name buys from the shield, under written triggers ([drawdown plan](2026-10-10-drawdown-plan.md)) | My best returns came from buying beaten-down names with growth intact; made a rule so it isn't an impulse |

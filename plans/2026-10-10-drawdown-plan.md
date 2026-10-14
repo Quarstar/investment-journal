@@ -34,11 +34,33 @@ A name only gets money if all of these still hold at its latest earnings:
 
 If hyperscalers cut capex, the thesis is weaker and I stop deploying until I've reassessed. Prices falling for that reason aren't a discount.
 
-## Buy list, in order
+## Buy list, in order (revised 14 Oct 2026 for Option G)
 1. **Chips with profits:** NVDA, TSM
-2. **Power:** CEG, VST (use the VST/CEG ratio as the tie-breaker; see [backtest](../backtests/))
-3. **Watchlist, if gates are met:** AVGO
-4. **NBIS:** only while total neocloud exposure stays under 15%
+2. **Power:** VST, NEE (CEG only if it is back in the core)
+3. **Adopter:** GOOGL
+4. **Anchors below target:** UNP, NU, MCD
+5. **Watchlist, if gates are met:** AVGO (January)
+6. **Deep-value list** (below), only after 1–4 are at target
+
+## Deep-value single-name buys (added 14 Oct 2026)
+**Why:** my best returns came from buying beaten-down names with growth intact during corrections (AMD, NBIS), not from holding through them. The shield exists for that as much as for the index triggers above. This section turns the instinct into a rule, so the buy is made on numbers written in advance and not on a chart at 2 a.m.
+
+**The list, written in advance** (names that have been core, or won or placed in a battle, with a thesis I can state): NBIS, AMD, CEG, MU, TLN. Anything else has to be added at a Wednesday review first.
+
+**Trigger: all of these, checked and written down before the order:**
+1. Price at least **40% below its 52-week high** and, for a name I sold, at least **25% below my last sale price**.
+2. **Thesis intact:** contracted demand or backlog not cut, no guidance withdrawal, no customer loss that explains the fall.
+3. **Dilution check:** no equity or convertible raise in the last 90 days, share count up less than 10% year on year, cash runway over 12 months. This is the one that matters for neoclouds: the sector can recover while the shares go to new holders.
+4. Not inside the two weeks before results.
+
+**Size and limits**
+- Up to **one-third of the shield per name**, in two tranches two weeks apart.
+- The shield may not fall below **10%** after the buy (hard floor; the 15% floor is rebuilt first from new money).
+- At most **two** deep-value positions open at once; together with the sandbox they stay inside the 10% speculative bucket.
+- Pre-set exit: **+50%** target or a 6-month time stop, whichever first, unless the name wins a core slot in a battle (one in, one out). Not averaged down.
+- If an index trigger fires at the same time, the tranches above take priority.
+
+**NBIS, as the first case:** 52-week high $299.86; sold from ~$207–215 in October 2026. Trigger price **≤ $160**, with the dilution check passed (it raised equity and convertibles in 2025, so the share-count line is the live one), and not between 27 Oct and 10 Nov (results).
 
 **Not bought in a drawdown:** speculative and frenzy-bucket names (quantum, micro-caps, unprofitable story stocks). In 2000–02 those were the ones that never came back.
 
@@ -69,3 +91,4 @@ When I'm unsure which names will survive, the index is the default instead of gu
 - Spend the whole shield on the first drop.
 - Average down on swing trades.
 - Change this plan during a fall. Changes only happen at a Wednesday review, with the reason written down and committed.
+- Buy a deep-value name on the trigger price alone. All four checks, written down first.
