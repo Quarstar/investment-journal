@@ -48,6 +48,9 @@ History says the handover from AI suppliers to AI adopters usually comes through
 
 **Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong. **0 confirmed, 2 to watch.**
 
+## 5c. Predictions
+- [ ] Any call in the [predictions log](../predictions.md) past its deadline? Score it (full / half / miss) and update the scoreboard
+
 ## 6. Swing trades
 - [ ] Open trades: stop still placed as a real order? Time stop or earnings date within the next week?
 - [ ] Close and log any finished trade in [`swing-log.md`](../trades/swing-log.md)
