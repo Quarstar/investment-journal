@@ -50,6 +50,14 @@ History says the handover from AI suppliers to AI adopters usually comes through
 
 **Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong. **0 confirmed, 2 to watch.**
 
+## 5b2. Rotation gauge (added 15 Oct 2026)
+Is money leaving AI/tech for the rest of the market? Checked weekly, as **4-week relative performance** at Tuesday's close:
+- [ ] **RSP vs QQQ** (equal-weight S&P 500 vs Nasdaq-100): is the average stock beating the tech giants?
+- [ ] **XLP vs XLK** (consumer staples vs tech) and **XLY vs XLK** (consumer discretionary vs tech)
+- [ ] **Breadth:** NYSE new 52-week highs vs new lows that week
+
+**Rule:** if RSP and at least one of XLP/XLY beat their comparison over 4 weeks at **three reviews running**, the rotation is confirmed. Then: MCD moves up the buy queue (still only after its results gate), and the fourth anchor slot is re-battled with consumer names first (COST, the preferred candidate, plus whichever consumer names lead). Staples leading means the rate-proof half is winning; discretionary leading means consumers are spending, so it matters which one. Status on 15 Oct: one day of rotation (Dow up, Nasdaq down); **0 of 3 reviews**.
+
 ## 5c. Predictions
 - [ ] Any call in the [predictions log](../predictions.md) past its deadline? Score it (full / half / miss) and update the scoreboard
 - [ ] [My picks vs the plan](../shadow-portfolio.md): add the week's row (both books, QQQ, worst falls) at Tuesday's close. Verdicts only at 13 Jan, 14 Apr and 13 Oct 2027
