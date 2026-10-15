@@ -25,7 +25,7 @@ The names leaving the book under the [concentration plan](../plans/2026-10-10-co
 
 Decision taken 14 Oct: Option G. The NBIS lines stand.
 
-**Filled Thu 15 Oct (pre-market):** CELH (#1) T212 lot sold at **$27.00**, GRAB (#2) at **$2.90**, both at market. **Revolut CELH lot (~30.3 shares): still queued as a market order for the open; cancel and re-place at market after 14:45 UK.** LVMH (#3): confirm. **TSM first half bought at $422.**
+**Filled Thu 15 Oct (pre-market):** CELH (#1) T212 lot sold at **$27.00**, GRAB (#2) at **$2.90**, both at market. **Revolut CELH lot (~30.3 shares) sold at $27.88**, market after 14:45. **NOW (#5): 3 whole shares sold at $146.20** (market, 15 Oct; plan limit was $140). CELH fully exited; NOW at ~2.2% sandbox. LVMH (#3): confirm. **TSM first half bought at $422.**
 
 **Amended Thu 15 Oct, 10:15:** CELH (#1) and GRAB (#2) go **at market after 14:45 today** instead of running the ladder. The 14 Oct drop left both limits unfilled; with the 10-year at a 24-year high and the FOMC plus hyperscaler-results week starting 26 Oct, having the cash in hand matters more than the last 1–3% on two off-thesis names (≈0.2% of the book). The open CELH buy (#0) is cancelled first; the Revolut CELH fraction goes at market in the same session. The bounce limits (MP $48, AVAV $140) and the NBIS $215 line are unchanged: those are thesis names with a written deadline, not off-thesis names.
 
