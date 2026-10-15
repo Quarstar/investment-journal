@@ -48,7 +48,7 @@ If hyperscalers cut capex, the thesis is weaker and I stop deploying until I've 
 **The list, written in advance** (names that have been core, or won or placed in a battle, with a thesis I can state): NBIS, AMD, CEG, MU, TLN. Anything else has to be added at a Wednesday review first.
 
 **Trigger: all of these, checked and written down before the order:**
-1. Price at least **40% below its 52-week high** and, for a name I sold, at least **25% below my last sale price**.
+1. **Price inside its capture zone** ([capture zones](capture-zones.md), added 15 Oct; replaces the flat "40% below the 52-week high"): the first of the name's zones that is at least **30% below its 52-week high** (Zone 1 for NBIS and CEG, Zone 2 for AMD, MU and TLN on the 15 Oct map), and, for a name I sold, at least **25% below my last sale price**. Second tranche two weeks later only if the zone held on a weekly close.
 2. **Thesis intact:** contracted demand or backlog not cut, no guidance withdrawal, no customer loss that explains the fall.
 3. **Dilution check:** no equity or convertible raise in the last 90 days, share count up less than 10% year on year, cash runway over 12 months. This is the one that matters for neoclouds: the sector can recover while the shares go to new holders.
 4. Not inside the two weeks before results.
@@ -60,7 +60,7 @@ If hyperscalers cut capex, the thesis is weaker and I stop deploying until I've 
 - Pre-set exit: **+50%** target or a 6-month time stop, whichever first, unless the name wins a core slot in a battle (one in, one out). Not averaged down.
 - If an index trigger fires at the same time, the tranches above take priority.
 
-**NBIS, as the first case:** 52-week high $299.86; sold from ~$207–215 in October 2026. Trigger price **≤ $160**, with the dilution check passed (it raised equity and convertibles in 2025, so the share-count line is the live one), and not between 27 Oct and 10 Nov (results).
+**NBIS, as the first case:** 52-week high $299.86; sold from ~$207–215 in October 2026. Trigger price **≤ $160** (the top of its Zone 1, $148–160, the April–May 2026 base), with the dilution check passed (it raised equity and convertibles in 2025, so the share-count line is the live one), and not between 27 Oct and 10 Nov (results).
 
 **Not bought in a drawdown:** speculative and frenzy-bucket names (quantum, micro-caps, unprofitable story stocks). In 2000–02 those were the ones that never came back.
 

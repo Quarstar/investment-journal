@@ -24,16 +24,17 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Still without a job? Keep the 12 Oct risk-down targets. New job started? Review them (see the [target portfolio](../plans/target-portfolio.md))
 
 ## 4. Plans committed in advance
-- [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
+- [ ] Drawdown plan: QQQ vs its 52-week high ($762.86, the 6 Oct intraday high; highest close $759.66). Any trigger hit (−10% G+ half / −15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
-- [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ trigger (15 Oct): first full pay landed **and** QQQ closes above $762.86 at two reviews running; time stop at the first review after the January student finance; a drawdown trigger firing first sends the cash to the drawdown plan instead
+- [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ cash held for a dip: QQQ −10% (~$687) → half into G+ names, deepest into their capture zones first; −15% ($648) → drawdown plan; time stop at the first review after the January student finance; nothing before the first full pay unless a dip trigger fires
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
 - [ ] Gates (Option G, from 14 Oct): TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct (CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · DUK 5 Nov (NEE's alternate) · NU 12 Nov · AVGO (January)
 - [ ] BWXT fails the anchor test (13 Oct: bad weeks −4.2% vs the index's −3.1%); watchlist only. UBER passes in only 54% of resampled years; not an anchor
 - [ ] Third anchor MCD (4 Nov); fourth slot stays open until the switch, re-battled then with RTX, Rolls-Royce, Dominion and any new sectors
-- [ ] Deep-value list ([drawdown plan](../plans/2026-10-10-drawdown-plan.md)): any name through its trigger price? All four checks written down before any order
+- [ ] [Capture zones](../plans/capture-zones.md): refresh the daily data, re-run `capture_zones.py` and `capture_zones_final.py`. Any weekly close below a zone (re-map: broken zone → ceiling) or above a ceiling twice (step up)? Any name inside a zone → act per its role (entry limit / G+ cash / deep-value capture / watch)
+- [ ] Deep-value list ([drawdown plan](../plans/2026-10-10-drawdown-plan.md)): any name inside its capture zone (the first zone ≥30% off its high)? All four checks written down before any order
 - [ ] The switch (anchors 15% → 20%, funded from the AI shave, VUKG stays ~6%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
 - [ ] 2–4 Nov is crowded (BWXT, UBER and MCD results, Phase 2 deadline): judge each gate on its own, buy UBER first
 - [ ] Anything new must replace a core name, or go in the sandbox

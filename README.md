@@ -69,6 +69,7 @@ See the latest file in [`weekly-reviews/`](weekly-reviews/).
 
 ## Track record
 - [**127 round trips across 3 accounts, May 2024 – Oct 2026**](trades/track-record.md): backfilled from official broker statements. 54% win rate, average win +15.6% vs average loss −10.5%. The clearest finding: **the longer I hold, the better I do.** Trades held over 3 months won 71% of the time and averaged +15.3%. Trades held a week or less averaged a loss.
+- [**Capture zones**](plans/capture-zones.md): each name's own support, capitulation and ceiling levels from its price history, with forward P/E and touch odds at each level; re-mapped every Wednesday.
 - [**Predictions log**](predictions.md): price calls written down before the outcome, each with a deadline and the base rate it has to beat.
 - [**My picks vs the plan**](shadow-portfolio.md): a paper race from 15 Oct 2026 between ten stocks I picked on instinct and the rules-based plan, updated every Wednesday, judged at one year.
 - [**Post-mortem: IONQ**](post-mortems/2026-IONQ.md): same stock, same crash, two accounts, opposite results, and the rules it created.
