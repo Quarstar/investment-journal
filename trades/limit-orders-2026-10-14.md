@@ -25,6 +25,8 @@ The names leaving the book under the [concentration plan](../plans/2026-10-10-co
 
 Decision taken 14 Oct: Option G. The NBIS lines stand.
 
+**Amended Thu 15 Oct, 10:15:** CELH (#1) and GRAB (#2) go **at market after 14:45 today** instead of running the ladder. The 14 Oct drop left both limits unfilled; with the 10-year at a 24-year high and the FOMC plus hyperscaler-results week starting 26 Oct, having the cash in hand matters more than the last 1–3% on two off-thesis names (≈0.2% of the book). The open CELH buy (#0) is cancelled first; the Revolut CELH fraction goes at market in the same session. The bounce limits (MP $48, AVAV $140) and the NBIS $215 line are unchanged: those are thesis names with a written deadline, not off-thesis names.
+
 ## Phase 2a · place Thu 15 Oct (NOW); MP's order is in Phase 2b with the bounce limit
 
 | # | Name | Account | Why it's leaving | Ref. price (13 Oct) | Step-1 limit | Valid to | Backstop | Next results |
@@ -49,7 +51,7 @@ Decision taken 14 Oct: Option G. The NBIS lines stand.
 ## Where the cash goes, in order
 
 1. Cash shield back to **15%** (it was 10.7% on 7 Oct). Nothing else is bought until it is.
-2. **TSM** top-up toward **12%** (Option F, 15 Oct) after the results gate: the Q3 profit beat passed; buy in two halves, the first once the shield is back over 15%, the second a week later.
+2. **TSM** top-up toward **12%** (Option F, 15 Oct). **Results gate passed 15 Oct:** Q3 revenue $46.7B (+16.2% q/q), gross margin 66.4%, operating margin 58.7%; Q4 guided $52.3–54.3B (+14% q/q, +58% y/y at the midpoint), gross margin 65–67%, operating margin 56.5–58.5%; full-year 2026 growth raised to ~44% (from "above 40%"); 2026 capex $60–64B reiterated, 2026–28 capex "significantly higher than the past three years"; N2 capacity to more than double in 2027. Flags: gross margin down 130bp q/q, overseas dilution widening to 3–4%, and the ADR fell ~5% from the 14 Oct close in pre-market on a beat-and-raise (good news sold). Buy in two halves, each ~3% of the book: the **first the day the shield is back over 15%** (the CELH/GRAB/MC sales); the second a week later per the original sheet, **or, proposed 15 Oct, after the week of 26 Oct** (FOMC 27–28 Oct, hyperscaler results), so half is in if the market rallies and half is bought with the FOMC and capex guidance known. To confirm.
 3. **NEE** to 9% in step with the CEG halves, after the 21 Oct gate.
 4. **UNP** to 5% after 22 Oct; **GOOGL** to 8% after 28 Oct; **NU** to 4% after 12 Nov.
 5. The rest stays as shield for the January anchors. If a [drawdown-plan](../plans/2026-10-10-drawdown-plan.md) trigger fires, its tranches take priority over every line above.

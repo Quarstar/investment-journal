@@ -29,7 +29,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
-- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct (top-up) · NEE 21 Oct (CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · DUK 5 Nov (NEE's alternate) · NU 12 Nov · AVGO (January)
+- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct (CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · DUK 5 Nov (NEE's alternate) · NU 12 Nov · AVGO (January)
 - [ ] BWXT fails the anchor test (13 Oct: bad weeks −4.2% vs the index's −3.1%); watchlist only. UBER passes in only 54% of resampled years; not an anchor
 - [ ] Third anchor MCD (4 Nov); fourth slot stays open until the switch, re-battled then with RTX, Rolls-Royce, Dominion and any new sectors
 - [ ] Deep-value list ([drawdown plan](../plans/2026-10-10-drawdown-plan.md)): any name through its trigger price? All four checks written down before any order
