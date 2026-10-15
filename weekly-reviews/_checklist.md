@@ -26,7 +26,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its highest close. Any trigger hit (−15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
-- [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ starts at the first review after the January student finance or a job
+- [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ trigger (15 Oct): first full pay landed **and** QQQ closes above $762.86 at two reviews running; time stop at the first review after the January student finance; a drawdown trigger firing first sends the cash to the drawdown plan instead
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
