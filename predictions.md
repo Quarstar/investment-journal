@@ -10,6 +10,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 |---|---|---|---|---|
 | 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | open |
 | 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open |
+| 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open |
 
 ---
 
@@ -47,5 +48,31 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 **Base rate:** to be added at the Wed 21 Oct review, before any meaningful move, from a joint bootstrap of the eleven names' weekly returns (the data for IREN, IONQ, NFLX, SOFI and LLY isn't in the journal yet). Expectation stated now so it can't move later: a fully invested book of high-volatility names beats one holding ~18% cash in most six-month windows when the market rises and loses in most when it falls, so the base rate will sit near the odds of the market being up over six months.
 
 **What changes if it's a full hit:** at the 14 Apr 2027 review, a sleeve inside the real book for my own picks is proposed (size decided then, with the evidence in front of me), and from then on my reads get tested as entries rather than overridden by default. If it's a miss, the rules-first process stays as it is.
+
+**Result:** ____
+
+---
+
+## 3 · NBIS $167 and IREN $26 are the bottom
+**Made:** Thu 15 Oct 2026, 18:43 UK, mid-session, on the day of the neocloud debt sell-off (CoreWeave bonds repriced, chips' eighth straight loss). At the time: NBIS $179.44 (day low $163.36), IREN $28.98 (day low $26.60).
+
+**My words:** "I think $167 for Nebius and $26 for IREN is the base price they're going to hit. I don't believe that they're going to go below that from now."
+
+**How it's scored (fixed 18:45 on 15 Oct, before the close):**
+- **NBIS:** no daily **close** below **$167.00** from the 15 Oct close to the deadline. (It already traded at $163.36 intraday today; like Prediction 1, closes count, intraday spikes don't.)
+- **IREN:** no daily **close** below **$26.00** over the same window.
+- **Deadline: Wed 13 Jan 2027** (three months, the paper race's first checkpoint). "From now" has no end date, and a floor call with no deadline can't be scored, so three months was set as the default; an interim note is written at the 4 Nov review.
+- **Full hit** = both hold. **Half** = one holds. **Miss** = neither.
+
+**Base rate** (200,000 simulated paths of daily closes, no drift, from the prices at the time; NBIS volatility 94% from its past-year weekly closes, IREN 100% assumed, as its weekly history isn't in the journal yet; the joint figure assumes the two move together with 0.6 correlation):
+
+| Window | NBIS holds $167 | IREN holds $26 | Both hold |
+|---|---|---|---|
+| to 4 Nov (interim) | 33% | 42% | 23% |
+| **to 13 Jan 2027** | **14%** | **18%** | **7%** |
+
+The numbers are low because both stocks swing so much that a level 7–10% below the price usually gets tested at some point within three months. Beating a 7% base rate would be strong evidence that the read on where buyers step in adds something.
+
+**What I'll do whatever happens:** no NBIS buys before ~22 Nov (dilution rule) and none in the 27 Oct–10 Nov results window; no IREN adds (sandbox, no averaging down). The prediction doesn't change the orders.
 
 **Result:** ____
