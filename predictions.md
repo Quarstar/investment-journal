@@ -73,6 +73,8 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 
 The numbers are low because both stocks swing so much that a level 7–10% below the price usually gets tested at some point within three months. Beating a 7% base rate would be strong evidence that the read on where buyers step in adds something.
 
+**Personal note, 18:46 (not scored):** "When IREN hit $27, that was the best price I could buy." IREN's low on the day was $26.60, and it bounced ~9% from there within hours.
+
 **What I'll do whatever happens:** no NBIS buys before ~22 Nov (dilution rule) and none in the 27 Oct–10 Nov results window; no IREN adds (sandbox, no averaging down). The prediction doesn't change the orders.
 
 **Result:** ____
