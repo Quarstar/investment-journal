@@ -32,14 +32,18 @@ A paper portfolio of ten stocks I picked on my own judgment, with no battles, ru
 | GOOGL | 8% | | IREN (swing) | 1% |
 | | | | Cash | 22% |
 
+**The real book** (added 15 Oct, 15:43, at my request): my actual portfolio across all four accounts, as it really is, with the real cash, the real exits and the real gate buys. Indexed to 100 at the same 15 Oct close, so all books start with **the same amount of money**, the real book's value on that day. Its return is measured time-weighted: new money in (wages, student finance) is taken out of the calculation, so deposits don't count as performance.
+
 **Benchmark:** QQQ from the same close.
+
+**My call on this race:** my picks beat the real book by a big margin by 6 months. Logged as [Prediction 2](predictions.md), with the test fixed before the entry prices are known.
 
 ## Rules (fixed 15 Oct 2026, before the entry prices are known)
 
 1. **Entry:** every name at its **15 Oct 2026 regular-session close**, in its own currency. Both books start at 100.
 2. **No changes.** Buy and hold, no rebalancing, no swaps. If I want to change my picks, the change is logged here with the date and the price, like a real trade, and the old book keeps running as well.
 3. **Simplifications, same for both books:** dividends ignored, no fees, no FX (each holding's return in its own currency), cash earns 0%. Cash at 0% understates the plan slightly; FX is ignored because the real book is in pounds and that's the same for both.
-4. **Updated every Wednesday** at the previous US close (Tuesday's), alongside the review: value of each book, week change, total change, and the worst fall from a high so far.
+4. **Updated every Wednesday** at the previous US close (Tuesday's), alongside the review: value of each book, week change, total change, and the worst fall from a high so far. The real book's value comes from the four account totals at that close, net of any money paid in that week.
 5. **The verdict is at fixed dates, not weekly:** 3 months (Wed 13 Jan 2027), 6 months (Wed 14 Apr 2027) and **1 year (Wed 13 Oct 2027), which is the one that counts**. One week of a ten-stock book is noise; a year is the shortest window that says anything.
 6. **Scored on two things, both written down at each checkpoint:**
    - **Return:** which book is higher.
@@ -51,6 +55,6 @@ Four of my ten picks are names the [slot battles](plans/2026-10-13-slot-battles.
 
 ## Weekly log
 
-| Wednesday | Prices at | My picks | Plan | QQQ | Picks' worst fall | Plan's worst fall | Note |
-|---|---|---|---|---|---|---|---|
-| 15 Oct 2026 | 15 Oct close | 100.0 | 100.0 | 100.0 | 0% | 0% | start |
+| Wednesday | Prices at | My picks | Real book | Plan | QQQ | Picks' worst fall | Real book's worst fall | Plan's worst fall | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| 15 Oct 2026 | 15 Oct close | 100.0 | 100.0 | 100.0 | 100.0 | 0% | 0% | 0% | start |
