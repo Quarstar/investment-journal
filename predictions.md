@@ -29,6 +29,8 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 
 **What I'll do whatever happens:** no more NBIS buys until $160 with the four deep-value checks ([drawdown plan](plans/2026-10-10-drawdown-plan.md)); the first-half sale stays at a $215 limit to Fri 23 Oct, market Mon 26 Oct. The prediction doesn't change the orders.
 
+**Tracking:** 15 Oct close **$188.41** (day low $163.36, then a ~15% reversal off the low). Floor ($175) intact so far.
+
 **Result (fill on 4 Nov or when decided):** ____
 
 ---
@@ -73,6 +75,8 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | **to 13 Jan 2027** | **14%** | **18%** | **7%** |
 
 The numbers are low because both stocks swing so much that a level 7–10% below the price usually gets tested at some point within three months. Beating a 7% base rate would be strong evidence that the read on where buyers step in adds something.
+
+**Tracking:** 15 Oct closes NBIS **$188.41**, IREN **$30.39**. Both floors intact on the first close.
 
 **Personal note, 18:46 (not scored):** "When IREN hit $27, that was the best price I could buy." IREN's low on the day was $26.60, and it bounced ~9% from there within hours.
 

@@ -1,0 +1,23 @@
+book,ticker,weight_pct,entry_date,entry_close,currency,source,note
+picks,VST,10,2026-10-15,154.17,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,IREN,10,2026-10-15,30.39,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,NBIS,10,2026-10-15,188.41,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,IONQ,10,2026-10-15,34.35,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,MCD,10,2026-10-15,242.50,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,UBER,10,2026-10-15,71.27,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,NFLX,10,2026-10-15,72.61,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,SOFI,10,2026-10-15,15.09,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,MU,10,2026-10-15,931.24,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+picks,LLY,10,2026-10-15,1251.61,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,VST,12,2026-10-15,154.17,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,TSM,12,2026-10-15,422.25,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,NEE,9,2026-10-15,78.96,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,NVDA,9,2026-10-15,217.23,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,GOOGL,8,2026-10-15,349.22,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,UNP,5,2026-10-15,288.71,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,NU,4,2026-10-15,14.73,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,XLVP,12,2026-10-15,177.19,USD,stockanalysis.com XLV history page (at close 4:00 PM EDT),proxy: XLV tracks the same S&P 500 Health Care index; no readable XLVP close
+plan,VUKG,6,2026-10-15,58.16,GBP,Trading 212 position value at 12:04 UK (19.5 units),provisional: no readable 15 Oct close; replace when a verified close is found
+plan,IREN,1,2026-10-15,30.39,USD,stockanalysis.com history page (at close 4:00 PM EDT),
+plan,CASH,22,2026-10-15,1,,,cash earns 0%
+benchmark,QQQ,100,2026-10-15,728.00,USD,stockanalysis.com history page (at close 4:00 PM EDT),

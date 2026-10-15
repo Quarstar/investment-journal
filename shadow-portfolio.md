@@ -10,16 +10,16 @@ A paper portfolio of ten stocks I picked on my own judgment, with no battles, ru
 
 | Ticker | Company | Weight | Entry (15 Oct close) |
 |---|---|---|---|
-| VST | Vistra | 10% | ____ |
-| IREN | IREN | 10% | ____ |
-| NBIS | Nebius | 10% | ____ |
-| IONQ | IonQ | 10% | ____ |
-| MCD | McDonald's | 10% | ____ |
-| UBER | Uber | 10% | ____ |
-| NFLX | Netflix | 10% | ____ |
-| SOFI | SoFi | 10% | ____ |
-| MU | Micron | 10% | ____ |
-| LLY | Eli Lilly | 10% | ____ |
+| VST | Vistra | 10% | $154.17 |
+| IREN | IREN | 10% | $30.39 |
+| NBIS | Nebius | 10% | $188.41 |
+| IONQ | IonQ | 10% | $34.35 |
+| MCD | McDonald's | 10% | $242.50 |
+| UBER | Uber | 10% | $71.27 |
+| NFLX | Netflix | 10% | $72.61 |
+| SOFI | SoFi | 10% | $15.09 |
+| MU | Micron | 10% | $931.24 |
+| LLY | Eli Lilly | 10% | $1,251.61 |
 
 **The plan** (Option F, January 2027 weights from the [target portfolio](plans/target-portfolio.md)), set up on paper at the same close as if it were already built:
 
@@ -31,6 +31,10 @@ A paper portfolio of ten stocks I picked on my own judgment, with no battles, ru
 | NVDA | 9% | | VUKG (FTSE 100) | 6% |
 | GOOGL | 8% | | IREN (swing) | 1% |
 | | | | Cash | 22% |
+
+**Plan and benchmark entry prices (15 Oct 2026 close, locked 22:16 UK):** VST $154.17 · TSM $422.25 · NEE $78.96 · NVDA $217.23 · GOOGL $349.22 · UNP $288.71 · NU $14.73 · XLVP via XLV $177.19 (same S&P 500 Health Care index; no readable XLVP close) · VUKG £58.16 *provisional* (Trading 212 position value at 12:04 UK; no readable close, to be replaced by the verified close) · IREN $30.39 · QQQ $728.00. All closes from the stockanalysis.com history pages, marked "At close: Oct 15, 2026, 4:00 PM EDT"; full table in [`data/shadow_prices.csv`](data/shadow_prices.csv).
+
+**The real book's starting value:** from the four account totals at the 15 Oct close (to be read on the morning of 16 Oct, before the US open).
 
 **The real book** (added 15 Oct, 15:43, at my request): my actual portfolio across all four accounts, as it really is, with the real cash, the real exits and the real gate buys. Indexed to 100 at the same 15 Oct close, so all books start with **the same amount of money**, the real book's value on that day. Its return is measured time-weighted: new money in (wages, student finance) is taken out of the calculation, so deposits don't count as performance.
 
