@@ -49,7 +49,7 @@ Decision taken 14 Oct: Option G. The NBIS lines stand.
 ## Where the cash goes, in order
 
 1. Cash shield back to **15%** (it was 10.7% on 7 Oct). Nothing else is bought until it is.
-2. **TSM** top-up toward 9% after the 15 Oct results gate.
+2. **TSM** top-up toward **12%** (Option F, 15 Oct) after the results gate: the Q3 profit beat passed; buy in two halves, the first once the shield is back over 15%, the second a week later.
 3. **NEE** to 9% in step with the CEG halves, after the 21 Oct gate.
 4. **UNP** to 5% after 22 Oct; **GOOGL** to 8% after 28 Oct; **NU** to 4% after 12 Nov.
 5. The rest stays as shield for the January anchors. If a [drawdown-plan](../plans/2026-10-10-drawdown-plan.md) trigger fires, its tranches take priority over every line above.

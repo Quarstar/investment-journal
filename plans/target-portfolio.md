@@ -1,12 +1,15 @@
-# Target portfolio · written 10 Oct 2026, revised 12 Oct and 14 Oct 2026
+# Target portfolio · written 10 Oct 2026, revised 12, 14 and 15 Oct 2026
 
 Where the book ends up once every current plan is carried out. Assumes:
 - flat prices
 - every gate passes
-- **Option G** on the [14 Oct decision](2026-10-14-decision-googl.md): NEE replaces CEG, NBIS exits, anchors UNP, NU, MCD with the fourth slot open
+- **Option F** on the [14 Oct decision](2026-10-14-decision-googl.md) (G amended 15 Oct): NEE replaces CEG, NBIS exits, TSM at 12%, anchors UNP, NU, MCD with the fourth slot open
 - NOW and MP stay as 2% sandbox positions only if their thesis pages are written and their prints (28 Oct, 5 Nov) hold
 
 If any of those change, the weights change.
+
+## Revision, 15 Oct 2026: Option F (TSM to 12%)
+**What changed:** after TSMC's Q3 beat (profit +69%, a record), TSM goes level with VST at 12%. The 3 points come from the January cash set-aside (cash 25% → 22%, core 47% → 50%), not from NVDA, NEE or GOOGL. Rejected: funding it from NVDA (contradicts the chips battle) or from NEE and GOOGL (drifts back toward a supplier-heavy book). Full comparison on the [decision page](2026-10-14-decision-googl.md).
 
 ## Revision, 14 Oct 2026: Option G
 **What changed:** the [slot battles](2026-10-13-slot-battles.md) tested every planned name against its sector. NEE took CEG's slot (a different bet, 0.38 correlated with VST, a third of the rate sensitivity); UNP, NU and MCD are the anchors (UBER and BWXT lost, BWXT fails the anchor test); the fourth anchor slot stays open until the switch triggers rather than forcing a 42× buy of Costco. NBIS leaves the core and goes first on the deep-value list in the [drawdown plan](2026-10-10-drawdown-plan.md).
@@ -29,25 +32,25 @@ If any of those change, the weights change.
 
 ## The stages
 
-| Layer | Holding | Now (14 Oct) | **January 2027** (G) | **End state** (G, mid-2027+) | **G+** end state |
+| Layer | Holding | Now (14 Oct) | **January 2027** (F) | **End state** (F, mid-2027+) | **G+** end state |
 |---|---|---|---|---|---|
 | **Core power** | VST | 11.9% | 12% | 12% | 14% |
 | | NEE | – | 9% (after 21 Oct results, in step with the CEG halves) | 9% | 9% |
 | | CEG | 12.1% | sold in two halves | – | – |
 | **Core chips** | NVDA | 11.4% | 9% | 9% | 11% |
-| | TSM | 6.1% | 9% (top-up after 15 Oct results) | 9% | 11% |
+| | TSM | 6.1% | **12%** (bought in two halves after the 15 Oct results gate) | **12%** | 12% |
 | **Core adopter** | GOOGL | – | 8% (after 28 Oct results) | 8% | 10% |
 | | NBIS | 9.2% | sold in two halves before 10 Nov | – (deep-value list) | – |
-| | *Core total* | *~51%* | ***47%*** | ***47%*** | ***55%*** |
+| | *Core total* | *~51%* | ***50%*** | ***50%*** | ***55%*** |
 | **Anchors** | UNP | – | 5% (after 22 Oct results) | 6% | 6% |
 | | NU | – | 4% (after 12 Nov results) | 5% | 5% |
 | | MCD | – | – | 4% (third slot, after 4 Nov results) | 4% |
 | | fourth slot | – | – | 4%, name decided at the switch | 4% |
 | | *Anchor total* | *0%* | *9%* | *19%* | *19%* |
-| **Defensive** | Cash shield | 11.1% | 25% (15% floor + 10% for the anchors) | 15% | 15% |
+| **Defensive** | Cash shield | 11.1% | 22% (15% floor + 7% for the anchors) | 15% | 15% |
 | | XLVP (health care) | 8.6% | 12% | 12% | 10% |
-| | VUKG (FTSE 100) | 7.0% | 6% | 6% | 0% (sold at the switch) |
-| | *Defensive total* | *~27%* | *43%* | *33%* | *25%* |
+| | VUKG (FTSE 100) | 7.0% | 6% | 3% | 0% (sold at the switch) |
+| | *Defensive total* | *~27%* | *40%* | *33%* | *25%* |
 | **Sandbox** | IREN swing; NOW and MP at 2% each if their theses hold | ~1% (+8.6% NOW/MP) | 1% (+ NOW/MP up to 4%) | 1% | 1% |
 | **Exiting** | CELH, GRAB, LVMH | 7.7% | sold 14 Oct | – | – |
 | | AVAV | 5.4% | sold week of 19 Oct | – | – |
@@ -60,7 +63,7 @@ If any of those change, the weights change.
 - wages, once I have a new job (after living costs, emergency fund and shield top-ups)
 
 ## What it adds up to
-- **End state: 12 holdings** instead of 17: 5 core, 4 anchors, 2 ETFs, cash and the sandbox (plus NOW and MP at 2% while their theses hold).
-- **AI-linked: ~38%** of the book under G (VST, NVDA, TSM, GOOGL), with NEE's 9% power-adjacent; ~46% under G+. A 30% fall in AI names costs ~11% of the book under G, ~14% under G+.
+- **End state: 12 holdings** instead of 17: 5 core, 4 anchors, 2 ETFs, cash and the sandbox (plus NOW and MP at 2% while their theses hold). With the core at 50%, the end state funds the extra 3 points by taking VUKG from 6% to 3%; G+ then sells the rest at the switch.
+- **AI-linked: ~41%** of the book under F (VST, NVDA, TSM, GOOGL), with NEE's 9% power-adjacent; ~47% under G+. A 30% fall in AI names costs ~12% of the book under F, ~14% under G+.
 - **Caps all hold:** largest single stock 12% (14% under G+; cap 20), power 21% (23%; cap 35), neocloud 0% (cap 15), anchors 19% at the switch (cap 20), cash 15% at the end state (floor 15).
-- **Defensive: 43% in January, 33% at the end state, 25% under G+.** That funds the [drawdown plan](2026-10-10-drawdown-plan.md) and the deep-value list if a correction comes first. If a drawdown trigger is hit, the plan's tranches take priority over these targets.
+- **Defensive: 40% in January, 30% at the end state, 25% under G+.** That funds the [drawdown plan](2026-10-10-drawdown-plan.md) and the deep-value list if a correction comes first. If a drawdown trigger is hit, the plan's tranches take priority over these targets.

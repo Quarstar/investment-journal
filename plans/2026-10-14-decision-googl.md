@@ -1,6 +1,6 @@
 # Decision for Wednesday 14 Oct review: does GOOGL replace VST or CEG in the core?
 
-> Prepared 10 Oct 2026 with data to 9 Oct; Option D added 13 Oct, Option E later the same day. Decide at the review, not before. **A full comparison of A, B, C and D, with stress tests and a recommendation (D, with conditions), is on the [comparison page](2026-10-13-abcd-comparison.md); the [slot battles](2026-10-13-slot-battles.md) then tested every name in D against its sector and produced Option E.** Under the [concentration plan](2026-10-10-concentration-plan.md), the core is capped at 5 AI names, one in, one out.
+> Prepared 10 Oct 2026 with data to 9 Oct; Option D added 13 Oct, Option E later the same day, Option F on 15 Oct. Decide at the review, not before. **A full comparison of A, B, C and D, with stress tests and a recommendation (D, with conditions), is on the [comparison page](2026-10-13-abcd-comparison.md); the [slot battles](2026-10-13-slot-battles.md) then tested every name in D against its sector and produced Option E.** Under the [concentration plan](2026-10-10-concentration-plan.md), the core is capped at 5 AI names, one in, one out.
 
 ## The question
 VST and CEG are close to one bet (weekly correlation 0.75; both down ~18–19% over the year). Would the core be better with Alphabet in one of those slots? Alphabet would fill the big-tech slot that's been empty since I sold AMZN.
@@ -83,6 +83,23 @@ The real AI risk is in NBIS and NVDA, not the power names.
 
 **Later the same evening:** three regulated utilities (DUK, SO, AEP) were added to the power battle. DUK edges NEE on the risk rubric, NEE edges DUK on the growth tilt; NEE keeps the slot with DUK as the alternate. A growth-tilted re-run of every battle (§11 of the battles page) changes one slot: **Option G** = E with NU instead of V. **Option G+** is the re-risk for the first review after a new job: cash to the 15% floor, core to 55% (VST 14, NVDA 11, TSM 11, GOOGL 10, NEE 9).
 
+## Option F (added 15 Oct, the morning after): G with TSM at 12%
+**Where it comes from:** TSMC's Q3 (15 Oct): record profit T$763.1B, +69%, ahead of the T$746.3B estimate, on revenue +50%; two days after ASML said customers are sold out into 2028. TSM is the toll gate for NVDA, AMD and AVGO alike, the lowest-risk chip name in the [slot battles](2026-10-13-slot-battles.md) (32% drawdown probability, −2.4% in the Nasdaq's worst weeks) and it has fallen ~10% from its high while earnings rose. I want it level with VST.
+
+| | **G** | **F** |
+|---|---|---|
+| VST | 12% | 12% |
+| TSM | 9% | **12%** |
+| NVDA | 9% | 9% |
+| NEE | 9% | 9% |
+| GOOGL | 8% | 8% |
+| Core total | 47% | **50%** |
+| Cash (January stage) | 25% | **22%** |
+
+The extra 3 points come from the January cash set-aside, not from any other name: NVDA won the chips battle in 99% of runs and NEE and GOOGL are the two slots that make this book different from D, so none of them is cut to fund it. It is a small step toward G+ taken early. Simulated against G on the same January-stage book: beta 0.29 vs 0.26, a Nasdaq −25% costs 7.3% vs 6.6%, an NVDA −40% costs 5.2% vs 4.7%, a +20% year gives +5.8% vs +5.3%, 10% chance of a 10% fall inside six months vs 8%. NVDA and TSM are 0.44 correlated; TSM and VST 0.27.
+
+**Rejected variants:** F1 (TSM 12 funded by NVDA 6) contradicts the chips battle; F2 (TSM 12 funded by NEE 7, GOOGL 7) drifts back toward the supplier-heavy book cut on 12 Oct.
+
 ## Decision rules for Wednesday
 - [ ] Is the VST/CEG ratio stretched? It's ~0.54 now (neutral; above ~0.62 favours keeping VST, below ~0.48 favours keeping CEG). If neutral, decide on the thesis, not the ratio.
 - [ ] Write a one-page GOOGL thesis with sell triggers before any buy.
@@ -107,6 +124,7 @@ Despite this, VST trades at ~15× forward earnings vs CEG's ~20×, and its weekl
 
 ## My decision
 - **Option chosen: G** (Option E with NU in V's slot): VST 12, NEE 9, NVDA 9, TSM 9, GOOGL 8; anchors UNP, NU, then MCD, fourth slot open.
+- **Amended 15 Oct, 07:54, to Option F:** TSM 12% instead of 9%, funded from the January cash set-aside (core 50%, cash 22%). Reason: TSMC's Q3 beat and the toll-gate case; see Option F above. Everything else in G stands.
 - **Reason:** the slot battles, read with the growth tilt, which is the weighting that matches what I want from the book: a slightly higher growth ceiling, with the defence done by the anchors and the shield rather than by the core. NEE over CEG because the power pair was one bet held twice (0.74 correlated, both −26% per point of yield); NEE is a different bet (0.38) that still owns nuclear sold to an AI buyer. TSM over MU because MU's case is a cycle top. NU over V because, at 25 defence points instead of 50, NU's growth wins and it still passes the anchor test. Not E, because I want the growth version; not G+ yet, because there is no income behind the book until January.
 - **Conditions carried over from D:** GOOGL gate 28 Oct; NBIS out in two halves before 10 Nov; the rate rule (10-year above 5.50% two Wednesdays running → power pair to 16%, VST trimmed first).
 - **Added:** the cash shield doubles as a deep-value buying pot under written triggers (drawdown plan); G+ starts at the first review after the January student finance or a job, whichever comes first.
