@@ -50,6 +50,7 @@ History says the handover from AI suppliers to AI adopters usually comes through
 
 ## 5c. Predictions
 - [ ] Any call in the [predictions log](../predictions.md) past its deadline? Score it (full / half / miss) and update the scoreboard
+- [ ] [My picks vs the plan](../shadow-portfolio.md): add the week's row (both books, QQQ, worst falls) at Tuesday's close. Verdicts only at 13 Jan, 14 Apr and 13 Oct 2027
 
 ## 6. Swing trades
 - [ ] Open trades: stop still placed as a real order? Time stop or earnings date within the next week?
