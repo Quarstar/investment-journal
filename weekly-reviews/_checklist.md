@@ -1,9 +1,10 @@
 # Wednesday review checklist
 
-Run every Wednesday (payday). Verify; don't estimate. Commit the review as `weekly-reviews/YYYY-MM-DD.md`.
+Run every Wednesday. Verify; don't estimate. Commit the review as `weekly-reviews/YYYY-MM-DD.md`.
 
 ## 1. Money in
-- [ ] Pay received. Fixed living-costs amount moved out first, the rest per the rules below.
+From the new job (Oct 2026), pay is **monthly, on the 25th**, not weekly. On the 25th the fixed living-costs amount goes to the current account; the rest is invested at the **first Wednesday review after the 25th**. The other Wednesdays are reviews with no new money. At the expected hours, new money is roughly **3–4% of the book a month** before the student finance tranches.
+- [ ] Is this the first review after the 25th? If yes: pay received, living costs moved out first, the rest per the rules below. If no: skip to 2.
 - [ ] Emergency fund (kept outside the portfolio) at its target? If not, refill it first.
 - [ ] Cash shield at 15%+? If not, top it up before any buying.
 
