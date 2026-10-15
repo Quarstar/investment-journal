@@ -11,6 +11,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | open |
 | 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open |
+| 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open |
 
 ---
 
@@ -76,5 +77,24 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 **Personal note, 18:46 (not scored):** "When IREN hit $27, that was the best price I could buy." IREN's low on the day was $26.60, and it bounced ~9% from there within hours.
 
 **What I'll do whatever happens:** no NBIS buys before ~22 Nov (dilution rule) and none in the 27 Oct–10 Nov results window; no IREN adds (sandbox, no averaging down). The prediction doesn't change the orders.
+
+**Result:** ____
+
+---
+
+## 4 · CELH reaches $60 within a year
+**Made:** Thu 15 Oct 2026, 19:27 UK, the day I sold the whole position (T212 lot $27.00, Revolut lot $27.88) under the concentration plan. CELH was green that afternoon while the Nasdaq fell, as money rotated out of chips and AI debt.
+
+**My words:** "I was holding Celsius for months with genuine conviction that it could hit $60 in the next year. Honestly the move from money in AI to other sectors could be the catalyst for that."
+
+**How it's scored (fixed 19:30 on 15 Oct):**
+- **Full hit:** CELH **trades** at or above **$60.00** (intraday counts) at any point up to **Fri 15 Oct 2027**.
+- **Half:** it gets to **$45** (+61% from the $27.88 sale) but not $60.
+- **Miss:** neither.
+- Whatever happens, the exit's cost or saving is written in a post-mortem: the sale price against CELH's price on 15 Oct 2027, so the decision to sell is scored as well as the call.
+
+**Base rate** (100,000 simulated one-year paths from $27.88, no drift): CELH touches $60 in **10%** of paths at 55% volatility and **17%** at 70% (its volatility isn't in the journal's data yet, so both are shown); it ends the year at or above $60 in 5–7%.
+
+**What I'll do whatever happens:** no buy-back before the [re-entry gate](plans/watch-items.md) (the 5 Nov results) passes. The prediction doesn't change the orders.
 
 **Result:** ____

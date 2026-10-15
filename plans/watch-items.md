@@ -48,3 +48,14 @@ Asked after the [slot battles](2026-10-13-slot-battles.md) put LMT in the defenc
 | **Rolls-Royce (RR, London)** | Price history could not be read (rate-limited), so no anchor test. Quote page: 31.7× forward, 0.8% yield, revenue +19%, five-year beta 1.19, shares ~50% above the 52-week low. Civil aero engines, Royal Navy submarine reactors (the UK's BWXT), mtu backup generators for data centres, selected for the UK SMR programme in 2025. | Not an anchor by profile (beta, momentum, price). A **supplier** candidate for the power battle against GEV and BWXT, on a London listing with 0.5% stamp duty. Test when the page can be read. |
 | **Gold (physical gold ETC, e.g. a UK-listed ISA-eligible one)** | No earnings, dividend or growth, so 45 of the anchor rubric's 100 points cannot be scored: it isn't an anchor *stock*. Full-year weekly data blocked tonight; the seven weeks readable (21 Aug → 9 Oct) show the gold ETF GLD −9% while QQQ rose ~5%, with the 10-year going to 5.2%: in a rising-real-rate regime gold has been falling with the rate-sensitive names, not against them. Over longer periods its correlation with equities is low and it has helped in growth-fear sell-offs. | Not for the anchor sleeve. A candidate for the **defensive layer**, in VUKG's slot (5–6%) under G+, if a full-year test shows correlation with QQQ < 0.3 and a worst-10 at least as good as QQQ's. Test when the data can be read. ETCs carry no stamp duty; fees ~0.1–0.2%. |
 | **Coinbase (COIN)** | Five-year beta 3.41, revenue −9%, trailing loss (−$988M), 170× forward, 52-week range $139–373 (now ~$182). | **No.** It is a leveraged bet on the crypto cycle that moves with the Nasdaq on bad days; the opposite of ballast. |
+
+## CELH: re-entry gate (added 15 Oct 2026)
+Fully sold on 15 Oct (T212 lot $27.00 pre-market, Revolut lot $27.88) under the concentration plan: off thesis after repeated growth misses. I still hold the conviction that it can reach $60 within a year (logged as [Prediction 4](../predictions.md)), so the way back in is written down rather than left to a green day.
+
+**Gate: the 5 Nov 2026 results.** CELH can come back only if all of these hold, checked at the first Wednesday review after the print:
+1. **Growth turning back up:** revenue growth year on year higher than the previous quarter's, with guidance not cut.
+2. **No new equity raised**, and the share count up less than 10% year on year.
+3. **A slot for it:** either the sandbox (≤5%, within the 10% speculative bucket), or tested against the anchors with the same anchor test as UNP, NU and MCD (beta < 0.8, correlation with NVDA < 0.5, falls less than the Nasdaq in bad weeks). It failed that test in the battles (beta 1.47), so the sandbox is the realistic route.
+4. **Entry on the [execution rule](adaptive-rules.md):** a limit with a deadline, never a chase on the day of the print.
+
+If the gate fails, it stays off the book and stays on this list until the next print.
