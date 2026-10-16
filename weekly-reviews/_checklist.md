@@ -27,6 +27,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Drawdown plan: QQQ vs its 52-week high ($762.86, the 6 Oct intraday high; highest close $759.66). Any trigger hit (−10% G+ half / −15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
 - [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ cash held for a dip: QQQ −10% (~$687) → half into G+ names, deepest into their capture zones first; −15% ($648) → drawdown plan; time stop at the first review after the January student finance; nothing before the first full pay unless a dip trigger fires
+- [ ] NBIS conviction slot (G+N5): weight inside 3–7%? Price in Zone 1 ($148–160) with all four checks passed (not before ~22 Nov) → buy towards 7%; at $205+ → trim to 5%; any kill criterion hit (share count +15% yoy, backlog shrinking, a major customer cutting) → slot to 0
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates

@@ -3,10 +3,16 @@
 Where the book ends up once every current plan is carried out. Assumes:
 - flat prices
 - every gate passes
-- **Option F** on the [14 Oct decision](2026-10-14-decision-googl.md) (G amended 15 Oct): NEE replaces CEG, NBIS exits, TSM at 12%, anchors UNP, NU, MCD with the fourth slot open
+- **Option F** on the [14 Oct decision](2026-10-14-decision-googl.md) (G amended 15 Oct): NEE replaces CEG, NBIS leaves the core (kept at 5% as a conviction slot from 16 Oct), TSM at 12%, anchors UNP, NU, MCD with the fourth slot open
 - NOW and MP stay as 2% sandbox positions only if their thesis pages are written and their prints (28 Oct, 5 Nov) hold
 
 If any of those change, the weights change.
+
+## Revision, 16 Oct 2026: NBIS conviction slot (G+N5)
+**What changed:** NBIS stays in the book as a **conviction slot**, outside the 5-name core: **5% base, band 3–7%**. The second-half sale is cancelled; the first-half sale still runs, so the position comes down from ~9% to ~5% before the 10 Nov results. At G+ the slot is funded from NVDA (11 → 9) and XLVP (10 → 7); until then it comes out of the January cash set-aside (22% → ~17%, still above the 15% floor).
+**Why:** it's my conviction play (neocloud bottleneck thesis). Simulated against G+ (20,000 resampled 26-week paths, trend removed): 5% NBIS lifts the good-case 26-week return (95th percentile) from +12.9% to +16.3% while the bad case (5th percentile) moves only from −8.6% to −8.9%, because NBIS is only moderately correlated with the rest (0.41 with NVDA, 0.24 with VST). Book volatility rises from 10.9% to 13.4%. Past 5% the trade worsens (8%: −9.5% / +18.7%; 10%: −10.4% / +20.9%).
+**The band:** buy back towards 7% only inside Zone 1 ($148–160, [capture zones](capture-zones.md)) with the deep-value checks passed (dilution clears ~22 Nov; share count verified at the 10 Nov results); trim back to 5% at $205 or higher. **Kill criteria** (slot to 0): share count up 15%+ in a year, backlog shrinking, or a major customer cutting or delaying a contract.
+**Cost, written down:** the G+ dip cash above the 15% floor shrinks from ~7 points to ~2, and an NVDA-style crash hurts the book a little more (−7.8% vs −6.0% for a 40% NVDA fall).
 
 ## Revision, 15 Oct 2026: Option F (TSM to 12%)
 **What changed:** after TSMC's Q3 beat (profit +69%, a record), TSM goes level with VST at 12%. The 3 points come from the January cash set-aside (cash 25% → 22%, core 47% → 50%), not from NVDA, NEE or GOOGL. Rejected: funding it from NVDA (contradicts the chips battle) or from NEE and GOOGL (drifts back toward a supplier-heavy book). Full comparison on the [decision page](2026-10-14-decision-googl.md).
@@ -40,7 +46,7 @@ If any of those change, the weights change.
 | **Core chips** | NVDA | 11.4% | 9% | 9% | 11% |
 | | TSM | 6.1% | **12%** (bought in two halves after the 15 Oct results gate) | **12%** | 12% |
 | **Core adopter** | GOOGL | – | 8% (after 28 Oct results) | 8% | 10% |
-| | NBIS | 9.2% | sold in two halves before 10 Nov | – (deep-value list) | – |
+| **Conviction slot** | NBIS | 9.2% | **5%** (first half sold before 10 Nov; second half kept; band 3–7%) | 5% | **5%** (G+N5: funded NVDA 11 → 9, XLVP 10 → 7) |
 | | *Core total* | *~51%* | ***50%*** | ***50%*** | ***55%*** |
 | **Anchors** | UNP | – | 5% (after 22 Oct results) | 6% | 6% |
 | | NU | – | 4% (after 12 Nov results) | 5% | 5% |
