@@ -12,7 +12,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open |
-| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | 3 months after the $165 fill | open (not triggered yet) |
+| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct) |
 
 ---
 
@@ -112,7 +112,7 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 **My words:** "At $165 I'm going to put in [about 2.6% of the book]. I'm extremely confident that it will go back to the $200s within the next 3 months. If it gaps down below that, another [~1.3%] at $148, and that's all. I'll keep my limit sells."
 
 **How it's scored (fixed 16:20 on 16 Oct):**
-- **Starts** the day the $165 buy fills. If it never fills, the prediction is void (not scored).
+- **Started 16 Oct 2026:** the $165 buy filled that day (NBIS closed $165.47). Deadline **Sat 16 Jan 2027**. Size was ~3.2% of the book, more than the ~2.6% stated when the call was made; the overshoot is on the record in the 14 Oct review's addenda.
 - **Full hit:** NBIS **trades** at or above **$200.00** (intraday counts) within 3 months of the fill date.
 - **Miss:** it doesn't. Whatever happens, the buy's result is written up against the plan (which said no NBIS buys before ~22 Nov).
 
