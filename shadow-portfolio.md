@@ -34,7 +34,7 @@ A paper portfolio of ten stocks I picked on my own judgment, with no battles, ru
 
 **Plan and benchmark entry prices (15 Oct 2026 close, locked 22:16 UK):** VST $154.17 · TSM $422.25 · NEE $78.96 · NVDA $217.23 · GOOGL $349.22 · UNP $288.71 · NU $14.73 · XLVP via XLV $177.19 (same S&P 500 Health Care index; no readable XLVP close) · VUKG £58.16 *provisional* (Trading 212 position value at 12:04 UK; no readable close, to be replaced by the verified close) · IREN $30.39 · QQQ $728.00. All closes from the stockanalysis.com history pages, marked "At close: Oct 15, 2026, 4:00 PM EDT"; full table in [`data/shadow_prices.csv`](data/shadow_prices.csv).
 
-**The real book's starting value:** from the four account totals at the 15 Oct close (to be read on the morning of 16 Oct, before the US open).
+**The real book's starting value:** set from the four account totals at the 15 Oct close, read at 10:08 UK on 16 Oct before the US open (cash reserved for the open TSM limit counted as cash). The £ figure stays in the private, git-ignored folder; only the index is published.
 
 **The real book** (added 15 Oct, 15:43, at my request): my actual portfolio across all four accounts, as it really is, with the real cash, the real exits and the real gate buys. Indexed to 100 at the same 15 Oct close, so all books start with **the same amount of money**, the real book's value on that day. Its return is measured time-weighted: new money in (wages, student finance) is taken out of the calculation, so deposits don't count as performance.
 
