@@ -12,6 +12,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open |
+| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | 3 months after the $165 fill | open (not triggered yet) |
 
 ---
 
@@ -100,5 +101,21 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 **Base rate** (100,000 simulated one-year paths from $27.88, no drift): CELH touches $60 in **10%** of paths at 55% volatility and **17%** at 70% (its volatility isn't in the journal's data yet, so both are shown); it ends the year at or above $60 in 5–7%.
 
 **What I'll do whatever happens:** no buy-back before the [re-entry gate](plans/watch-items.md) (the 5 Nov results) passes. The prediction doesn't change the orders.
+
+**Result:** ____
+
+---
+
+## 5 · NBIS bought at $165 is back in the $200s within 3 months
+**Made:** Fri 16 Oct 2026, 16:18 UK. NBIS ~$188 after the 15 Oct reversal (low $163.36, close $188.41).
+
+**My words:** "At $165 I'm going to put in [about 2.6% of the book]. I'm extremely confident that it will go back to the $200s within the next 3 months. If it gaps down below that, another [~1.3%] at $148, and that's all. I'll keep my limit sells."
+
+**How it's scored (fixed 16:20 on 16 Oct):**
+- **Starts** the day the $165 buy fills. If it never fills, the prediction is void (not scored).
+- **Full hit:** NBIS **trades** at or above **$200.00** (intraday counts) within 3 months of the fill date.
+- **Miss:** it doesn't. Whatever happens, the buy's result is written up against the plan (which said no NBIS buys before ~22 Nov).
+
+**Base rate** (200,000 simulated paths, 94% volatility, no drift): from $165, NBIS touches $200 within 3 months **56%** of the time. (From today's $188, the chance it dips to $165 at some point in the next 3 months is 78%.)
 
 **Result:** ____
