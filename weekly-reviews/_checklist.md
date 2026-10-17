@@ -41,6 +41,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Anything new must replace a core name, or go in the sandbox
 - [ ] [Watch items](../plans/watch-items.md): any Terafab milestone hit?
 - [ ] VST edge check: forward P/E gap to CEG, and VST's correlation with NVDA
+- [ ] Re-run the [risk-adjusted ranking](../plans/2026-10-17-risk-adjusted-ranking.md) with the week's prices (`analysis/risk_adjusted_ranking.py --prices <file>`); when two buys are ready at once, the higher-ranked goes first
 
 ## 5b. Build-out → adopter transition (added 12 Oct 2026)
 History says the handover from AI suppliers to AI adopters usually comes through a crash. Track these each week:
