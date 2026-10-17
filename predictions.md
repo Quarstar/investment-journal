@@ -13,6 +13,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open |
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct) |
+| 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open |
 
 ---
 
@@ -117,5 +118,22 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 - **Miss:** it doesn't. Whatever happens, the buy's result is written up against the plan (which said no NBIS buys before ~22 Nov).
 
 **Base rate** (200,000 simulated paths, 94% volatility, no drift): from $165, NBIS touches $200 within 3 months **56%** of the time. (From today's $188, the chance it dips to $165 at some point in the next 3 months is 78%.)
+
+**Result:** ____
+
+---
+
+## 6 · NBIS doesn't close below $140
+**Made:** Sat 17 Oct 2026, 10:28 UK. NBIS $165.47 (16 Oct close), after a −12% day; semis nine sessions down.
+
+**My words:** "If Nebius reaches a price below $140 it is a seriously crazy price. People like Leopold and other investment firms were buying at mid-$200s thinking that was a good price. I think buyers will heavily defend those areas and the rally will be strong when the time comes."
+
+**How it's scored (fixed 10:30 on 17 Oct):** no daily **close** below **$140.00** from 19 Oct to **Wed 13 Jan 2027** (same deadline as Prediction 3). Hit or miss; intraday spikes don't count.
+
+**Base rate** (200,000 simulated paths, 94% volatility, no drift, from $165.47): the floor holds in **27%** of paths. For reference the same simulation gives the $205 sell a 25% chance of filling by 6 Nov and the $215 sell a 3% chance by 23 Oct.
+
+**Noted against it, so it's judged fairly:** NBIS closed at $89–101 in March 2026 with the Microsoft and both Meta deals already signed, and the map's next demand zone below $148–160 is $105–118. The call is that the stock has re-rated since then and the new floor is higher.
+
+**What I'll do whatever happens:** the orders as written (sells $215 → $205 → market by 6 Nov; the $148 buy is "that's all"). If it goes below $140, I don't add: the $205 sell is what has to come first, before any rebuy is considered.
 
 **Result:** ____
