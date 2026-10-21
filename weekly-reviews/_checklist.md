@@ -50,7 +50,7 @@ History says the handover from AI suppliers to AI adopters usually comes through
 - [ ] **Neocloud or AI-lab funding pulled, delayed or repriced** (e.g. Firmus scrapped its IPO, Oct 2026)
 - [ ] **AI-lab revenue missing what was signalled** (e.g. OpenAI ~$50B vs ~$70B signalled)
 
-**Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong; 0 confirmed, 2 to watch. **21 Oct: 1 confirmed (funding repriced: CoreWeave bonds ~15%, Firmus IPO pulled), 1 to watch (OpenAI run-rate vs signal); GPU rental prices rising (signal 2 off); capex signal tested by Meta 21 Oct, MSFT/GOOGL 28 Oct, AMZN 29 Oct — decision point 4 Nov.**
+**Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong; 0 confirmed, 2 to watch. **21 Oct: 1 confirmed (funding repriced: CoreWeave bonds ~15%, Firmus IPO pulled), 1 to watch (OpenAI run-rate vs signal); GPU rental prices rising (signal 2 off); capex signal tested by Meta 21 Oct (**not flipped**: 2026 narrowed up to $135–145B, 2027 "aggressive", no number; FCF negative), MSFT/GOOGL 28 Oct, AMZN 29 Oct — decision point 4 Nov.**
 
 ## 5b2. Rotation gauge (added 15 Oct 2026)
 Is money leaving AI/tech for the rest of the market? Checked weekly, as **4-week relative performance** at Tuesday's close:
