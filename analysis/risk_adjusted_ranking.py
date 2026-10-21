@@ -24,15 +24,25 @@ for t in NAMES:
     r = np.diff(np.log(np.array([float(x[t]) for x in rows])))
     vol = r.std(ddof=1) * np.sqrt(52)
     dn = r[r < 0]; ddev = np.sqrt((dn ** 2).sum() / len(r)) * np.sqrt(52)  # downside deviation (target 0)
-    up = float(f['analyst_target']) / p - 1
+    up_raw = float(f['analyst_target']) / p - 1
+    up = up_raw  # capped below once every name's upside is known
     sharpe = (up - RF) / vol
     sortino = (up - RF) / ddev
     q05 = ST[t]['q05_26w'] / 100
     rr = up / abs(q05)
-    fwd = float(f['fwd_pe']) if f['fwd_pe'] else None
+    fwd = round(float(f['fwd_pe']) * p / float(f['price_usd']), 1) if f['fwd_pe'] else None  # forward P/E at today's price (same EPS as the snapshot)
     g = float(f['ni_growth_pct']) if f['ni_growth_pct'] else None
     peg = fwd / g if (fwd and g and g > 0) else None
-    out.append(dict(t=t, p=p, up=up, vol=vol, ddev=ddev, q05=q05, sharpe=sharpe, sortino=sortino, rr=rr, fwd=fwd, peg=peg, pdd=ST[t]['p_dd20']))
+    out.append(dict(t=t, p=p, up=up, up_raw=up_raw, vol=vol, ddev=ddev, q05=q05, sharpe=sharpe, sortino=sortino, rr=rr, fwd=fwd, peg=peg, pdd=ST[t]['p_dd20']))
+# Guard 1 (added 21 Oct): a stale or outlying consensus target can't carry a name to the top. Upside is capped at
+# twice the list's median upside; the three return-based ratios are recomputed with the capped figure.
+CAP = 2 * float(np.median([o['up_raw'] for o in out]))
+for o in out:
+    if o['up_raw'] > CAP:
+        o['up'] = CAP; o['capped'] = True
+        o['sharpe'] = (CAP - RF) / o['vol']; o['sortino'] = (CAP - RF) / o['ddev']; o['rr'] = CAP / abs(o['q05'])
+    else:
+        o['capped'] = False
 def rank(key, higher_better=True, only=None):
     pool = [o for o in out if (o[key] is not None)]
     order = sorted(pool, key=lambda o: -o[key] if higher_better else o[key])
@@ -43,9 +53,16 @@ rank('sharpe'); rank('sortino'); rank('rr'); rank('peg', higher_better=False)
 for o in out:
     rs = [o['r_sharpe'], o['r_sortino'], o['r_rr']] + ([o['r_peg']] if o['r_peg'] else [])
     o['comp'] = sum(rs) / len(rs)
+# Guard 2 (added 21 Oct): the top half is reserved for names with a positive PEG (real forward earnings growing).
+out.sort(key=lambda o: o['comp'])
+half = len(out) // 2
+no_peg = [o for o in out if not o['peg']]
+for o in no_peg:
+    o['comp'] = max(o['comp'], out[half]['comp'] + 0.01)
 out.sort(key=lambda o: o['comp'])
 print('| # | Name | Price | Upside to target | Vol | Downside dev. | Sharpe | Sortino | Reward÷risk (5th pct 26w) | Fwd P/E | PEG | Avg rank |')
 print('|---|---|---|---|---|---|---|---|---|---|---|---|')
 for i, o in enumerate(out, 1):
     peg = f"{o['peg']:.2f} ({o['r_peg']})" if o['peg'] else 'n/a'
-    print(f"| {i} | {o['t']} | {o['p']:.2f} | {o['up']*100:+.0f}% | {o['vol']*100:.0f}% | {o['ddev']*100:.0f}% | {o['sharpe']:.2f} ({o['r_sharpe']}) | {o['sortino']:.2f} ({o['r_sortino']}) | {o['rr']:.2f} ({o['r_rr']}) | {o['fwd'] or '-'} | {peg} | {o['comp']:.1f} |")
+    upc = f"{o['up']*100:+.0f}%" + (f" (capped from {o['up_raw']*100:+.0f}%)" if o['capped'] else '')
+    print(f"| {i} | {o['t']} | {o['p']:.2f} | {upc} | {o['vol']*100:.0f}% | {o['ddev']*100:.0f}% | {o['sharpe']:.2f} ({o['r_sharpe']}) | {o['sortino']:.2f} ({o['r_sortino']}) | {o['rr']:.2f} ({o['r_rr']}) | {o['fwd'] or '-'} | {peg} | {o['comp']:.1f} |")

@@ -1,7 +1,7 @@
 """Capture zones: per-stock support, capitulation and ceiling levels.
 
-Re-run every Wednesday after refreshing data/daily_<date>/ (50 sessions of daily OHLCV
-per name, from stockanalysis.com history pages) and the weekly closes file.
+Re-run every Wednesday after appending the week's rows to data/daily_2026-10-14/ (daily OHLCV per
+name from stockanalysis.com history pages; the last 50 sessions are used) and the weekly closes file.
 
 Method (all mechanical; the judgment overlay lives on plans/capture-zones.md):
   1. Candidate support levels below the last close, from five sources:
@@ -30,13 +30,15 @@ DAILY = os.path.join(ROOT, "data", "daily_2026-10-14")
 WEEKLY = os.path.join(ROOT, "data", "weekly_closes_battles_2025-10-24_to_2026-10-09.csv")
 FUND = os.path.join(ROOT, "data", "fundamentals_2026-10-13.csv")
 NAMES = ["VST", "NEE", "NVDA", "TSM", "GOOGL", "UNP", "NU", "MCD",
-         "NBIS", "AMD", "CEG", "MU", "TLN", "AVGO", "QQQ"]
+         "NBIS", "AMD", "CEG", "MU", "TLN", "AVGO", "QQQ", "IREN", "APLD"]
 rng = np.random.default_rng(20261015)
 
 
-def load_daily(t):
+def load_daily(t, n=50):
+    """The last n sessions in the file (files grow each week; the method uses 50)."""
     rows = list(csv.DictReader(open(os.path.join(DAILY, f"{t}.csv"))))
     rows.sort(key=lambda r: r["date"])
+    rows = rows[-n:]
     return [{k: (r[k] if k == "date" else float(r[k])) for k in r} for r in rows]
 
 
@@ -47,6 +49,11 @@ def load_weekly():
 
 def load_fund():
     return {r["ticker"]: r for r in csv.DictReader(open(FUND))}
+
+
+def _is_friday(date):
+    import datetime
+    return datetime.date.fromisoformat(date).weekday() == 4
 
 
 def atr(d, n=14):
@@ -110,6 +117,10 @@ def analyse(t, weekly, fund):
     d = load_daily(t)
     last = d[-1]["close"]
     wk = [float(r[t]) for r in weekly if r.get(t)]
+    wdates = [r["week_ending"] for r in weekly if r.get(t)]
+    if len(wk) < 20:  # no year of weekly closes in the file (IREN, APLD): use the daily file's Friday closes
+        wk = [r["close"] for r in load_daily(t, 400) if r["date"] and _is_friday(r["date"])]
+        wdates = [r["date"] for r in load_daily(t, 400) if _is_friday(r["date"])]
     closes_1y = wk + [last]
     a = atr(d)
     wr = np.diff(np.log(np.array(wk)))
@@ -123,7 +134,6 @@ def analyse(t, weekly, fund):
     cands = []
     for i, p in pivots([r["low"] for r in d], 3, "low"):
         cands.append((p, f"daily swing low {d[i]['date']}"))
-    wdates = [r["week_ending"] for r in weekly if r.get(t)]
     for i, p in pivots(wk, 2, "low"):
         cands.append((p, f"weekly swing close {wdates[i]}"))
     cands.append((ma40, "40-week average"))
@@ -170,7 +180,7 @@ def analyse(t, weekly, fund):
     testing = [l for l in levels if last - a < l["level"] < last]
     testing = max(testing, key=lambda l: l["strength"]) if testing else None
     return {"ticker": t, "testing_now": ({"level": round(testing["level"], 2), "strength": testing["strength"],
-                                          "sources": testing["sources"]} if testing else None), "last_close_14oct": last, "atr14": round(a, 2), "vol_annual": round(vol, 3),
+                                          "sources": testing["sources"]} if testing else None), "last_close": last, "last_date": d[-1]["date"], "atr14": round(a, 2), "vol_annual": round(vol, 3),
             "weekly_sd_usd": round(wk_sd, 2), "ma40w": round(ma40, 2), "high_52w": round(hi52, 2),
             "low_52w_close": round(lo52_close, 2), "fwd_pe_now": round(last / eps, 1) if eps else None,
             "zone1": band(z1) if z1 else None, "zone2": band(z2),
@@ -189,7 +199,7 @@ def main():
     for t, r in out.items():
         z1, z2 = r["zone1"], r["zone2"]
         f = lambda z: f"{z['bottom']}–{z['top']} ({z['pct_from_last']}%)" if z else "–"
-        print(f"| {t} | {r['last_close_14oct']} | {r['atr14']} | {r['vol_annual']:.0%} | {r['ma40w']} | {r['high_52w']} | "
+        print(f"| {t} | {r['last_close']} | {r['atr14']} | {r['vol_annual']:.0%} | {r['ma40w']} | {r['high_52w']} | "
               f"{f(z1)} | {z1['strength'] if z1 else ''} | {z1['fwd_pe'] if z1 else ''} | {z1['p_touch_13w'] if z1 else ''} | "
               f"{f(z2)} | {z2['strength']} | {z2['fwd_pe']} | {z2['p_touch_13w']} | {r['ceiling']['level']} ({r['ceiling']['pct_from_last']}%) |")
 
