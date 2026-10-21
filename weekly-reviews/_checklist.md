@@ -27,11 +27,11 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] Drawdown plan: QQQ vs its 52-week high ($762.86, the 6 Oct intraday high; highest close $759.66). Any trigger hit (−10% G+ half / −15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
 - [ ] Concentration plan: phase status → [plan](../plans/2026-10-10-concentration-plan.md)
 - [ ] Option F in progress (G decided 14 Oct, TSM raised to 12% on 15 Oct): exits and gates per the [limit-order sheet](../trades/limit-orders-2026-10-14.md); G+ cash held for a dip: QQQ −10% (~$687) → half into G+ names, deepest into their capture zones first; −15% ($648) → drawdown plan; time stop at the first review after the January student finance; nothing before the first full pay unless a dip trigger fires
-- [ ] NBIS conviction slot (G+N5): weight inside 3–7%? Price in Zone 1 ($148–160) with all four checks passed (not before ~22 Nov) → buy towards 7%; at $205+ → trim to 5%; any kill criterion hit (share count +15% yoy, backlog shrinking, a major customer cutting) → slot to 0
+- [ ] NBIS conviction slot (G+N5): kill line wording to settle (see 21 Oct review §4: measured from the 10 Nov share count forward?) · weight inside 3–7%? Price in Zone 1 ($148–160) with all four checks passed (not before ~22 Nov) → buy towards 7%; at $205+ → trim to 5%; any kill criterion hit (share count +15% yoy, backlog shrinking, a major customer cutting) → slot to 0
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
-- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct (CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · DUK 5 Nov (NEE's alternate) · NU 12 Nov · AVGO (January)
+- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct, pre-market (the bar: 2026 adj. EPS $3.92–4.02 at the high end reaffirmed, 8%+ adj. EPS CAGR through 2032 reaffirmed, backlog ≥35.1 GW; CEG halves go only if it passes) · UNP 22 Oct · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · IREN ~5 Nov · DUK 5 Nov (NEE's alternate) · NBIS ~10 Nov (unconfirmed; check nebius.com/investor-events) · NU 12 Nov · AVGO (January)
 - [ ] BWXT fails the anchor test (13 Oct: bad weeks −4.2% vs the index's −3.1%); watchlist only. UBER passes in only 54% of resampled years; not an anchor
 - [ ] Third anchor MCD (4 Nov); fourth slot stays open until the switch, re-battled then with RTX, Rolls-Royce, Dominion and any new sectors
 - [ ] [Capture zones](../plans/capture-zones.md): refresh the daily data, re-run `capture_zones.py` and `capture_zones_final.py`. Any weekly close below a zone (re-map: broken zone → ceiling) or above a ceiling twice (step up)? Any name inside a zone → act per its role (entry limit / G+ cash / deep-value capture / watch)
@@ -50,7 +50,7 @@ History says the handover from AI suppliers to AI adopters usually comes through
 - [ ] **Neocloud or AI-lab funding pulled, delayed or repriced** (e.g. Firmus scrapped its IPO, Oct 2026)
 - [ ] **AI-lab revenue missing what was signalled** (e.g. OpenAI ~$50B vs ~$70B signalled)
 
-**Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong. **0 confirmed, 2 to watch.**
+**Rule:** if **2 of the 4** have flipped, move one more core supplier slot to a profitable adopter at the next review, one in, one out, with the reason written down. Status on 12 Oct: early cracks in funding and lab revenue, demand still strong; 0 confirmed, 2 to watch. **21 Oct: 1 confirmed (funding repriced: CoreWeave bonds ~15%, Firmus IPO pulled), 1 to watch (OpenAI run-rate vs signal); GPU rental prices rising (signal 2 off); capex signal tested by Meta 21 Oct, MSFT/GOOGL 28 Oct, AMZN 29 Oct — decision point 4 Nov.**
 
 ## 5b2. Rotation gauge (added 15 Oct 2026)
 Is money leaving AI/tech for the rest of the market? Checked weekly, as **4-week relative performance** at Tuesday's close:
@@ -58,7 +58,7 @@ Is money leaving AI/tech for the rest of the market? Checked weekly, as **4-week
 - [ ] **XLP vs XLK** (consumer staples vs tech) and **XLY vs XLK** (consumer discretionary vs tech)
 - [ ] **Breadth:** NYSE new 52-week highs vs new lows that week
 
-**Rule:** if RSP and at least one of XLP/XLY beat their comparison over 4 weeks at **three reviews running**, the rotation is confirmed. Then: MCD moves up the buy queue (still only after its results gate), and the fourth anchor slot is re-battled with consumer names first (COST, the preferred candidate, plus whichever consumer names lead). Staples leading means the rate-proof half is winning; discretionary leading means consumers are spending, so it matters which one. Status on 15 Oct: one day of rotation (Dow up, Nasdaq down); **0 of 3 reviews**.
+**Rule:** if RSP and at least one of XLP/XLY beat their comparison over 4 weeks at **three reviews running**, the rotation is confirmed. Then: MCD moves up the buy queue (still only after its results gate), and the fourth anchor slot is re-battled with consumer names first (COST, the preferred candidate, plus whichever consumer names lead). Staples leading means the rate-proof half is winning; discretionary leading means consumers are spending, so it matters which one. Status on 15 Oct: one day of rotation (Dow up, Nasdaq down); 0 of 3. **21 Oct: 1 of 3** (4 weeks to 20 Oct: RSP +1.4% vs QQQ −4.0%; XLP +6.1% and XLY +2.8% vs XLK −5.5%; staples leading).
 
 ## 5c. Predictions
 - [ ] Any call in the [predictions log](../predictions.md) past its deadline? Score it (full / half / miss) and update the scoreboard

@@ -62,3 +62,4 @@ Four of my ten picks are names the [slot battles](plans/2026-10-13-slot-battles.
 | Wednesday | Prices at | My picks | Real book | Plan | QQQ | Picks' worst fall | Real book's worst fall | Plan's worst fall | Note |
 |---|---|---|---|---|---|---|---|---|---|
 | 15 Oct 2026 | 15 Oct close | 100.0 | 100.0 | 100.0 | 100.0 | 0% | 0% | 0% | start |
+| 21 Oct 2026 | 20 Oct close | 95.6 | 97.3 | 99.6 | 98.6 | −4.6% | −2.8% | −0.8% | Week 1. Picks: IREN −12.4%, NBIS −9.0%, IONQ −9.0%, LLY +2.6%, MCD +1.7%. Real book: no deposits (to confirm); XLVP's 16 Oct close derived from XLV. Worst falls from the 15/16/20 Oct closes only |
