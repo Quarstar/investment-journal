@@ -14,6 +14,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 171.45 on 20 Oct |
 | 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open; low close 165.47 so far |
+| 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | open |
 
 ---
 
@@ -135,5 +136,27 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 **Noted against it, so it's judged fairly:** NBIS closed at $89–101 in March 2026 with the Microsoft and both Meta deals already signed, and the map's next demand zone below $148–160 is $105–118. The call is that the stock has re-rated since then and the new floor is higher.
 
 **What I'll do whatever happens:** the orders as written (sells $215 → $205 → market by 6 Nov; the $148 buy is "that's all"). If it goes below $140, I don't add: the $205 sell is what has to come first, before any rebuy is considered.
+
+**Result:** ____
+
+---
+
+## 7 · Nebius's Q3 results confirm demand and the stock re-rates
+**Made:** Thu 22 Oct 2026, 23:39 UK. NBIS $171.57 (21 Oct close), ~$163 pre-market on 22 Oct; the day Jensen Huang said neocloud demand is "off the charts" but capital is scarce.
+
+**My words:** "Once earnings are revealed and it's shown how much their demand actually is and how the company's revenue is booming, it will confirm a lot to the market … Nebius has done this repeatedly whenever doubt rises; just over the past year I've had nearly 4 moments like this."
+
+**How it's scored (fixed 23:45 on 22 Oct, before the results date is confirmed):** two parts, each hit or miss.
+- **Price, results week:** the close on the Friday of results week is **≥ 10% above** the close on the trading day before results, **and** beats QQQ over the same span.
+- **Follow-through:** the close four weeks after that Friday is still above the pre-results close.
+- **Thesis check (recorded, not scored as a hit):** from the release itself: ARR on track for the $7–9B year-end target; backlog above $37.5B; AI-cloud margin near 50%; a 2027 funding plan that doesn't lean on heavy new dilution. My view going in: the first three are largely priced; the fourth is what moves it.
+
+**The record behind the call** (from the journal's weekly closes, Oct 2025 – Oct 2026): results weeks went **−25%** (Nov 2025, QQQ flat), **+14%** (Feb 2026), **+24%** (May 2026), **+48%** (Aug 2026), so three of the last four were up 14%+ while QQQ was flat or down. Every weekly swing low 22–38% off the prior high in the year bounced **+9% to +118%** within eight weeks. "Nearly four moments" is fair: Nov–Mar (three lows near $83–89), July ($178), late August ($209).
+
+**Base rates:** the journal's own record says 3 of 4 (75%, a sample of four). A no-edge model (no drift, a results-week standard deviation of ~20%) says **~31%** for a +10% week. The truth for this print is probably between the two.
+
+**Noted against it, so it's judged fairly:** the three good prints came while capital was easy and hyperscaler capex growth was accelerating (+86–97% in 2026). Going into this one, capex growth is guided to slow in 2027 (+35–60%), the CEO of Nvidia is saying capital is scarce, CoreWeave's bonds yield ~15%, and Nebius's own shares are up 22% in a year. Same company, different weather.
+
+**What I'll do whatever happens:** the first-half sell as ordered (8 shares: $212 → $205 → market by 6 Nov, holding ~7%, the top of the band), the $148 buy as the last buy, and no rebuy until the 22 Nov dilution check and the 10 Nov share count.
 
 **Result:** ____
