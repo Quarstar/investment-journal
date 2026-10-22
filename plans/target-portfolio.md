@@ -8,6 +8,18 @@ Where the book ends up once every current plan is carried out. Assumes:
 
 If any of those change, the weights change.
 
+## Revision, 22 Oct 2026: NBIS becomes the book's carry (fixed share count)
+**What changed:** the conviction slot is now held as a **share count, not a percentage**. After the first-half sale (8 shares, $212 → $205 → market by 6 Nov) about **7 shares** remain; those are the long-run holding.
+- **Never sold on price.** Only a kill line sells them: share count +15% over the twelve months from the 10 Nov 2026 count, backlog shrinking, or a major customer cutting or delaying a contract.
+- **New money never goes to NBIS.** Pay and student finance go to defence and gaps, so the weight falls on its own as the book grows (~7% now, ~6% after January, ~5% after May, owning every share).
+- **Adds:** only back up to 7%, only inside Zone 1 with the deep-value checks passed (as before).
+- **Trims: only strength, only the excess above 10%, back to 10%.** Between 7% and 10% it runs. This replaces "trim back to 5% at $205+".
+- **Hard caps unchanged:** 20% single stock, 15% neocloud including IREN.
+- **Into results:** this time the position goes into the 10 Nov print at ~7% (the sale above); that is a one-off pre-results de-risk from 12.5%, not the ceiling.
+
+**Why:** my own record says my money comes from winners that ran, not from my hit rate: 127 round trips, **54% win rate, average win +15.6% vs average loss −10.5%**; held over three months, **71% win rate, +15.3% average**; my best trade was NBIS +84.5% (Mar → Oct 2026) ([track record](../trades/track-record.md)). A carry has to be allowed to run, so the trim line moves up to 10%. The 16 Oct simulation prices it: at 10% the good-case 26-week return is +20.9% vs +16.3% at 5%, the bad case −10.4% vs −8.9%. The kill lines are what keep the losing side small, which is the other half of that record.
+**Cost, written down:** a 70% NBIS fall at 10% costs ~7% of the book (vs ~3.5% at 5%). The record's caveats: 2025 was a bull market, and the over-three-months bucket is 17 trades.
+
 ## Revision, 16 Oct 2026: NBIS conviction slot (G+N5)
 **What changed:** NBIS stays in the book as a **conviction slot**, outside the 5-name core: **5% base, band 3–7%**. The second-half sale is cancelled; the first-half sale still runs, so the position comes down from ~9% to ~5% before the 10 Nov results. At G+ the slot is funded from NVDA (11 → 9) and XLVP (10 → 7); until then it comes out of the January cash set-aside (22% → ~17%, still above the 15% floor).
 **Why:** it's my conviction play (neocloud bottleneck thesis). Simulated against G+ (20,000 resampled 26-week paths, trend removed): 5% NBIS lifts the good-case 26-week return (95th percentile) from +12.9% to +16.3% while the bad case (5th percentile) moves only from −8.6% to −8.9%, because NBIS is only moderately correlated with the rest (0.41 with NVDA, 0.24 with VST). Book volatility rises from 10.9% to 13.4%. Past 5% the trade worsens (8%: −9.5% / +18.7%; 10%: −10.4% / +20.9%).
