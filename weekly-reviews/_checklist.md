@@ -3,7 +3,7 @@
 Run every Wednesday. Verify; don't estimate. Commit the review as `weekly-reviews/YYYY-MM-DD.md`.
 
 ## 1. Money in
-From the new job (Oct 2026), pay is **monthly, on the 25th**, not weekly. On the 25th the fixed living-costs amount goes to the current account; the rest is invested at the **first Wednesday review after the 25th**. The other Wednesdays are reviews with no new money. At ~20 hours a week (weekend shifts, started 18 Oct 2026), new money is roughly **4% of the book a month** before the student finance tranches. The first pay run (Oct) may be partial or roll into November, depending on the payroll cut-off; the first full month lands 25 Nov.
+From the new job (Oct 2026), pay is **monthly, on the 25th**, not weekly. On the 25th the fixed living-costs amount goes to the current account; the rest is invested at the **first Wednesday review after the 25th**. The other Wednesdays are reviews with no new money. At ~20 hours a week (weekend shifts, started 18 Oct 2026), new money is roughly **4% of the book a month** before the student finance tranches. The first pay run (Oct) may be partial or roll into November, depending on the payroll cut-off; the first full month lands 25 Nov. **Nov 2026 – Feb 2027: a fixed driving budget (lessons, test, learner insurance) comes out with the living costs**, so new money is roughly **2% of the book a month** in that window, back to ~4% from March.
 - [ ] Is this the first review after the 25th? If yes: pay received, living costs moved out first, the rest per the rules below. If no: skip to 2.
 - [ ] Emergency fund (kept outside the portfolio) at its target? If not, refill it first.
 - [ ] Cash shield at 15%+? If not, top it up before any buying.
