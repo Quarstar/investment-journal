@@ -39,7 +39,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] The switch (anchors 15% → 20%, funded from the AI shave, VUKG stays ~6%): sleeve full, two good quarters each, every anchor still passing the test? Only then.
 - [ ] 2–4 Nov is crowded (BWXT, UBER and MCD results, Phase 2 deadline): judge each gate on its own, buy UBER first
 - [ ] Anything new must replace a core name, or go in the sandbox
-- [ ] [Watch items](../plans/watch-items.md): any Terafab milestone hit?
+- [ ] [Watch items](../plans/watch-items.md): any Terafab milestone hit? RBLX gate (29 Oct): bookings bottoming, Q4 guide back to growth, FCF margin holding?
 - [ ] VST edge check: forward P/E gap to CEG, and VST's correlation with NVDA
 - [ ] Re-run the [risk-adjusted ranking](../plans/2026-10-17-risk-adjusted-ranking.md) with the week's prices (`analysis/risk_adjusted_ranking.py --prices <file>`); when two buys are ready at once, the higher-ranked goes first
 

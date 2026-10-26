@@ -59,3 +59,15 @@ Fully sold on 15 Oct (T212 lot $27.00 pre-market, Revolut lot $27.88) under the 
 4. **Entry on the [execution rule](adaptive-rules.md):** a limit with a deadline, never a chase on the day of the print.
 
 If the gate fails, it stays off the book and stays on this list until the next print.
+
+## RBLX (Roblox): sandbox candidate, results gate Thu 29 Oct (added 26 Oct 2026)
+**Not an anchor:** it fails the test on every line (beta 1.47; 52-week range $33.88–134.67, −61% from the high; net loss −$1.0B TTM; shares +6% yoy). Considered only as a **sandbox / satellite position (1–2%), one in, one out** (IREN, NOW or the Monzo fund would leave).
+**Why it's on the list:** I build games on the platform (Method FC, the card-shop tycoon), so I see engagement, creator payouts and player spending before they show up in the numbers. My [track record](../trades/track-record.md) says conviction positions where I have an edge are where my returns come from.
+**Snapshot (23 Oct close, $52.89):** EV $36.6B; free cash flow $1.64B (29% margin) → ~23× FCF; net cash $1.2B; forward P/S 5.3; consensus target $50.09 (below the price).
+**The analyst's catch:** revenue +36% but bookings only +8% (Q2), and Q3 bookings are guided down year on year. Revenue lags bookings, so it will slow toward bookings growth, and free cash flow follows bookings. Part of the slowdown is self-inflicted (age checks before chat; discovery changed to favour retention).
+**Gate (results Thu 29 Oct, after the close; ~12% implied move):** all three needed:
+1. Bookings bottom in Q3 and **Q4 bookings guidance turns back to growth**.
+2. DAUs and hours both growing (hours were only +5% vs DAUs +10%).
+3. Free cash flow holding near the 29% margin, share count growth not accelerating.
+**If it passes:** a capture zone gets mapped on the post-results price, and the sandbox slot is decided at the 4 Nov review. **If it fails:** watchlist until the Q4 print.
+Sources: [stockanalysis statistics](https://stockanalysis.com/stocks/rblx/statistics/) · [Motley Fool, 23 Oct](https://www.fool.com/investing/2026/10/23/whats-wrong-with-roblox-stock/)
