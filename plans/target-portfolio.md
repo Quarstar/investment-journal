@@ -8,6 +8,19 @@ Where the book ends up once every current plan is carried out. Assumes:
 
 If any of those change, the weights change.
 
+## Revision, 27 Oct 2026: a weapons sleeve (NBIS + SOFI), V for NU, XLVP 12 → 9
+**What changed (my decision, 11:30 UK, after SoFi's Q3):**
+- **Weapons sleeve:** two high-conviction growth names outside the core, **max two names, 15% combined cap**. NBIS (the carry, ~7%, rules as of 22 Oct) and **SOFI at 5%** (band 3–8%; trims only above 8%).
+- **SOFI kill lines:** personal-loan charge-offs above 4.5% excluding loan sales (3.4% at Q3); member growth below 20% (35% at Q3); share count +15% in a year (~10% at Q3); the 2027 guide ($6.4B revenue, ~$0.90 EPS) cut.
+- **Financial anchor: V replaces NU** (V won the defensive battle on 13 Oct, 64%; NU's 22% one-day fall on the Brazil election showed political and currency shock risk an anchor isn't meant to carry). Subject to V's gate (results 27 Oct after the close); NU's anchor test is re-run at the 28 Oct review for the record.
+- **XLVP target 12% → 9%** (it sits at ~9.4% today, so nothing is sold; the January money that would have topped it up goes to SOFI instead). **VUKG 6% → 4%**, the first step of the shave already planned.
+- **Cash: the 15% floor, no extra January reserve** (the G+ dip cash above the floor is gone; the −10% QQQ rule fires only from what's above 15%).
+
+**Target book (January, after the buys):** core VST 12, TSM 12, NEE 9, NVDA 9, GOOGL 8 (50) · weapons NBIS ~7, SOFI 5 (12) · anchors UNP 5, V 4 (9; MCD and the 4th at the switch) · XLVP 9, VUKG 4 (13) · sandbox ~1 · cash 15.
+**Why:** SOFI: six straight revenue beats, Q3 revenue +44%, members +35%, a first 2027 outlook (~$6.4B revenue, ~$1.28B net income), at ~16× 2027 earnings and ~2× tangible book after a 55% fall from the January high. Its main driver is rates, not AI capex, so it adds a different growth engine rather than more of the same one.
+**Cost, written down:** the defensive share (anchors + ETFs + cash) falls from ~49% to ~37%. The two weapons share a weakness: both are high-beta (NBIS ~3.5, SOFI 2.3) and rate-sensitive, so a rates shock hits them together; a 50% fall in both costs ~6% of the book. SOFI's catalyst is probably rates peaking, not another beat (it fell on four of its last five beats).
+**Entry:** a first ~2% tranche once the shield is back above 15% (MP/AVAV sales this week), at a capture-zone level mapped at the 28 Oct review; the rest from the January student finance, adding in Zone 1 if it dips.
+
 ## Revision, 22 Oct 2026: NBIS becomes the book's carry (fixed share count)
 **What changed:** the conviction slot is now held as a **share count, not a percentage**. After the first-half sale (8 shares, $212 → $205 → market by 6 Nov) about **7 shares** remain; those are the long-run holding.
 - **Never sold on price.** Only a kill line sells them: share count +15% over the twelve months from the 10 Nov 2026 count, backlog shrinking, or a major customer cutting or delaying a contract.
