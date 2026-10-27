@@ -13,6 +13,19 @@
 
 *Trading 212 statement period. Positions still open (e.g. CEG, MP, NBIS, TSM) aren't counted until they're closed. Profit factor = total won ÷ total lost, calculated per account because the accounts are in different currencies.
 
+## Size-weighted: what the money made (added 27 Oct 2026)
+
+Win rates count every trade the same. Weighting each trade by its size gives the realised return on capital: total profit on closed positions ÷ the money that went into them, after commissions and FX fees.
+
+| Account | Closed trades | Realised return on capital |
+|---|---|---|
+| Revolut general (US$) | 87 | **+9.0%** |
+| Revolut Stocks & Shares ISA | 26 | **+12.6%** |
+| Trading 212 Stocks ISA | 14 | **+0.6%** |
+| **All accounts** (US$ at a flat 1.30) | **127** | **+9.2%** |
+
+**Trading 212 ISA, money-weighted (Modified Dietz), Jun–Oct 2026, open positions included: +19.3%**, with every deposit and withdrawal dated and removed. The Revolut general account's money-weighted figure isn't meaningful on its own: more was withdrawn than paid in (profits moved to the ISA), so its average invested capital is close to zero. A whole-book return since May 2024 needs the Revolut ISA's deposit history, which the consolidated statement doesn't include; it goes here once it reconciles. The live book since 15 Oct is tracked weekly in the [race](../shadow-portfolio.md).
+
 ## The pattern that matters: holding period
 
 | Held | Trades | Win rate | Avg return | Median return |
