@@ -8,12 +8,12 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 
 | # | Made | Call | Deadline | Result |
 |---|---|---|---|---|
-| 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | open; **floor part broken** (closes 165.47 / 170.24 / 171.45 on 16–20 Oct) |
-| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 1: picks 95.6 vs real 97.3 (−1.7) |
-| 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | open; NBIS closed **165.47 on 16 Oct** (one close below); IREN low close 26.62 so far (intraday 25.59 on 20 Oct) |
+| 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | open; **floor part broken** (16 Oct); 170.47 on 27 Oct, $230 needs +35% in 6 sessions → half at best |
+| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 2: picks 96.4 vs real 96.7–98.1 (pending a cash check) |
+| 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | **Miss (decided 23 Oct).** NBIS closed below $167 on 16, 22, 23, 26 Oct (low close 153.27); IREN below $26 on 22, 23, 26 Oct (low close 24.91). Base rate for both holding: 7% |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
-| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 171.45 on 20 Oct |
-| 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open; low close 165.47 so far |
+| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 170.47 on 27 Oct (low 149.48 on 26 Oct) |
+| 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open; low close 153.27 (26 Oct) |
 | 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | open |
 
 ---
@@ -85,7 +85,7 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 
 **What I'll do whatever happens:** no NBIS buys before ~22 Nov (dilution rule) and none in the 27 Oct–10 Nov results window; no IREN adds (sandbox, no averaging down). The prediction doesn't change the orders.
 
-**Result:** ____
+**Result: Miss**, decided 23 Oct, scored at the 28 Oct review. NBIS: closes 165.47 (16 Oct), 159.17 (22 Oct), 158.74 (23 Oct), 153.27 (26 Oct). IREN: 25.51 (22 Oct), 24.91 (23 Oct), 25.43 (26 Oct); new 52-week low 23.72 intraday on 26 Oct. Both legs broke inside eight sessions, in line with the 7% base rate for both holding. What it says about the read: the *areas* were close (NBIS bounced 11% from $153, IREN reclaimed $27 on 27 Oct), but a floor call scored on closes needs room below the level for one bad week, and these two names move 6–10% in a day. A future floor call on either should sit about one weekly standard deviation (~13% for NBIS) below the price, not 7–10%.
 
 ---
 

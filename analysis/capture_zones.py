@@ -30,7 +30,7 @@ DAILY = os.path.join(ROOT, "data", "daily_2026-10-14")
 WEEKLY = os.path.join(ROOT, "data", "weekly_closes_battles_2025-10-24_to_2026-10-09.csv")
 FUND = os.path.join(ROOT, "data", "fundamentals_2026-10-13.csv")
 NAMES = ["VST", "NEE", "NVDA", "TSM", "GOOGL", "UNP", "NU", "MCD",
-         "NBIS", "AMD", "CEG", "MU", "TLN", "AVGO", "QQQ", "IREN", "APLD"]
+         "NBIS", "AMD", "CEG", "MU", "TLN", "AVGO", "QQQ", "IREN", "APLD", "SOFI", "V"]
 rng = np.random.default_rng(20261015)
 
 
@@ -39,7 +39,7 @@ def load_daily(t, n=50):
     rows = list(csv.DictReader(open(os.path.join(DAILY, f"{t}.csv"))))
     rows.sort(key=lambda r: r["date"])
     rows = rows[-n:]
-    return [{k: (r[k] if k == "date" else float(r[k])) for k in r} for r in rows]
+    return [{k: (r[k] if k == "date" else float(r[k] or 0)) for k in r} for r in rows]  # blank volume (a few sources omit it) counts as 0
 
 
 def load_weekly():

@@ -3,7 +3,7 @@
 Run every Wednesday. Verify; don't estimate. Commit the review as `weekly-reviews/YYYY-MM-DD.md`.
 
 ## 1. Money in
-From the new job (Oct 2026), pay is **monthly, on the 25th**, not weekly. On the 25th the fixed living-costs amount goes to the current account; the rest is invested at the **first Wednesday review after the 25th**. The other Wednesdays are reviews with no new money. At ~20 hours a week (weekend shifts, started 18 Oct 2026), new money is roughly **4% of the book a month** before the student finance tranches. The first pay run (Oct) may be partial or roll into November, depending on the payroll cut-off; the first full month lands 25 Nov. **Nov 2026 – Feb 2027: a fixed driving budget (lessons, test, learner insurance) comes out with the living costs**, so new money is roughly **2% of the book a month** in that window, back to ~4% from March.
+**Income from 28 Oct 2026: Outlier (remote AI-training work) only** (Gracey's ended 24 Oct; Greggs' final pay 29 Oct). Pay is variable and is **counted only once it has landed**, never forecast. On the first Wednesday after money lands: the fixed living-costs amount goes to the current account first, then the emergency fund to its target, then the rest to the shield until it's at 15%, and only then the buy queue. **Nov 2026 – Feb 2027: the driving budget (lessons, test, learner insurance; theory certificate expires 2 Dec 2026) comes out before anything is invested**, so new money into the book is close to zero in that window. The January student finance is the next real money. Any new job is a situation trigger (adaptive rules, trigger 1), reviewed at the next Wednesday.
 - [ ] Is this the first review after the 25th? If yes: pay received, living costs moved out first, the rest per the rules below. If no: skip to 2.
 - [ ] Emergency fund (kept outside the portfolio) at its target? If not, refill it first.
 - [ ] Cash shield at 15%+? If not, top it up before any buying.
@@ -15,13 +15,13 @@ For each one: price, % change since last review, news, valuation, dilution, next
 
 ## 3. Limits
 - [ ] Core: 5 AI names max · Anchor sleeve: 3 names / 15% max (one in, one out), rising to 4 / 20% only when the switch triggers
-- [ ] Each anchor still passes the diversification test (beta < 0.8, corr. NVDA < 0.5, falls less than the Nasdaq in bad weeks)
+- [ ] Each anchor still passes the diversification test (beta < 0.8, corr. NVDA < 0.5, falls less than the Nasdaq in bad weeks). Proposed 28 Oct, not adopted: worst single week no worse than −10% (NU passed all three and fell 17% in a day)
 - [ ] Single stock ≤ 20%
 - [ ] Energy/nuclear ≤ 35% · Neocloud ≤ 15%
 - [ ] Sandbox ≤ 5%
 - [ ] Cash shield ≥ 15%
 - [ ] AI-linked share of the book: ____% (target ~41% under F, ~47% under G+)
-- [ ] Still without a job? Keep the 12 Oct risk-down targets. New job started? Review them (see the [target portfolio](../plans/target-portfolio.md))
+- [ ] Income still Outlier only? Keep the 12 Oct risk-down targets. New job started? Review them (see the [target portfolio](../plans/target-portfolio.md))
 
 ## 4. Plans committed in advance
 - [ ] Drawdown plan: QQQ vs its 52-week high ($762.86, the 6 Oct intraday high; highest close $759.66). Any trigger hit (−10% G+ half / −15 / −25 / −35%)? → [plan](../plans/2026-10-10-drawdown-plan.md)
@@ -31,7 +31,7 @@ For each one: price, % change since last review, news, valuation, dilution, next
 - [ ] VST/CEG ratio (while CEG is still held): above ~0.62 favours CEG, below ~0.48 favours VST
 
 ## 5. Watchlist and gates
-- [ ] Gates (Option G, from 14 Oct): TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct **passed** (adj. EPS $1.24 vs $1.19; 2026 high end and 8%+ reaffirmed; backlog 36.7 GW): CEG first half on a $266 limit to 6 Nov, NEE bought the day it fills · UNP 22 Oct **passed** (adj. EPS $3.53 vs $3.47, revenue +15%, guidance held; buy after the shield ≥15%, behind GOOGL) · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · IREN ~5 Nov · DUK 5 Nov (NEE's alternate) · NBIS ~10 Nov (unconfirmed; check nebius.com/investor-events) · NU 12 Nov · AVGO (January)
+- [ ] Gates (Option G, from 14 Oct; V and SOFI added 27 Oct): V 27 Oct **passed** (adj. EPS $3.48 vs $3.44, FY27 guide low double digits) · TSM 15 Oct **passed** (top-up in two halves, see the [order sheet](../trades/limit-orders-2026-10-14.md)) · NEE 21 Oct **passed** (adj. EPS $1.24 vs $1.19; 2026 high end and 8%+ reaffirmed; backlog 36.7 GW): CEG first half on a $266 limit to 6 Nov, NEE bought the day it fills · UNP 22 Oct **passed** (adj. EPS $3.53 vs $3.47, revenue +15%, guidance held; buy after the shield ≥15%, behind GOOGL) · GOOGL 28 Oct · NOW 28 Oct (sandbox 2% stays only with a thesis page and a clean print) · MCD 4 Nov · MP 5 Nov (same rule as NOW) · IREN ~5 Nov · DUK 5 Nov (NEE's alternate) · NBIS ~10 Nov (unconfirmed; check nebius.com/investor-events) · NU 12 Nov · AVGO (January)
 - [ ] BWXT fails the anchor test (13 Oct: bad weeks −4.2% vs the index's −3.1%); watchlist only. UBER passes in only 54% of resampled years; not an anchor
 - [ ] Third anchor MCD (4 Nov); fourth slot stays open until the switch, re-battled then with RTX, Rolls-Royce, Dominion and any new sectors
 - [ ] [Capture zones](../plans/capture-zones.md): refresh the daily data, re-run `capture_zones.py` and `capture_zones_final.py`. Any weekly close below a zone (re-map: broken zone → ceiling) or above a ceiling twice (step up)? Any name inside a zone → act per its role (entry limit / G+ cash / deep-value capture / watch)
@@ -58,7 +58,7 @@ Is money leaving AI/tech for the rest of the market? Checked weekly, as **4-week
 - [ ] **XLP vs XLK** (consumer staples vs tech) and **XLY vs XLK** (consumer discretionary vs tech)
 - [ ] **Breadth:** NYSE new 52-week highs vs new lows that week
 
-**Rule:** if RSP and at least one of XLP/XLY beat their comparison over 4 weeks at **three reviews running**, the rotation is confirmed. Then: MCD moves up the buy queue (still only after its results gate), and the fourth anchor slot is re-battled with consumer names first (COST, the preferred candidate, plus whichever consumer names lead). Staples leading means the rate-proof half is winning; discretionary leading means consumers are spending, so it matters which one. Status on 15 Oct: one day of rotation (Dow up, Nasdaq down); 0 of 3. **21 Oct: 1 of 3** (4 weeks to 20 Oct: RSP +1.4% vs QQQ −4.0%; XLP +6.1% and XLY +2.8% vs XLK −5.5%; staples leading).
+**Rule:** if RSP and at least one of XLP/XLY beat their comparison over 4 weeks at **three reviews running**, the rotation is confirmed. Then: MCD moves up the buy queue (still only after its results gate), and the fourth anchor slot is re-battled with consumer names first (COST, the preferred candidate, plus whichever consumer names lead). Staples leading means the rate-proof half is winning; discretionary leading means consumers are spending, so it matters which one. Status on 15 Oct: one day of rotation (Dow up, Nasdaq down); 0 of 3. **21 Oct: 1 of 3** (4 weeks to 20 Oct: RSP +1.4% vs QQQ −4.0%; XLP +6.1% and XLY +2.8% vs XLK −5.5%; staples leading). **28 Oct: 2 of 3** (4 weeks to 27 Oct: RSP +3.8% vs QQQ −2.3%; XLP +6.5%, XLY +5.8% vs XLK −2.6%).
 
 ## 5c. Predictions
 - [ ] Any call in the [predictions log](../predictions.md) past its deadline? Score it (full / half / miss) and update the scoreboard
