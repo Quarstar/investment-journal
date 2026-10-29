@@ -1,0 +1,49 @@
+# Weekly analyst agent: what it watches and the rules it works under.
+# Edit this file (not the code) when a name joins or leaves the book.
+
+[review]
+# The review is on Wednesday; prices are the previous US close (Tuesday).
+model = "sonnet"            # Agent SDK alias; "opus" for a deeper (dearer) run
+max_budget_usd = 4.0        # hard stop for one run
+max_turns = 150
+draft_dir = "weekly-reviews/drafts"
+
+[prices]
+# Daily bars appended to data/daily_2026-10-14/<TICKER>.csv (the files the capture-zone scripts read).
+daily_dir = "data/daily_2026-10-14"
+# US tickers fetched every run. Yahoo is the primary source, Stooq the cross-check.
+us = [
+  # holdings
+  "NBIS", "VST", "NVDA", "CEG", "TSM", "NEE", "AVAV", "MP", "IONQ", "IREN", "GOOGL",
+  # plan buys and watch list
+  "UNP", "V", "SOFI", "MCD", "NU", "AVGO", "AMD", "MU", "TLN", "APLD", "BWXT", "RBLX", "SPCX",
+  # index and rotation gauge
+  "QQQ", "RSP", "XLP", "XLY", "XLK", "XLV",
+]
+# London ETFs: reported in the draft, not written to the repo's CSVs (their units differ by source).
+london = ["VUKG.L", "XLVP.L"]
+# Names the risk-adjusted ranking scores (analysis/risk_adjusted_ranking.py).
+ranking = ["NVDA", "TSM", "AVGO", "AMD", "MU", "VST", "CEG", "TLN", "NEE", "GOOGL", "UNP", "NU", "MCD"]
+# Two sources disagreeing by more than this on the same close marks the price "unverified".
+max_source_gap_pct = 0.5
+
+[market]
+qqq_high = 762.86           # 52-week intraday high used by the drawdown plan (6 Oct 2026)
+drawdown_lines = [-10, -15, -25, -35]
+
+[zones]
+# The Friday close the hand-drawn map (analysis/capture_zones_final.py) was last re-drawn on.
+# Only Friday closes after this date raise re-map flags. Update it whenever the map is re-drawn.
+map_week = "2026-10-23"
+
+[research]
+# Names the agent researches every week (news, ratings, dilution, results date).
+names = ["NBIS", "VST", "NVDA", "CEG", "TSM", "NEE", "AVAV", "MP", "IONQ", "IREN", "GOOGL",
+         "UNP", "V", "SOFI", "MCD", "NU", "BWXT"]
+# Sites the agent must never fetch (rate limits, terms). Matched against the URL host and path.
+blocked_url_fragments = [
+  "api.stockanalysis.com",
+  "stockanalysis.com/stocks/rtx",
+  "stockanalysis.com/stocks/d/",
+  "stockanalysis.com/quote/lon/rr",
+]

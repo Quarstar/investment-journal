@@ -9,3 +9,5 @@ statements/
 private/
 *.pdf
 trades.csv
+# local test output of the weekly agent (the CI run commits its own in the PR)
+agent/out/*.json

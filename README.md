@@ -22,6 +22,7 @@ I'm a BA (Hons) Esports International Business & Digital Media student and forme
 | [`backtests/`](backtests/) | Python tests of trading rules, run on real price data with fees included |
 | [`analysis/`](analysis/) | Scripts that turn broker statements into the trade history |
 | [`data/`](data/) | Price data used by the backtests |
+| [`agent/`](agent/) | The weekly analyst agent (Claude Agent SDK): fetches prices, computes the review's numbers, researches the week and drafts the review as a pull request for me to check |
 
 ---
 

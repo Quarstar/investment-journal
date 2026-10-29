@@ -1,0 +1,72 @@
+name: Weekly analyst agent
+
+# Every Wednesday before the UK morning: fetch Tuesday's closes, compute the review's numbers,
+# let the agent research the week and draft the review, then open a pull request for me to read.
+# Nothing is merged, bought or sold automatically.
+on:
+  schedule:
+    - cron: "17 5 * * 3"   # Wednesdays 05:17 UTC (05:17 UK in winter, 06:17 in summer)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Skip the API call (numbers and a skeleton draft only)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-agent
+  cancel-in-progress: false
+
+jobs:
+  draft-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r agent/requirements.txt
+
+      - name: Tests (guardrails and parsers)
+        run: python -m unittest discover agent/tests
+
+      - name: 1 · Prices
+        run: python agent/prices.py
+
+      - name: 2 · Numbers
+        run: python agent/compute.py
+
+      - name: 3 · Agent drafts the review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python agent/run_agent.py --dry-run
+          else
+            python agent/run_agent.py
+          fi
+
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(python -c "import json;print(json.load(open('agent/out/run.json'))['draft'].split('/')[-1][:-3])")
+          BRANCH="agent/review-$DATE-${{ github.run_number }}"
+          git config user.name "weekly-analyst-agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -f weekly-reviews/drafts data agent/out/*.json analysis/*.json
+          git commit -m "Draft review for $DATE (weekly analyst agent, run ${{ github.run_number }})"
+          git push origin "$BRANCH"
+          COST=$(python -c "import json;r=json.load(open('agent/out/run.json'));print(r.get('cost_usd'))")
+          gh pr create --base main --head "$BRANCH" \
+            --title "Draft review: $DATE" \
+            --body "Drafted by the weekly analyst agent (run ${{ github.run_number }}, estimated cost \$${COST}). Prices and every computed number come from \`agent/prices.py\` and \`agent/compute.py\`; the research and wording are the agent's. **Read before merging. Nothing here is a decision.**"
