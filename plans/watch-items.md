@@ -70,4 +70,14 @@ If the gate fails, it stays off the book and stays on this list until the next p
 2. DAUs and hours both growing (hours were only +5% vs DAUs +10%).
 3. Free cash flow holding near the 29% margin, share count growth not accelerating.
 **If it passes:** a capture zone gets mapped on the post-results price, and the sandbox slot is decided at the 4 Nov review. **If it fails:** watchlist until the Q4 print.
+
+**Result, Thu 29 Oct (Q3 shareholder letter, [8-K](https://www.sec.gov/Archives/edgar/data/0001315098/000162828026068235/ex991-q32026earningsshar.htm)): gate FAILED, 0 of 3.** Price: closed $52.46; **after hours $43.50 (−17.1%)** ([stockanalysis, read live](https://stockanalysis.com/stocks/rblx/)).
+
+| Test | Bar | Result |
+|---|---|---|
+| 1. Bookings bottom, Q4 guide back to growth | Q4 bookings guided up yoy | Q3 bookings **$1.697B, −12% yoy** (above the top of its own guide); **Q4 bookings guided $1.89–2.00B, −10% to −15% yoy** ❌ |
+| 2. DAUs and hours both growing | both up yoy | DAUs **138M, −9% yoy** (+12% q/q); hours **~34B, −15% yoy** (+17% q/q) ❌ |
+| 3. FCF near a 29% margin, share growth not accelerating | ~29% | FCF **$364M = 23% of revenue, 21% of bookings** (from $443M) ❌; diluted shares +2–3% yoy, SBC +4%, $200M of buybacks: not accelerating ✅ (the leg needs both) |
+
+**Read:** the quarter beat a low bar (bookings above guidance, users and hours up on the quarter), but every year-on-year line is still shrinking and Q4 is guided down again, so the bottom isn't in. Revenue (+16%) is still running ahead of bookings (−12%) and will converge down towards it. **Watchlist until the Q4 print (late Jan / early Feb); no sandbox slot at the 4 Nov review.** What would change it: Q4 bookings guidance for 2027 back to growth, with DAUs and hours both up year on year.
 Sources: [stockanalysis statistics](https://stockanalysis.com/stocks/rblx/statistics/) · [Motley Fool, 23 Oct](https://www.fool.com/investing/2026/10/23/whats-wrong-with-roblox-stock/)
