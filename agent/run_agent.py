@@ -92,6 +92,7 @@ Write the draft in the checklist's order, using the same section numbers as last
   rules written in predictions.md), and open items carried from last week;
 - "Decisions for the owner": numbered questions, each with the trade-off;
 - a Sources list with links.
+Running counts (the rotation gauge's "reviews in a row", the transition signals, gate statuses) advance only when this draft's price date is later than the price date the last review used; if it isn't (an off-cycle run), say so and carry last week's counts unchanged.
 Keep it under ~2,500 words. When the file is written, reply with one line: the file path and the three most
 important things in it."""
 
