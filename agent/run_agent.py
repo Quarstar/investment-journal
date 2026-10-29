@@ -77,6 +77,7 @@ Research, for each of: {names}
 - company-specific news since the last review, analyst rating or target changes (firm, old -> new),
   any share issuance or buyback change, and the next results date (company-confirmed or estimate: say which);
 - the reason for any move over 5% in a day.
+If agent/out/prices.json marks closes as "single source", spot-check the closes of the holdings (NBIS, VST, NVDA, CEG, TSM, NEE, GOOGL) against one independent quote page each and record match / mismatch in a short table; never change a number in the data files.
 Then the sector signals in section 5b of the checklist (hyperscaler capex, GPU rental prices, AI funding,
 AI-lab revenue) and any results gate that falls due before next Wednesday: what the bar is.
 Use two searches per name at most unless something big happened; budget is limited.

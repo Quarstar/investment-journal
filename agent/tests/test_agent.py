@@ -57,18 +57,13 @@ class TestPrices(unittest.TestCase):
         self.assertEqual(rows[0]["date"], "2026-10-26")
         self.assertEqual(rows[0]["close"], "216.00")
 
-    def test_parse_stooq(self):
-        text = b"Date,Open,High,Low,Close,Volume\n2026-10-26,213.11,217.75,212.61,216,90829293\n"
-        self.assertEqual(prices.parse_stooq(text), [{"date": "2026-10-26", "close": "216.00"}])
-        self.assertEqual(prices.parse_stooq(b"No data"), [])
-
-    def test_parse_nasdaq(self):
-        payload = json.dumps({"data": {"tradesTable": {"rows": [
-            {"date": "10/28/2026", "close": "$215.38", "volume": "1", "open": "$1", "high": "$1", "low": "$1"},
-            {"date": "10/27/2026", "close": "$1,217.94", "volume": "1", "open": "$1", "high": "$1", "low": "$1"}]}}}).encode()
-        self.assertEqual(prices.parse_nasdaq(payload),
-                         [{"date": "2026-10-27", "close": "1217.94"}, {"date": "2026-10-28", "close": "215.38"}])
-        self.assertEqual(prices.parse_nasdaq(b'{"data": null}'), [])
+    def test_parse_twelvedata(self):
+        payload = json.dumps({"status": "ok", "values": [
+            {"datetime": "2026-10-28", "open": "1", "high": "1", "low": "1", "close": "215.38", "volume": "1"},
+            {"datetime": "2026-10-27", "open": "1", "high": "1", "low": "1", "close": "217.94", "volume": "1"}]}).encode()
+        self.assertEqual(prices.parse_twelvedata(payload),
+                         [{"date": "2026-10-27", "close": "217.94"}, {"date": "2026-10-28", "close": "215.38"}])
+        self.assertEqual(prices.parse_twelvedata(b'{"status": "error", "code": 401}'), [])
 
     def test_merge_never_overwrites(self):
         existing = [{"date": "2026-10-26", "close": "216.00"}]

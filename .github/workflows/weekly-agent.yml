@@ -39,6 +39,8 @@ jobs:
         run: python -m unittest discover agent/tests
 
       - name: 1 · Prices
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}   # optional cross-check source
         run: python agent/prices.py
 
       - name: 2 · Numbers

@@ -2,7 +2,9 @@
 
 Deterministic on purpose: prices come from data feeds, not from the language model.
   primary     Yahoo Finance chart API (no key)
-  cross-check Nasdaq.com historical quotes (no key); Stooq's daily CSV as a fallback
+  cross-check Twelve Data (free key, optional: set the TWELVEDATA_API_KEY secret). Without it every close is
+              marked "single source" and the agent spot-checks the holdings' closes on the web instead.
+              (Nasdaq.com times out and Stooq returns nothing from GitHub's runners, so neither is used.)
 A close is "verified" when both sources agree within config.prices.max_source_gap_pct, "single source"
 when only one answered, and "unverified" when they disagree (the draft flags it; nothing is guessed).
 
@@ -16,6 +18,7 @@ import csv
 import datetime as dt
 import io
 import json
+import os
 import sys
 import time
 import tomllib
@@ -59,37 +62,6 @@ def parse_yahoo(payload: bytes) -> tuple[list[dict], dict]:
     return rows, {"currency": meta.get("currency"), "exchange": meta.get("exchangeName")}
 
 
-def parse_stooq(payload: bytes) -> list[dict]:
-    """Stooq daily CSV (Date,Open,High,Low,Close,Volume) -> rows oldest first."""
-    text = payload.decode("utf-8", "replace")
-    if not text.lower().startswith("date"):
-        return []  # "No data", a captcha page or an error
-    rows = []
-    for r in csv.DictReader(io.StringIO(text)):
-        try:
-            rows.append({"date": r["Date"], "close": _rnd(float(r["Close"]))})
-        except (KeyError, ValueError):
-            continue
-    return rows
-
-
-def parse_nasdaq(payload: bytes) -> list[dict]:
-    """Nasdaq.com historical JSON -> rows oldest first (date and close only)."""
-    try:
-        rows_in = (json.loads(payload).get("data") or {}).get("tradesTable", {}).get("rows") or []
-    except (ValueError, AttributeError):
-        return []
-    rows = []
-    for r in rows_in:
-        try:
-            m, d, y = r["date"].split("/")
-            rows.append({"date": f"{y}-{int(m):02d}-{int(d):02d}",
-                         "close": _rnd(float(r["close"].replace("$", "").replace(",", "")))})
-        except (KeyError, ValueError):
-            continue
-    return sorted(rows, key=lambda r: r["date"])
-
-
 def merge(existing: list[dict], new: list[dict]) -> tuple[list[dict], list[str]]:
     """Add rows for dates not already in the file. Existing rows are never overwritten. Newest first."""
     have = {r["date"] for r in existing}
@@ -111,27 +83,27 @@ def fetch_yahoo(symbol: str, rng: str) -> tuple[list[dict], dict]:
     return parse_yahoo(_get(url))
 
 
-def fetch_nasdaq(symbol: str) -> list[dict]:
-    today = dt.date.today()
-    frm = (today - dt.timedelta(days=21)).isoformat()
-    hdr = {**UA, "Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com",
-           "Referer": "https://www.nasdaq.com/"}
-    for asset in ("stocks", "etf"):
-        url = (f"https://api.nasdaq.com/api/quote/{symbol}/historical?assetclass={asset}"
-               f"&fromdate={frm}&todate={today.isoformat()}&limit=30")
-        req = urllib.request.Request(url, headers=hdr)
-        with urllib.request.urlopen(req, timeout=8) as r:
-            rows = parse_nasdaq(r.read())
-        if rows:
-            return rows
-    return []
+def parse_twelvedata(payload: bytes) -> list[dict]:
+    """Twelve Data time_series JSON -> rows oldest first (date and close only)."""
+    try:
+        d = json.loads(payload)
+    except ValueError:
+        return []
+    if d.get("status") != "ok":
+        return []
+    rows = []
+    for v in d.get("values", []):
+        try:
+            rows.append({"date": v["datetime"][:10], "close": _rnd(float(v["close"]))})
+        except (KeyError, ValueError):
+            continue
+    return sorted(rows, key=lambda r: r["date"])
 
 
-def fetch_stooq(symbol: str) -> list[dict]:
-    s = symbol.lower().replace(".l", ".uk")
-    if "." not in s:
-        s += ".us"
-    return parse_stooq(_get(f"https://stooq.com/q/d/l/?s={s}&i=d", timeout=8))
+def fetch_twelvedata(symbol: str, key: str) -> list[dict]:
+    url = (f"https://api.twelvedata.com/time_series?symbol={symbol}&interval=1day&outputsize=10"
+           f"&apikey={key}")
+    return parse_twelvedata(_get(url, timeout=15))
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -150,7 +122,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 def run(offline: bool = False) -> dict:
     gap_limit = CONFIG["prices"]["max_source_gap_pct"]
     report = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "tickers": {}}
-    failures = {"nasdaq": 0, "stooq": 0}
+    failures = 0
     for t in CONFIG["prices"]["us"] + CONFIG["prices"]["london"]:
         london = t.endswith(".L")
         path = DAILY / f"{t}.csv"
@@ -169,20 +141,17 @@ def run(offline: bool = False) -> dict:
                 raise ValueError("no rows")
             last = rows[-1]
             check_close = None
-            if not offline and not london:
-                for name, fn in (("nasdaq", fetch_nasdaq), ("stooq", fetch_stooq)):
-                    if failures[name] >= 3:  # circuit breaker: a source that keeps failing is skipped
-                        continue
-                    try:
-                        ref = {r["date"]: float(r["close"]) for r in fn(t)}
-                        check_close = ref.get(last["date"])
-                    except Exception as e:  # the cross-check is best effort
-                        entry[f"{name}_error"] = type(e).__name__
-                        failures[name] += 1
+            td_key = os.environ.get("TWELVEDATA_API_KEY")
+            if not offline and not london and td_key and failures < 3:
+                try:
+                    ref = {r["date"]: float(r["close"]) for r in fetch_twelvedata(t, td_key)}
+                    check_close = ref.get(last["date"])
                     if check_close is not None:
-                        entry["cross_check_source"] = name
-                        break
-                time.sleep(0.4)  # be polite to the sources
+                        entry["cross_check_source"] = "twelvedata"
+                except Exception as e:  # the cross-check is best effort
+                    entry["cross_check_error"] = type(e).__name__
+                    failures += 1
+                time.sleep(8)  # the free tier allows 8 requests a minute
             status, gap = cross_check(float(last["close"]), check_close, gap_limit)
             entry.update({"last_date": last["date"], "close": float(last["close"]),
                           "status": "from file" if offline else status, "gap_pct": gap})

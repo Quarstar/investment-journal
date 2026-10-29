@@ -2,7 +2,7 @@
 
 An AI agent, built on the [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview), that prepares my Wednesday portfolio review. Every Wednesday morning it:
 
-1. **fetches Tuesday's closing prices** for every holding and watch-list name, cross-checks each close against a second source, and appends them to the price files ([`prices.py`](prices.py));
+1. **fetches Tuesday's closing prices** for every holding and watch-list name (Yahoo Finance), cross-checks each close against Twelve Data when its free key is set (otherwise the agent spot-checks the holdings on the web), and appends them to the price files ([`prices.py`](prices.py));
 2. **computes every number that can be computed:** where each stock sits on its capture-zone map and which zones broke on the Friday close, the risk-adjusted ranking, the rotation gauge, the drawdown plan's distance from the Nasdaq-100 high ([`compute.py`](compute.py), reusing the scripts in [`analysis/`](../analysis/));
 3. **researches the week** (company news, analyst changes, dilution, results dates, the AI build-out signals) and **drafts the review** in the journal's format, with a source for every claim ([`run_agent.py`](run_agent.py));
 4. **opens a pull request** with the draft. I read it, check it, make the decisions and merge.
@@ -32,7 +32,8 @@ An AI agent, built on the [Claude Agent SDK](https://code.claude.com/docs/en/age
 
 One-time setup:
 1. Create an API key at [platform.claude.com](https://platform.claude.com) and add it to this repo as an Actions secret named `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions). Never commit the key.
-2. Settings → Actions → General → Workflow permissions: allow **Read and write** and tick **Allow GitHub Actions to create and approve pull requests**.
+2. Optional: a free [Twelve Data](https://twelvedata.com) key as a second secret, `TWELVEDATA_API_KEY`, turns on the automatic price cross-check.
+3. Settings → Actions → General → Workflow permissions: allow **Read and write** and tick **Allow GitHub Actions to create and approve pull requests**.
 
 **Locally:**
 ```bash
