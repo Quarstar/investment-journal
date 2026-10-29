@@ -120,7 +120,7 @@ def fetch_nasdaq(symbol: str) -> list[dict]:
         url = (f"https://api.nasdaq.com/api/quote/{symbol}/historical?assetclass={asset}"
                f"&fromdate={frm}&todate={today.isoformat()}&limit=30")
         req = urllib.request.Request(url, headers=hdr)
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=8) as r:
             rows = parse_nasdaq(r.read())
         if rows:
             return rows
@@ -131,7 +131,7 @@ def fetch_stooq(symbol: str) -> list[dict]:
     s = symbol.lower().replace(".l", ".uk")
     if "." not in s:
         s += ".us"
-    return parse_stooq(_get(f"https://stooq.com/q/d/l/?s={s}&i=d"))
+    return parse_stooq(_get(f"https://stooq.com/q/d/l/?s={s}&i=d", timeout=8))
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -150,6 +150,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 def run(offline: bool = False) -> dict:
     gap_limit = CONFIG["prices"]["max_source_gap_pct"]
     report = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "tickers": {}}
+    failures = {"nasdaq": 0, "stooq": 0}
     for t in CONFIG["prices"]["us"] + CONFIG["prices"]["london"]:
         london = t.endswith(".L")
         path = DAILY / f"{t}.csv"
@@ -170,11 +171,14 @@ def run(offline: bool = False) -> dict:
             check_close = None
             if not offline and not london:
                 for name, fn in (("nasdaq", fetch_nasdaq), ("stooq", fetch_stooq)):
+                    if failures[name] >= 3:  # circuit breaker: a source that keeps failing is skipped
+                        continue
                     try:
                         ref = {r["date"]: float(r["close"]) for r in fn(t)}
                         check_close = ref.get(last["date"])
                     except Exception as e:  # the cross-check is best effort
                         entry[f"{name}_error"] = type(e).__name__
+                        failures[name] += 1
                     if check_close is not None:
                         entry["cross_check_source"] = name
                         break
