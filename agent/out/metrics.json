@@ -1,0 +1,794 @@
+{
+ "price_date": "2026-10-29",
+ "weekly_row_added": null,
+ "zones": {
+  "VST": {
+   "last": 142.72,
+   "status": "between Zone 1 and support",
+   "flags": [],
+   "testing": [
+    146,
+    150
+   ],
+   "zone1": {
+    "band": [
+     132,
+     141
+    ],
+    "from_last_pct": -1.2,
+    "from_high_pct": -32.2,
+    "fwd_pe": 13.3,
+    "p_touch_13w": 0.9
+   },
+   "zone2": {
+    "band": [
+     115,
+     122
+    ],
+    "from_last_pct": -14.5,
+    "from_high_pct": -41.2,
+    "fwd_pe": 11.6,
+    "p_touch_13w": 0.46
+   },
+   "ceiling1": [
+    154,
+    155
+   ],
+   "ceiling2": [
+    164,
+    169
+   ],
+   "fwd_pe_now": 13.9
+  },
+  "NEE": {
+   "last": 81.02,
+   "status": "between Zone 1 and support",
+   "flags": [],
+   "testing": [
+    81.9,
+    82.1
+   ],
+   "zone1": {
+    "band": [
+     79.2,
+     80.6
+    ],
+    "from_last_pct": -0.5,
+    "from_high_pct": -17.6,
+    "fwd_pe": 19.5,
+    "p_touch_13w": 0.9
+   },
+   "zone2": {
+    "band": [
+     75.4,
+     76.7
+    ],
+    "from_last_pct": -5.3,
+    "from_high_pct": -21.6,
+    "fwd_pe": 18.6,
+    "p_touch_13w": 0.52
+   },
+   "ceiling1": [
+    84.0,
+    84.4
+   ],
+   "ceiling2": [
+    87.6,
+    87.6
+   ],
+   "fwd_pe_now": 19.8
+  },
+  "NVDA": {
+   "last": 215.38,
+   "status": "testing support",
+   "flags": [],
+   "testing": [
+    212,
+    218
+   ],
+   "zone1": {
+    "band": [
+     204,
+     210
+    ],
+    "from_last_pct": -2.5,
+    "from_high_pct": -14.9,
+    "fwd_pe": 17.0,
+    "p_touch_13w": 0.83
+   },
+   "zone2": {
+    "band": [
+     190,
+     196
+    ],
+    "from_last_pct": -9.0,
+    "from_high_pct": -20.7,
+    "fwd_pe": 15.9,
+    "p_touch_13w": 0.55
+   },
+   "ceiling1": [
+    219.6,
+    221.1
+   ],
+   "ceiling2": [
+    230,
+    234
+   ],
+   "fwd_pe_now": 17.7
+  },
+  "TSM": {
+   "last": 439.51,
+   "status": "between support and the first ceiling",
+   "flags": [],
+   "testing": [
+    422,
+    428
+   ],
+   "zone1": {
+    "band": [
+     406,
+     417
+    ],
+    "from_last_pct": -5.1,
+    "from_high_pct": -15.6,
+    "fwd_pe": 18.2,
+    "p_touch_13w": 0.69
+   },
+   "zone2": {
+    "band": [
+     393,
+     404
+    ],
+    "from_last_pct": -8.1,
+    "from_high_pct": -18.3,
+    "fwd_pe": 17.6,
+    "p_touch_13w": 0.55
+   },
+   "ceiling1": [
+    440,
+    446
+   ],
+   "ceiling2": [
+    486,
+    487.5
+   ],
+   "fwd_pe_now": 19.4
+  },
+  "GOOGL": {
+   "last": 324.89,
+   "status": "testing support",
+   "flags": [],
+   "testing": [
+    319,
+    328
+   ],
+   "zone1": {
+    "band": [
+     301,
+     310
+    ],
+    "from_last_pct": -4.6,
+    "from_high_pct": -23.8,
+    "fwd_pe": 22.6,
+    "p_touch_13w": 0.74
+   },
+   "zone2": {
+    "band": [
+     271,
+     280
+    ],
+    "from_last_pct": -13.8,
+    "from_high_pct": -31.3,
+    "fwd_pe": 20.4,
+    "p_touch_13w": 0.37
+   },
+   "ceiling1": [
+    334,
+    342
+   ],
+   "ceiling2": [
+    352,
+    359
+   ],
+   "fwd_pe_now": 24.1
+  },
+  "UNP": {
+   "last": 297.8,
+   "status": "between the ceilings",
+   "flags": [],
+   "testing": [
+    285,
+    286
+   ],
+   "zone1": {
+    "band": [
+     272,
+     278
+    ],
+    "from_last_pct": -6.6,
+    "from_high_pct": -12.5,
+    "fwd_pe": 20.2,
+    "p_touch_13w": 0.5
+   },
+   "zone2": {
+    "band": [
+     262,
+     270
+    ],
+    "from_last_pct": -9.3,
+    "from_high_pct": -15.3,
+    "fwd_pe": 19.5,
+    "p_touch_13w": 0.34
+   },
+   "ceiling1": [
+    289,
+    293
+   ],
+   "ceiling2": [
+    306,
+    314
+   ],
+   "fwd_pe_now": 21.8
+  },
+  "NU": {
+   "last": 11.97,
+   "status": "above Zone 1",
+   "flags": [],
+   "testing": [
+    null,
+    null
+   ],
+   "zone1": {
+    "band": [
+     10.9,
+     11.7
+    ],
+    "from_last_pct": -2.3,
+    "from_high_pct": -37.4,
+    "fwd_pe": 11.8,
+    "p_touch_13w": 0.88
+   },
+   "zone2": {
+    "band": [
+     9.5,
+     10.3
+    ],
+    "from_last_pct": -14.0,
+    "from_high_pct": -45.1,
+    "fwd_pe": 10.4,
+    "p_touch_13w": 0.46
+   },
+   "ceiling1": [
+    14.2,
+    14.4
+   ],
+   "ceiling2": [
+    15.6,
+    16.2
+   ],
+   "fwd_pe_now": 12.5
+  },
+  "MCD": {
+   "last": 250.5,
+   "status": "between the ceilings",
+   "flags": [],
+   "testing": [
+    234,
+    235
+   ],
+   "zone1": {
+    "band": [
+     229,
+     233
+    ],
+    "from_last_pct": -7.0,
+    "from_high_pct": -32.3,
+    "fwd_pe": 17.4,
+    "p_touch_13w": 0.37
+   },
+   "zone2": {
+    "band": [
+     218,
+     222
+    ],
+    "from_last_pct": -11.4,
+    "from_high_pct": -35.5,
+    "fwd_pe": 16.6,
+    "p_touch_13w": 0.14
+   },
+   "ceiling1": [
+    242,
+    250
+   ],
+   "ceiling2": [
+    286,
+    287
+   ],
+   "fwd_pe_now": 18.9
+  },
+  "NBIS": {
+   "last": 182.34,
+   "status": "inside the first ceiling",
+   "flags": [],
+   "testing": [
+    168,
+    175
+   ],
+   "zone1": {
+    "band": [
+     148,
+     160
+    ],
+    "from_last_pct": -12.3,
+    "from_high_pct": -48.6,
+    "fwd_pe": null,
+    "p_touch_13w": 0.79
+   },
+   "zone2": {
+    "band": [
+     105,
+     118
+    ],
+    "from_last_pct": -35.3,
+    "from_high_pct": -62.8,
+    "fwd_pe": null,
+    "p_touch_13w": 0.42
+   },
+   "ceiling1": [
+    175,
+    183
+   ],
+   "ceiling2": [
+    209,
+    221
+   ],
+   "fwd_pe_now": null
+  },
+  "AMD": {
+   "last": 578.44,
+   "status": "above Zone 1",
+   "flags": [],
+   "testing": [
+    null,
+    null
+   ],
+   "zone1": {
+    "band": [
+     451,
+     488
+    ],
+    "from_last_pct": -15.6,
+    "from_high_pct": -28.7,
+    "fwd_pe": 42.0,
+    "p_touch_13w": 0.59
+   },
+   "zone2": {
+    "band": [
+     383,
+     408
+    ],
+    "from_last_pct": -29.5,
+    "from_high_pct": -39.9,
+    "fwd_pe": 35.4,
+    "p_touch_13w": 0.29
+   },
+   "ceiling1": [
+    606,
+    620
+   ],
+   "ceiling2": [
+    648,
+    658.5
+   ],
+   "fwd_pe_now": 51.8
+  },
+  "CEG": {
+   "last": 258.08,
+   "status": "between support and the first ceiling",
+   "flags": [],
+   "testing": [
+    250,
+    256
+   ],
+   "zone1": {
+    "band": [
+     242,
+     250
+    ],
+    "from_last_pct": -3.1,
+    "from_high_pct": -36.8,
+    "fwd_pe": 19.9,
+    "p_touch_13w": 0.85
+   },
+   "zone2": {
+    "band": [
+     206,
+     222
+    ],
+    "from_last_pct": -14.0,
+    "from_high_pct": -45.0,
+    "fwd_pe": 17.3,
+    "p_touch_13w": 0.52
+   },
+   "ceiling1": [
+    264,
+    271
+   ],
+   "ceiling2": [
+    286,
+    301
+   ],
+   "fwd_pe_now": 20.8
+  },
+  "MU": {
+   "last": 983.23,
+   "status": "inside the first ceiling",
+   "flags": [],
+   "testing": [
+    888,
+    903
+   ],
+   "zone1": {
+    "band": [
+     800,
+     845
+    ],
+    "from_last_pct": -14.1,
+    "from_high_pct": -27.5,
+    "fwd_pe": 4.9,
+    "p_touch_13w": 0.68
+   },
+   "zone2": {
+    "band": [
+     698,
+     743
+    ],
+    "from_last_pct": -24.4,
+    "from_high_pct": -36.5,
+    "fwd_pe": 4.3,
+    "p_touch_13w": 0.46
+   },
+   "ceiling1": [
+    978,
+    1003
+   ],
+   "ceiling2": [
+    1088,
+    1108
+   ],
+   "fwd_pe_now": 5.9
+  },
+  "TLN": {
+   "last": 347.75,
+   "status": "between Zone 1 and support",
+   "flags": [],
+   "testing": [
+    349,
+    356
+   ],
+   "zone1": {
+    "band": [
+     324,
+     344
+    ],
+    "from_last_pct": -1.1,
+    "from_high_pct": -23.4,
+    "fwd_pe": 11.2,
+    "p_touch_13w": 0.92
+   },
+   "zone2": {
+    "band": [
+     283,
+     302
+    ],
+    "from_last_pct": -13.2,
+    "from_high_pct": -33.0,
+    "fwd_pe": 9.8,
+    "p_touch_13w": 0.58
+   },
+   "ceiling1": [
+    374,
+    391
+   ],
+   "ceiling2": [
+    436,
+    436
+   ],
+   "fwd_pe_now": 11.6
+  },
+  "AVGO": {
+   "last": 351.81,
+   "status": "between the ceilings",
+   "flags": [],
+   "testing": [
+    null,
+    null
+   ],
+   "zone1": {
+    "band": [
+     314,
+     325
+    ],
+    "from_last_pct": -7.6,
+    "from_high_pct": -28.5,
+    "fwd_pe": 18.3,
+    "p_touch_13w": 0.7
+   },
+   "zone2": {
+    "band": [
+     295,
+     306
+    ],
+    "from_last_pct": -13.0,
+    "from_high_pct": -32.7,
+    "fwd_pe": 17.2,
+    "p_touch_13w": 0.53
+   },
+   "ceiling1": [
+    336,
+    343
+   ],
+   "ceiling2": [
+    357,
+    368
+   ],
+   "fwd_pe_now": 20.2
+  },
+  "QQQ": {
+   "last": 725.61,
+   "status": "between the ceilings",
+   "flags": [],
+   "testing": [
+    714,
+    718
+   ],
+   "zone1": {
+    "band": [
+     700,
+     709
+    ],
+    "from_last_pct": -2.3,
+    "from_high_pct": -7.7,
+    "fwd_pe": null,
+    "p_touch_13w": 0.76
+   },
+   "zone2": {
+    "band": [
+     684,
+     688
+    ],
+    "from_last_pct": -5.2,
+    "from_high_pct": -10.1,
+    "fwd_pe": null,
+    "p_touch_13w": 0.55
+   },
+   "ceiling1": [
+    722,
+    723
+   ],
+   "ceiling2": [
+    744,
+    752
+   ],
+   "fwd_pe_now": null
+  },
+  "IREN": {
+   "last": 28.84,
+   "status": "inside the first ceiling",
+   "flags": [],
+   "testing": [
+    25.6,
+    27.0
+   ],
+   "zone1": {
+    "band": [
+     20.0,
+     22.5
+    ],
+    "from_last_pct": -22.0,
+    "from_high_pct": -72.4,
+    "fwd_pe": null,
+    "p_touch_13w": 0.64
+   },
+   "zone2": {
+    "band": [
+     12.0,
+     15.0
+    ],
+    "from_last_pct": -48.0,
+    "from_high_pct": -82.4,
+    "fwd_pe": null,
+    "p_touch_13w": 0.22
+   },
+   "ceiling1": [
+    28.8,
+    30.5
+   ],
+   "ceiling2": [
+    34.8,
+    36.0
+   ],
+   "fwd_pe_now": null
+  },
+  "APLD": {
+   "last": 20.39,
+   "status": "inside the first ceiling",
+   "flags": [],
+   "testing": [
+    17.6,
+    18.4
+   ],
+   "zone1": {
+    "band": [
+     15.5,
+     17.2
+    ],
+    "from_last_pct": -15.6,
+    "from_high_pct": -47.6,
+    "fwd_pe": null,
+    "p_touch_13w": 0.64
+   },
+   "zone2": {
+    "band": [
+     11.5,
+     13.3
+    ],
+    "from_last_pct": -34.8,
+    "from_high_pct": -60.3,
+    "fwd_pe": null,
+    "p_touch_13w": 0.25
+   },
+   "ceiling1": [
+    20.1,
+    20.4
+   ],
+   "ceiling2": [
+    26.9,
+    27.0
+   ],
+   "fwd_pe_now": null
+  },
+  "SOFI": {
+   "last": 17.14,
+   "status": "between the ceilings",
+   "flags": [],
+   "testing": [
+    15.67,
+    16.02
+   ],
+   "zone1": {
+    "band": [
+     15.25,
+     15.84
+    ],
+    "from_last_pct": -7.6,
+    "from_high_pct": -52.5,
+    "fwd_pe": null,
+    "p_touch_13w": 0.75
+   },
+   "zone2": {
+    "band": [
+     13.86,
+     14.6
+    ],
+    "from_last_pct": -14.8,
+    "from_high_pct": -56.5,
+    "fwd_pe": null,
+    "p_touch_13w": 0.55
+   },
+   "ceiling1": [
+    16.55,
+    17.14
+   ],
+   "ceiling2": [
+    18.3,
+    18.4
+   ],
+   "fwd_pe_now": null
+  },
+  "V": {
+   "last": 400.6,
+   "status": "testing support",
+   "flags": [],
+   "testing": [
+    397,
+    402
+   ],
+   "zone1": {
+    "band": [
+     375.3,
+     382.7
+    ],
+    "from_last_pct": -4.5,
+    "from_high_pct": -8.6,
+    "fwd_pe": 26.0,
+    "p_touch_13w": 0.61
+   },
+   "zone2": {
+    "band": [
+     356.1,
+     363.5
+    ],
+    "from_last_pct": -9.3,
+    "from_high_pct": -13.2,
+    "fwd_pe": 24.7,
+    "p_touch_13w": 0.32
+   },
+   "ceiling1": [
+    407,
+    410
+   ],
+   "ceiling2": [
+    414.6,
+    414.6
+   ],
+   "fwd_pe_now": 27.5
+  }
+ },
+ "ranking_table": "| # | Name | Price | Upside to target | Vol | Downside dev. | Sharpe | Sortino | Reward\u00f7risk (5th pct 26w) | Fwd P/E | PEG | Avg rank |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | NVDA | 215.38 | +53% | 33% | 22% | 1.45 (1) | 2.20 (1) | 2.17 (1) | 17.7 | 0.14 (2) | 1.2 |\n| 2 | NU | 11.97 | +57% | 41% | 29% | 1.25 (2) | 1.76 (2) | 1.63 (3) | 12.5 | 0.22 (5) | 3.0 |\n| 3 | AVGO | 351.81 | +51% | 45% | 31% | 1.02 (3) | 1.51 (3) | 1.58 (4) | 20.2 | 0.20 (3) | 3.2 |\n| 4 | TSM | 439.51 | +32% | 30% | 20% | 0.89 (5) | 1.35 (5) | 1.27 (5) | 19.4 | 0.36 (7) | 5.5 |\n| 5 | MU | 983.23 | +59% | 72% | 42% | 0.74 (8) | 1.29 (7) | 1.11 (6) | 5.9 | 0.01 (1) | 5.5 |\n| 6 | GOOGL | 324.89 | +32% | 34% | 20% | 0.82 (6) | 1.35 (6) | 1.08 (7) | 24.1 | 0.22 (4) | 5.8 |\n| 7 | VST | 142.72 | +47% | 43% | 31% | 0.98 (4) | 1.37 (4) | 1.79 (2) | 13.9 | n/a | 5.8 |\n| 8 | NEE | 81.02 | +20% | 18% | 14% | 0.80 (7) | 1.08 (8) | 1.06 (8) | 19.8 | 0.35 (6) | 7.2 |\n| 9 | CEG | 258.08 | +32% | 47% | 36% | 0.58 (10) | 0.77 (10) | 0.96 (9) | 20.8 | 1.37 (9) | 9.5 |\n| 10 | MCD | 250.50 | +17% | 17% | 14% | 0.69 (9) | 0.84 (9) | 0.92 (10) | 18.9 | 4.02 (11) | 9.8 |\n| 11 | TLN | 347.75 | +32% | 52% | 37% | 0.52 (11) | 0.74 (11) | 0.91 (11) | 11.6 | n/a | 11.0 |\n| 12 | UNP | 297.80 | +10% | 21% | 13% | 0.25 (12) | 0.40 (12) | 0.48 (12) | 21.8 | 3.82 (10) | 11.5 |\n| 13 | AMD | 578.44 | +10% | 63% | 39% | 0.08 (13) | 0.13 (13) | 0.19 (13) | 51.8 | 0.41 (8) | 11.8 |\n",
+ "rotation": {
+  "legs": {
+   "RSP": {
+    "from": [
+     "2026-10-01",
+     209.0
+    ],
+    "to": [
+     "2026-10-28",
+     217.43
+    ],
+    "return_pct": 4.03
+   },
+   "QQQ": {
+    "from": [
+     "2026-10-01",
+     742.03
+    ],
+    "to": [
+     "2026-10-28",
+     725.61
+    ],
+    "return_pct": -2.21
+   },
+   "XLP": {
+    "from": [
+     "2026-10-01",
+     80.33
+    ],
+    "to": [
+     "2026-10-28",
+     86.84
+    ],
+    "return_pct": 8.1
+   },
+   "XLY": {
+    "from": [
+     "2026-10-01",
+     108.81
+    ],
+    "to": [
+     "2026-10-28",
+     115.33
+    ],
+    "return_pct": 5.99
+   },
+   "XLK": {
+    "from": [
+     "2026-10-01",
+     197.81
+    ],
+    "to": [
+     "2026-10-28",
+     191.0
+    ],
+    "return_pct": -3.44
+   }
+  },
+  "rsp_minus_qqq": 6.24,
+  "xlp_minus_xlk": 11.54,
+  "xly_minus_xlk": 9.43,
+  "this_week_passes": true,
+  "note": "the gauge confirms after three passing reviews in a row; the count lives in the checklist"
+ },
+ "week_change_pct": {}
+}
