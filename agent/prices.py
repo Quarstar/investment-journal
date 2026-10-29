@@ -2,7 +2,7 @@
 
 Deterministic on purpose: prices come from data feeds, not from the language model.
   primary     Yahoo Finance chart API (no key)
-  cross-check Stooq daily CSV (no key)
+  cross-check Nasdaq.com historical quotes (no key); Stooq's daily CSV as a fallback
 A close is "verified" when both sources agree within config.prices.max_source_gap_pct, "single source"
 when only one answered, and "unverified" when they disagree (the draft flags it; nothing is guessed).
 
@@ -73,6 +73,23 @@ def parse_stooq(payload: bytes) -> list[dict]:
     return rows
 
 
+def parse_nasdaq(payload: bytes) -> list[dict]:
+    """Nasdaq.com historical JSON -> rows oldest first (date and close only)."""
+    try:
+        rows_in = (json.loads(payload).get("data") or {}).get("tradesTable", {}).get("rows") or []
+    except (ValueError, AttributeError):
+        return []
+    rows = []
+    for r in rows_in:
+        try:
+            m, d, y = r["date"].split("/")
+            rows.append({"date": f"{y}-{int(m):02d}-{int(d):02d}",
+                         "close": _rnd(float(r["close"].replace("$", "").replace(",", "")))})
+        except (KeyError, ValueError):
+            continue
+    return sorted(rows, key=lambda r: r["date"])
+
+
 def merge(existing: list[dict], new: list[dict]) -> tuple[list[dict], list[str]]:
     """Add rows for dates not already in the file. Existing rows are never overwritten. Newest first."""
     have = {r["date"] for r in existing}
@@ -92,6 +109,22 @@ def cross_check(primary_close: float, check_close: float | None, max_gap_pct: fl
 def fetch_yahoo(symbol: str, rng: str) -> tuple[list[dict], dict]:
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range={rng}&interval=1d&includePrePost=false"
     return parse_yahoo(_get(url))
+
+
+def fetch_nasdaq(symbol: str) -> list[dict]:
+    today = dt.date.today()
+    frm = (today - dt.timedelta(days=21)).isoformat()
+    hdr = {**UA, "Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com",
+           "Referer": "https://www.nasdaq.com/"}
+    for asset in ("stocks", "etf"):
+        url = (f"https://api.nasdaq.com/api/quote/{symbol}/historical?assetclass={asset}"
+               f"&fromdate={frm}&todate={today.isoformat()}&limit=30")
+        req = urllib.request.Request(url, headers=hdr)
+        with urllib.request.urlopen(req, timeout=20) as r:
+            rows = parse_nasdaq(r.read())
+        if rows:
+            return rows
+    return []
 
 
 def fetch_stooq(symbol: str) -> list[dict]:
@@ -127,20 +160,26 @@ def run(offline: bool = False) -> dict:
                 rows, meta = sorted(existing, key=lambda r: r["date"]), {}
             else:
                 rows, meta = fetch_yahoo(t, "1mo" if existing else "6mo")
+                today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+                rows = [r for r in rows if r["date"] < today]  # today's bar may still be trading
                 entry["source"] = "yahoo"
                 entry["currency"] = meta.get("currency")
             if not rows:
                 raise ValueError("no rows")
             last = rows[-1]
-            stooq_close = None
-            if not offline:
-                try:
-                    sq = {r["date"]: float(r["close"]) for r in fetch_stooq(t)}
-                    stooq_close = sq.get(last["date"])
-                except Exception as e:  # cross-check is best effort
-                    entry["cross_check_error"] = type(e).__name__
-                time.sleep(0.4)  # be polite to both sources
-            status, gap = cross_check(float(last["close"]), stooq_close, gap_limit)
+            check_close = None
+            if not offline and not london:
+                for name, fn in (("nasdaq", fetch_nasdaq), ("stooq", fetch_stooq)):
+                    try:
+                        ref = {r["date"]: float(r["close"]) for r in fn(t)}
+                        check_close = ref.get(last["date"])
+                    except Exception as e:  # the cross-check is best effort
+                        entry[f"{name}_error"] = type(e).__name__
+                    if check_close is not None:
+                        entry["cross_check_source"] = name
+                        break
+                time.sleep(0.4)  # be polite to the sources
+            status, gap = cross_check(float(last["close"]), check_close, gap_limit)
             entry.update({"last_date": last["date"], "close": float(last["close"]),
                           "status": "from file" if offline else status, "gap_pct": gap})
             if not london and not offline:
@@ -156,7 +195,7 @@ def run(offline: bool = False) -> dict:
     # the ranking's price file, named for the close it uses
     closes = {t: e for t, e in report["tickers"].items() if e.get("close") is not None}
     if closes:
-        last_dates = sorted({e["last_date"] for e in closes.values()})
+        last_dates = sorted({e["last_date"] for t, e in closes.items() if not t.endswith(".L")})
         tag = last_dates[-1]
         out = ROOT / "data" / f"prices_{tag}.csv"
         with open(out, "w") as fh:

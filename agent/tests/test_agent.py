@@ -62,6 +62,14 @@ class TestPrices(unittest.TestCase):
         self.assertEqual(prices.parse_stooq(text), [{"date": "2026-10-26", "close": "216.00"}])
         self.assertEqual(prices.parse_stooq(b"No data"), [])
 
+    def test_parse_nasdaq(self):
+        payload = json.dumps({"data": {"tradesTable": {"rows": [
+            {"date": "10/28/2026", "close": "$215.38", "volume": "1", "open": "$1", "high": "$1", "low": "$1"},
+            {"date": "10/27/2026", "close": "$1,217.94", "volume": "1", "open": "$1", "high": "$1", "low": "$1"}]}}}).encode()
+        self.assertEqual(prices.parse_nasdaq(payload),
+                         [{"date": "2026-10-27", "close": "1217.94"}, {"date": "2026-10-28", "close": "215.38"}])
+        self.assertEqual(prices.parse_nasdaq(b'{"data": null}'), [])
+
     def test_merge_never_overwrites(self):
         existing = [{"date": "2026-10-26", "close": "216.00"}]
         new = [{"date": "2026-10-26", "close": "999.00"}, {"date": "2026-10-27", "close": "217.94"}]
