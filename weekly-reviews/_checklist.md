@@ -7,6 +7,7 @@ Run every Wednesday. Verify; don't estimate. Commit the review as `weekly-review
 - [ ] Is this the first review after the 25th? If yes: pay received, living costs moved out first, the rest per the rules below. If no: skip to 2.
 - [ ] Emergency fund (kept outside the portfolio) at its target? If not, refill it first.
 - [ ] Cash shield at 15%+? If not, top it up before any buying.
+- [ ] Any buy this week that wasn't in the queue? (24-hour rule, [adaptive rules](../plans/adaptive-rules.md)) Log it and say why
 
 ## 2. Verify every holding (core + defensive + sandbox)
 For each one: price, % change since last review, news, valuation, dilution, next earnings date.

@@ -15,6 +15,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 170.47 on 27 Oct (low 149.48 on 26 Oct) |
 | 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open; low close 153.27 (26 Oct) |
 | 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | open |
+| 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; NVDA ~$212 at the call |
 
 ---
 
@@ -160,3 +161,22 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 **What I'll do whatever happens:** the first-half sell as ordered (8 shares: $212 → $205 → market by 6 Nov, holding ~7%, the top of the band), the $148 buy as the last buy, and no rebuy until the 22 Nov dilution check and the 10 Nov share count.
 
 **Result:** ____
+
+---
+
+## 8 · NVDA bought at $212 is a "crazy deal" in a few years
+**Made:** Fri 30 Oct 2026, 08:11 UK, the morning after an unplanned buy of 2 NVDA at ~$212 (29 Oct), on the day after Alphabet's record −12% fall.
+
+**My words:** "Nvidia is up 4% this year, in investing for the long term, yes there will most likely be bigger dip opportunities but I will look back at the price I'm buying at today in a few years thinking I had such a crazy deal on my hands. And that's something I actually know will be the case."
+
+**How it's scored (fixed 08:15 on 30 Oct):** two parts, each hit or miss.
+- **Absolute:** NVDA's close on **Mon 29 Oct 2029** is **≥ $424** (2× the $212 entry; adjusted for any split).
+- **Relative:** over the same three years NVDA beats QQQ (from QQQ's 29 Oct 2026 close).
+- **Full hit** = both; **half** = one; **miss** = neither. Interim notes at each 13 Oct checkpoint of the race.
+
+**Base rate:** a stock with NVDA's 33% annual volatility doubles in three years **~7% of the time with no drift**, and **~17% with a 10%-a-year market drift**. The call is a strong one: beating ~17% is real evidence.
+
+**Noted against it, so it's judged fairly:** at ~18× forward earnings and ~80% earnings growth, $212 is cheap on the numbers *if* the build-out keeps compounding. My own transition rule (checklist 5b) exists because suppliers were hurt most in every past handover from build-out to adopters. In 2000 Cisco was the best business in its build-out and took 25 years to regain its high. The buy was also made with the shield below the floor; whatever the result, the cost of that (the shares a later tranche at Zone 2 or a −25% drawdown would have bought) is written next to the score.
+
+**Result:** ____
+

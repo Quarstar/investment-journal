@@ -20,6 +20,7 @@ The targets in the [target portfolio](target-portfolio.md) are not fixed. They c
 - **Maximum 5% of the book moved between layers per review** (core, anchors, defensive, sandbox). Drawdown tranches and gate-driven entries and exits are exempt, because they were planned in advance.
 - **No target changed twice for the same reason in four weeks.** If I want to reverse a change within four weeks, I write down what new evidence I have.
 - **Every change is a commit,** with the trigger number, the old and new targets, and the reason.
+- **24-hour rule (added 30 Oct 2026, my decision):** any buy that isn't already in the buy queue waits 24 hours. If it's still a good idea the next day, it goes into the queue, and the queue's checks apply (gate passed, shield ≥15% after the buy, execution rule). Written after a week with three unplanned buys (IONQ, GOOGL after hours, NVDA intraday), ~7.5% of the book while the shield was under the floor.
 
 ## How the weights move: new money first
 **The main way the portfolio adapts is by where new money goes, not by selling.** When a trigger changes a target, I move toward the new target by filling out the positions that are now furthest below it.
