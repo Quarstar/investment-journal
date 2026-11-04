@@ -1,26 +1,24 @@
 {
  "price_date": "2026-11-03",
- "weekly_row_added": "2026-10-30",
+ "weekly_row_added": null,
  "zones": {
   "VST": {
    "last": 139.59,
-   "status": "inside Zone 1",
-   "flags": [
-    "2026-10-30 close 138.37 is below the testing band (146\u2013150): re-map needed"
-   ],
+   "status": "testing support",
+   "flags": [],
    "testing": [
-    146,
-    150
+    136,
+    141
    ],
    "zone1": {
     "band": [
-     132,
-     141
+     124,
+     131
     ],
-    "from_last_pct": 1.0,
-    "from_high_pct": -32.2,
-    "fwd_pe": 13.3,
-    "p_touch_13w": 1.0
+    "from_last_pct": -6.2,
+    "from_high_pct": -36.7,
+    "fwd_pe": 12.5,
+    "p_touch_13w": 0.74
    },
    "zone2": {
     "band": [
@@ -33,12 +31,12 @@
     "p_touch_13w": 0.52
    },
    "ceiling1": [
-    154,
-    155
+    146,
+    150
    ],
    "ceiling2": [
-    164,
-    169
+    154,
+    155
    ],
    "fwd_pe_now": 13.6
   },
@@ -82,65 +80,51 @@
   },
   "NVDA": {
    "last": 206.69,
-   "status": "inside Zone 1",
-   "flags": [
-    "2026-10-30 close 204.64 is below the testing band (212\u2013218): re-map needed"
-   ],
+   "status": "testing support",
+   "flags": [],
    "testing": [
-    212,
-    218
+    204,
+    210
    ],
    "zone1": {
     "band": [
-     204,
-     210
+     192,
+     199
     ],
-    "from_last_pct": 1.6,
-    "from_high_pct": -14.9,
-    "fwd_pe": 17.0,
-    "p_touch_13w": 1.0
+    "from_last_pct": -3.7,
+    "from_high_pct": -19.7,
+    "fwd_pe": 16.1,
+    "p_touch_13w": 0.78
    },
    "zone2": {
     "band": [
-     190,
-     196
+     173,
+     179
     ],
-    "from_last_pct": -5.2,
-    "from_high_pct": -20.7,
-    "fwd_pe": 15.9,
-    "p_touch_13w": 0.71
+    "from_last_pct": -13.4,
+    "from_high_pct": -27.7,
+    "fwd_pe": 14.5,
+    "p_touch_13w": 0.37
    },
    "ceiling1": [
-    219.6,
-    221.1
+    212,
+    218
    ],
    "ceiling2": [
-    230,
-    234
+    219.6,
+    221.1
    ],
    "fwd_pe_now": 17.0
   },
   "TSM": {
    "last": 404.8,
-   "status": "between Zone 1 and Zone 2",
-   "flags": [
-    "2026-10-30 close 406.13 is below the testing band (422\u2013428): re-map needed"
-   ],
+   "status": "between Zone 1 and support",
+   "flags": [],
    "testing": [
-    422,
-    428
+    406,
+    417
    ],
    "zone1": {
-    "band": [
-     406,
-     417
-    ],
-    "from_last_pct": 3.0,
-    "from_high_pct": -15.6,
-    "fwd_pe": 18.2,
-    "p_touch_13w": 1.0
-   },
-   "zone2": {
     "band": [
      393,
      404
@@ -150,62 +134,68 @@
     "fwd_pe": 17.6,
     "p_touch_13w": 0.93
    },
+   "zone2": {
+    "band": [
+     373,
+     387
+    ],
+    "from_last_pct": -4.4,
+    "from_high_pct": -22.0,
+    "fwd_pe": 16.8,
+    "p_touch_13w": 0.73
+   },
    "ceiling1": [
-    440,
-    446
+    422,
+    428
    ],
    "ceiling2": [
-    486,
-    487.5
+    440,
+    446
    ],
    "fwd_pe_now": 17.9
   },
   "GOOGL": {
    "last": 280.03,
-   "status": "between Zone 1 and Zone 2",
-   "flags": [
-    "2026-10-30 close 279.84 is below the testing band (319\u2013328): re-map needed"
-   ],
+   "status": "between support and the first ceiling",
+   "flags": [],
    "testing": [
-    319,
-    328
+    271,
+    280
    ],
    "zone1": {
     "band": [
-     301,
-     310
+     255,
+     265
     ],
-    "from_last_pct": 10.7,
-    "from_high_pct": -23.8,
-    "fwd_pe": 22.6,
-    "p_touch_13w": 1.0
+    "from_last_pct": -5.4,
+    "from_high_pct": -35.1,
+    "fwd_pe": 19.3,
+    "p_touch_13w": 0.73
    },
    "zone2": {
     "band": [
-     271,
-     280
+     227,
+     237
     ],
-    "from_last_pct": -0.0,
-    "from_high_pct": -31.3,
-    "fwd_pe": 20.4,
-    "p_touch_13w": 0.94
+    "from_last_pct": -15.4,
+    "from_high_pct": -42.1,
+    "fwd_pe": 17.2,
+    "p_touch_13w": 0.35
    },
    "ceiling1": [
-    334,
-    342
+    301,
+    310
    ],
    "ceiling2": [
-    352,
-    359
+    319,
+    328
    ],
    "fwd_pe_now": 20.8
   },
   "UNP": {
    "last": 303.43,
    "status": "between the ceilings",
-   "flags": [
-    "2026-10-30 close 304.0 is above the first ceiling (293); a second Friday above steps the map up"
-   ],
+   "flags": [],
    "testing": [
     285,
     286
@@ -218,7 +208,7 @@
     "from_last_pct": -8.4,
     "from_high_pct": -12.5,
     "fwd_pe": 20.2,
-    "p_touch_13w": 0.38
+    "p_touch_13w": 0.39
    },
    "zone2": {
     "band": [
@@ -266,7 +256,7 @@
     "from_last_pct": -11.3,
     "from_high_pct": -45.1,
     "fwd_pe": 10.4,
-    "p_touch_13w": 0.61
+    "p_touch_13w": 0.62
    },
    "ceiling1": [
     14.2,
@@ -281,9 +271,7 @@
   "MCD": {
    "last": 263.04,
    "status": "between the ceilings",
-   "flags": [
-    "2026-10-30 close 258.12 is above the first ceiling (250); a second Friday above steps the map up"
-   ],
+   "flags": [],
    "testing": [
     234,
     235
@@ -296,7 +284,7 @@
     "from_last_pct": -11.4,
     "from_high_pct": -32.3,
     "fwd_pe": 17.4,
-    "p_touch_13w": 0.14
+    "p_touch_13w": 0.15
    },
    "zone2": {
     "band": [
@@ -320,25 +308,13 @@
   },
   "NBIS": {
    "last": 151.64,
-   "status": "inside Zone 1",
-   "flags": [
-    "2026-10-30 close 154.14 is below the testing band (168\u2013175): re-map needed"
-   ],
+   "status": "testing support",
+   "flags": [],
    "testing": [
-    168,
-    175
+    148,
+    160
    ],
    "zone1": {
-    "band": [
-     148,
-     160
-    ],
-    "from_last_pct": 5.5,
-    "from_high_pct": -48.6,
-    "fwd_pe": null,
-    "p_touch_13w": 1.0
-   },
-   "zone2": {
     "band": [
      105,
      118
@@ -348,13 +324,23 @@
     "fwd_pe": null,
     "p_touch_13w": 0.63
    },
+   "zone2": {
+    "band": [
+     80,
+     90
+    ],
+    "from_last_pct": -40.6,
+    "from_high_pct": -71.7,
+    "fwd_pe": null,
+    "p_touch_13w": 0.32
+   },
    "ceiling1": [
-    175,
-    183
+    168,
+    175
    ],
    "ceiling2": [
-    209,
-    221
+    175,
+    183
    ],
    "fwd_pe_now": null
   },
@@ -422,7 +408,7 @@
     "from_last_pct": -15.7,
     "from_high_pct": -45.0,
     "fwd_pe": 17.3,
-    "p_touch_13w": 0.46
+    "p_touch_13w": 0.47
    },
    "ceiling1": [
     264,
@@ -436,81 +422,77 @@
   },
   "MU": {
    "last": 855.1,
-   "status": "between Zone 1 and support",
-   "flags": [
-    "2026-10-30 close 884.74 is below the testing band (888\u2013903): re-map needed"
-   ],
+   "status": "between support and the first ceiling",
+   "flags": [],
    "testing": [
-    888,
-    903
+    800,
+    845
    ],
    "zone1": {
     "band": [
-     800,
-     845
+     734,
+     784
     ],
-    "from_last_pct": -1.2,
-    "from_high_pct": -27.5,
-    "fwd_pe": 4.9,
-    "p_touch_13w": 0.93
+    "from_last_pct": -8.3,
+    "from_high_pct": -33.1,
+    "fwd_pe": 4.5,
+    "p_touch_13w": 0.79
    },
    "zone2": {
     "band": [
-     698,
-     743
+     564,
+     615
     ],
-    "from_last_pct": -13.1,
-    "from_high_pct": -36.5,
-    "fwd_pe": 4.3,
-    "p_touch_13w": 0.7
+    "from_last_pct": -28.1,
+    "from_high_pct": -48.0,
+    "fwd_pe": 3.5,
+    "p_touch_13w": 0.37
    },
    "ceiling1": [
-    978,
-    1003
+    888,
+    903
    ],
    "ceiling2": [
-    1088,
-    1108
+    978,
+    1003
    ],
    "fwd_pe_now": 5.1
   },
   "TLN": {
    "last": 357.28,
-   "status": "between support and the first ceiling",
-   "flags": [
-    "2026-10-30 close 343.12 is below the testing band (349\u2013356): re-map needed"
-   ],
+   "status": "between the ceilings",
+   "flags": [],
    "testing": [
-    349,
-    356
+    334,
+    344
    ],
    "zone1": {
     "band": [
-     324,
-     344
+     302,
+     321
     ],
-    "from_last_pct": -3.7,
-    "from_high_pct": -23.4,
-    "fwd_pe": 11.2,
-    "p_touch_13w": 0.85
+    "from_last_pct": -10.2,
+    "from_high_pct": -28.6,
+    "fwd_pe": 10.4,
+    "p_touch_13w": 0.67
    },
    "zone2": {
     "band": [
      283,
-     302
+     297
     ],
-    "from_last_pct": -15.5,
-    "from_high_pct": -33.0,
-    "fwd_pe": 9.8,
-    "p_touch_13w": 0.52
+    "from_last_pct": -16.9,
+    "from_high_pct": -33.5,
+    "fwd_pe": 9.7,
+    "p_touch_13w": 0.48
    },
    "ceiling1": [
-    374,
-    391
+    349,
+    356
    ],
    "ceiling2": [
-    436,
-    436
+    374,
+    391
    ],
    "fwd_pe_now": 12.0
   },
@@ -554,53 +536,49 @@
   },
   "QQQ": {
    "last": 685.28,
-   "status": "inside Zone 2 (capitulation)",
-   "flags": [
-    "2026-10-30 close 690.49 is below the testing band (714\u2013718): re-map needed"
-   ],
+   "status": "testing support",
+   "flags": [],
    "testing": [
-    714,
-    718
+    680,
+    690
    ],
    "zone1": {
     "band": [
-     700,
-     709
+     648,
+     665
     ],
-    "from_last_pct": 3.5,
-    "from_high_pct": -7.7,
+    "from_last_pct": -3.0,
+    "from_high_pct": -13.9,
     "fwd_pe": null,
-    "p_touch_13w": 1.0
+    "p_touch_13w": 0.71
    },
    "zone2": {
     "band": [
-     684,
-     688
+     606,
+     621
     ],
-    "from_last_pct": 0.4,
-    "from_high_pct": -10.1,
+    "from_last_pct": -9.4,
+    "from_high_pct": -19.6,
     "fwd_pe": null,
-    "p_touch_13w": 1.0
+    "p_touch_13w": 0.28
    },
    "ceiling1": [
-    722,
-    723
+    700,
+    709
    ],
    "ceiling2": [
-    744,
-    752
+    714,
+    718
    ],
    "fwd_pe_now": null
   },
   "IREN": {
    "last": 24.46,
-   "status": "between Zone 1 and support",
-   "flags": [
-    "2026-10-30 close 23.95 is below the testing band (25.6\u201327.0): re-map needed"
-   ],
+   "status": "testing support",
+   "flags": [],
    "testing": [
-    25.6,
-    27.0
+    23.7,
+    24.5
    ],
    "zone1": {
     "band": [
@@ -623,12 +601,12 @@
     "p_touch_13w": 0.33
    },
    "ceiling1": [
-    28.8,
-    30.5
+    25.6,
+    27.0
    ],
    "ceiling2": [
-    34.8,
-    36.0
+    28.8,
+    30.5
    ],
    "fwd_pe_now": null
   },
@@ -648,7 +626,7 @@
     "from_last_pct": -3.4,
     "from_high_pct": -47.6,
     "fwd_pe": null,
-    "p_touch_13w": 0.89
+    "p_touch_13w": 0.88
    },
    "zone2": {
     "band": [
@@ -686,7 +664,7 @@
     "from_last_pct": -5.5,
     "from_high_pct": -52.5,
     "fwd_pe": null,
-    "p_touch_13w": 0.81
+    "p_touch_13w": 0.8
    },
    "zone2": {
     "band": [
@@ -711,9 +689,7 @@
   "V": {
    "last": 420.42,
    "status": "above the second ceiling",
-   "flags": [
-    "2026-10-30 close 413.59 is above the first ceiling (410); a second Friday above steps the map up"
-   ],
+   "flags": [],
    "testing": [
     397,
     402
@@ -854,14 +830,6 @@
    ],
    "change_pct": -5.16
   },
-  "CEG": {
-   "close": 263.4,
-   "prev": [
-    "2026-10-27",
-    258.98
-   ],
-   "change_pct": 1.71
-  },
   "TSM": {
    "close": 404.8,
    "prev": [
@@ -877,14 +845,6 @@
     82.42
    ],
    "change_pct": 2.32
-  },
-  "AVAV": {
-   "close": 123.53,
-   "prev": [
-    "2026-10-27",
-    126.73
-   ],
-   "change_pct": -2.53
   },
   "MP": {
    "close": 37.83,
@@ -917,6 +877,14 @@
     320.58
    ],
    "change_pct": -12.65
+  },
+  "BOTJ": {
+   "close": 23.78,
+   "prev": [
+    "2026-10-27",
+    30.01
+   ],
+   "change_pct": -20.76
   },
   "UNP": {
    "close": 303.43,
@@ -1021,6 +989,54 @@
     148.58
    ],
    "change_pct": -4.89
+  },
+  "ARM": {
+   "close": 202.49,
+   "prev": [
+    "2026-10-27",
+    226.6
+   ],
+   "change_pct": -10.64
+  },
+  "CEG": {
+   "close": 263.4,
+   "prev": [
+    "2026-10-27",
+    258.98
+   ],
+   "change_pct": 1.71
+  },
+  "AVAV": {
+   "close": 123.53,
+   "prev": [
+    "2026-10-27",
+    126.73
+   ],
+   "change_pct": -2.53
+  },
+  "UBER": {
+   "close": 66.6,
+   "prev": [
+    "2026-10-27",
+    65.78
+   ],
+   "change_pct": 1.25
+  },
+  "NFLX": {
+   "close": 63.42,
+   "prev": [
+    "2026-10-27",
+    62.52
+   ],
+   "change_pct": 1.44
+  },
+  "LLY": {
+   "close": 1409.38,
+   "prev": [
+    "2026-10-27",
+    1281.91
+   ],
+   "change_pct": 9.94
   },
   "QQQ": {
    "close": 685.28,

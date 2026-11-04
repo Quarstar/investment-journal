@@ -1,9 +1,9 @@
 {
  "subtype": "success",
  "is_error": false,
- "turns": 53,
- "cost_usd": 1.1847226999999998,
- "summary": "`weekly-reviews/drafts/2026-11-04.md` is written. The three most important things in it:\n1. QQQ closed at $685.28, through the \u221210% line ($686.57). The rotation gauge is now 3 of 3, so it is confirmed. Prediction 1 scores a miss.\n2. MCD reported this morning but I couldn't retrieve the result, so its gate is unscored. The Nebius results date is now confirmed as 12 Nov, not about 10 Nov, which affects the share-count kill line.\n3. All seven holdings matched an independent price page. `prices.json` has XLVP at 68,740 \"GBp\", which looks mis-scaled. Analyst target changes and the reasons for many ",
+ "turns": 42,
+ "cost_usd": 0.8255042999999999,
+ "summary": "`weekly-reviews/drafts/2026-11-04.md` is written. The three most important things in it:\n\n1. **Off-cycle run.** The 3 Nov price date is the same one the published 4 Nov review used, so I did not advance the rotation gauge (3 of 3), the transition signals (1 confirmed, 1 to watch) or the gate statuses. All seven holding closes matched stockanalysis.com. QQQ is at \u221210.2% from its high, and the \u221215% line is $648.43.\n2. **Results this week.** MCD reported this morning. Adjusted EPS was $3.57 against about $3.38 expected, but revenue missed and US comparable sales were \u22120.2%. I didn't read the MCD ",
  "denied": 0,
  "draft": "weekly-reviews/drafts/2026-11-04.md",
  "validator": "clean"
