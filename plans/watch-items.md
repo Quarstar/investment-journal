@@ -81,3 +81,12 @@ If the gate fails, it stays off the book and stays on this list until the next p
 
 **Read:** the quarter beat a low bar (bookings above guidance, users and hours up on the quarter), but every year-on-year line is still shrinking and Q4 is guided down again, so the bottom isn't in. Revenue (+16%) is still running ahead of bookings (−12%) and will converge down towards it. **Watchlist until the Q4 print (late Jan / early Feb); no sandbox slot at the 4 Nov review.** What would change it: Q4 bookings guidance for 2027 back to growth, with DAUs and hours both up year on year.
 Sources: [stockanalysis statistics](https://stockanalysis.com/stocks/rblx/statistics/) · [Motley Fool, 23 Oct](https://www.fool.com/investing/2026/10/23/whats-wrong-with-roblox-stock/)
+
+## ARM (Arm Holdings) · added 4 Nov 2026
+**Why it's here:** my read of the hyperscalers' Q3 calls (2 Nov) is that a growing share of AI spending goes to agentic AI, which runs on general-purpose CPUs as well as GPUs, and Arm's designs sit under most of the new data-centre CPUs (AWS Graviton, Google Axion, Microsoft Cobalt, Nvidia's Grace and Vera) plus its own AGI CPU.
+**Gate: results Wed 4 Nov after the close** ([Arm](https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027)): revenue at or above the $1.38bn guide (+22%); data-centre royalties still more than doubling; AGI CPU demand at or above the >$2bn for FY27–28 already stated, with supply easing; next-quarter guide at or above consensus; any news on the Qualcomm case ([preview](https://www.hudson-labs.com/research/arm-q2-2027-earnings-preview-arm-revenue-and-outlook)).
+**If it passes:** onto the January battle list against the core chip names. Nothing is bought before then (no money; one in, one out). Valuation not verified this week; the agent now fetches its price.
+
+## BOTJ (Bank of the James) · sandbox, bought by 4 Nov 2026
+**Position:** 1 share (~0.1% of the book), sandbox, no adds. Bought after its ~18.5% fall on 29 Oct, which had no stated reason, the day before a record quarter (Q3 EPS $0.73, ROE 15.6%, dividend +50% to $0.15) ([8-K](https://www.sec.gov/Archives/edgar/data/0001275101/000127510126000027/botj-20261027xex99_1.htm)).
+**Exit lines (written 4 Nov):** book value per share below $16.50 (it was $17.27 on 30 Sep, down from $17.62 at year-end on bond-portfolio losses), or non-performing loans above 0.5% of loans. Next check: its January results.

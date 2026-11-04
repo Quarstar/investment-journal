@@ -1,4 +1,4 @@
-# Capture zones · per-stock buy levels · first mapped 15 Oct 2026, re-mapped every Wednesday (latest: 28 Oct, 27 Oct closes)
+# Capture zones · per-stock buy levels · first mapped 15 Oct 2026, re-mapped every Wednesday (latest: 4 Nov, 3 Nov closes)
 
 Each name in the plan and on the deep-value list gets its own map: the support it's testing now, a **first capture zone**, a **capitulation zone**, and the **ceilings** above. The point is not to miss a name that falls on its own story while the index barely moves. NBIS fell 27% from its 6 Oct high in seven sessions while QQQ fell 4%, and an index-only trigger would never have fired. The zones are refreshed every Wednesday from the latest closes.
 
@@ -20,40 +20,51 @@ The mechanical output is the starting point. The zones below are my read of it, 
 
 **Columns:** *Fwd P/E* = the price at the middle of the zone divided by forward earnings from the 13 Oct snapshot, a check that the zone is also cheaper on earnings and not just on the chart. *P(touch)* = how often a stock with its own volatility and no trend reaches the zone's upper edge within 13 weeks (20,000 simulated paths). It's a base rate, not a forecast: a high number means the zone is close, not that it's likely to hold.
 
-## The map (27 Oct 2026 closes; first map 14 Oct)
+## The map (3 Nov 2026 closes, re-mapped on the 30 Oct weekly closes; first map 14 Oct)
 
 | | Last | Vol | Testing now | **Zone 1** · first capture | Fwd P/E | P(touch) | **Zone 2** · capitulation | Fwd P/E | P(touch) | Ceiling | Next ceiling |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **Power** | | | | | | | | | | | |
-| VST | 146.66 | 43% | 146–150 | **132–141** (-4%, -32% off high) | 13.3 | 82% | **115–122** (-17%, -41%) | 11.6 | 39% | 154–155 | 164–169 |
-| NEE | 82.42 | 18% | 81.9–82.1 | **79.2–80.6** (-2%, -18% off high) | 19.5 | 76% | **75.4–76.7** (-7%, -22%) | 18.6 | 41% | 84–84.4 | 87.6–87.6 |
+| VST | 139.59 | 43% | 136–141 | **124–131** (-6.2%, -36.7% off high) | 12.5 | 74% | **115–122** (-12.6%, -41.2%) | 11.6 | 52% | 146–150 | 154–155 |
+| NEE | 84.33 | 18% | 81.9–82.1 | **79.2–80.6** (-4.4%, -17.6% off high) | 19.5 | 59% | **75.4–76.7** (-9.0%, -21.6%) | 18.6 | 28% | 84–84.4 | 87.6 |
 | **Chips** | | | | | | | | | | | |
-| NVDA | 217.94 | 33% | 212–218 | **204–210** (-4%, -15% off high) | 17.0 | 78% | **190–196** (-10%, -21%) | 15.9 | 50% | 219.6–221.1 | 230–234 |
-| TSM | 436.87 | 30% | 422–428 | **406–417** (-4%, -16% off high) | 18.2 | 71% | **393–404** (-8%, -18%) | 17.6 | 57% | 440–446 | 486–487.5 |
+| NVDA | 206.69 | 33% | 204–210 | **192–199** (-3.7%, -19.7% off high) | 16.1 | 78% | **173–179** (-13.4%, -27.7%) | 14.5 | 37% | 212–218 | 219.6–221.1 |
+| TSM | 404.8 | 30% | 406–417 | **393–404** (-0.2%, -18.3% off high) | 17.6 | 93% | **373–387** (-4.4%, -22.0%) | 16.8 | 73% | 422–428 | 440–446 |
 | **Adopter** | | | | | | | | | | | |
-| GOOGL | 320.58 | 34% | 319–328 | **301–310** (-3%, -24% off high) | 22.6 | 80% | **271–280** (-13%, -31%) | 20.4 | 41% | 334–342 | 352–359 |
+| GOOGL | 280.03 | 36% | 271–280 | **255–265** (-5.4%, -35.1% off high) | 19.3 | 73% | **227–237** (-15.4%, -42.1%) | 17.2 | 35% | 301–310 | 319–328 |
 | **Anchors** | | | | | | | | | | | |
-| UNP | 299.88 | 21% | 285–286 | **272–278** (-7%, -12% off high) | 20.2 | 46% | **262–270** (-10%, -15%) | 19.5 | 30% | 289–293 | 306–314 |
-| V | 401.31 | 20% | 397–402 | **375.3–382.7** (-5%, -9% off high) | 26.0 | 60% | **356.1–363.5** (-9%, -13%) | 24.7 | 31% | 407–410 | 414.6–414.6 |
-| MCD | 249.47 | 17% | 234–235 | **229–233** (-7%, -32% off high) | 17.4 | 39% | **218–222** (-11%, -36%) | 16.6 | 15% | 242–250 | 286–287 |
-| NU | 12.4 | 42% | – | **10.9–11.7** (-6%, -37% off high) | 11.8 | 76% | **9.5–10.3** (-17%, -45%) | 10.4 | 36% | 14.2–14.4 | 15.6–16.2 |
+| UNP | 303.43 | 21% | 285–286 | **272–278** (-8.4%, -12.5% off high) | 20.2 | 39% | **262–270** (-11.0%, -15.3%) | 19.5 | 26% | 289–293 | 306–314 |
+| V | 420.42 | 20% | 397–402 | **375.3–382.7** (-9.0%, -8.6% off high) | 26.0 | 33% | **356.1–363.5** (-13.5%, -13.2%) | 24.7 | 14% | 407–410 | 414.6 |
+| MCD | 263.04 | 17% | 234–235 | **229–233** (-11.4%, -32.3% off high) | 17.4 | 15% | **218–222** (-15.6%, -35.5%) | 16.6 | 4% | 242–250 | 286–287 |
+| NU | 11.61 | 49% | – | **10.9–11.7** (0.8%, -37.4% off high) | 11.8 | 100% | **9.5–10.3** (-11.3%, -45.1%) | 10.4 | 62% | 14.2–14.4 | 15.6–16.2 |
 | **Weapons** | | | | | | | | | | | |
-| NBIS | 170.47 | 97% | 168–175 | **148–160** (-6%, -49% off high) | n/m | 88% | **105–118** (-31%, -63%) | n/m | 49% | 175–183 | 209–221 |
-| SOFI | 16.4 | 53% | 15.67–16.02 | **15.25–15.84** (-3%, -52% off high) | n/m | 86% | **13.86–14.6** (-11%, -56%) | n/m | 65% | 16.55–17.14 | 18.3–18.4 |
+| NBIS | 151.64 | 96% | 148–160 | **105–118** (-22.2%, -62.8% off high) | n/m | 63% | **80–90** (-40.6%, -71.7%) | n/m | 32% | 168–175 | 175–183 |
+| SOFI | 16.77 | 53% | 15.67–16.02 | **15.25–15.84** (-5.5%, -52.5% off high) | n/m | 80% | **13.86–14.6** (-12.9%, -56.5%) | n/m | 59% | 16.55–17.14 | 18.3–18.4 |
 | **Deep-value list** | | | | | | | | | | | |
-| AMD | 560.26 | 63% | – | **451–488** (-13%, -29% off high) | 42.0 | 65% | **383–408** (-27%, -40%) | 35.4 | 33% | 606–620 | 648–658.5 |
-| CEG | 258.98 | 47% | 250–256 | **242–250** (-4%, -37% off high) | 19.9 | 84% | **206–222** (-14%, -45%) | 17.3 | 51% | 264–271 | 286–301 |
-| MU | 928.76 | 72% | 888–903 | **800–845** (-9%, -28% off high) | 4.9 | 78% | **698–743** (-20%, -36%) | 4.3 | 56% | 978–1003 | 1088–1108 |
-| TLN | 345.73 | 52% | 349–356 | **324–344** (-0%, -23% off high) | 11.2 | 93% | **283–302** (-13%, -33%) | 9.8 | 60% | 374–391 | 436–436 |
+| AMD | 483.9 | 63% | – | **451–488** (0.8%, -28.7% off high) | 42.0 | 100% | **383–408** (-15.7%, -39.9%) | 35.4 | 59% | 606–620 | 648–658.5 |
+| CEG | 263.4 | 47% | 250–256 | **242–250** (-5.1%, -36.8% off high) | 19.9 | 79% | **206–222** (-15.7%, -45.0%) | 17.3 | 47% | 264–271 | 286–301 |
+| MU | 855.1 | 72% | 800–845 | **734–784** (-8.3%, -33.1% off high) | 4.5 | 79% | **564–615** (-28.1%, -48.0%) | 3.5 | 37% | 888–903 | 978–1003 |
+| TLN | 357.28 | 52% | 334–344 | **302–321** (-10.2%, -28.6% off high) | 10.4 | 67% | **283–297** (-16.9%, -33.5%) | 9.7 | 48% | 349–356 | 374–391 |
 | **January gate** | | | | | | | | | | | |
-| AVGO | 342.33 | 45% | – | **314–325** (-5%, -28% off high) | 18.3 | 79% | **295–306** (-11%, -33%) | 17.2 | 60% | 336–343 | 357–368 |
+| AVGO | 332.13 | 45% | – | **314–325** (-2.1%, -28.5% off high) | 18.3 | 88% | **295–306** (-7.9%, -32.7%) | 17.2 | 69% | 336–343 | 357–368 |
 | **Sandbox / watch** | | | | | | | | | | | |
-| IREN | 27.44 | 97% | 25.6–27 | **20–22.5** (-18%, -72% off high) | n/m | 70% | **12–15** (-45%, -82%) | n/m | 25% | 28.8–30.5 | 34.8–36 |
-| APLD | 19.51 | 71% | 17.6–18.4 | **15.5–17.2** (-12%, -48% off high) | n/m | 72% | **11.5–13.3** (-32%, -60%) | n/m | 30% | 20.1–20.4 | 26.9–27 |
+| IREN | 24.46 | 93% | 23.7–24.5 | **20–22.5** (-8.0%, -72.4% off high) | n/m | 84% | **12–15** (-38.7%, -82.4%) | n/m | 33% | 25.6–27 | 28.8–30.5 |
+| APLD | 17.81 | 68% | 17.6–18.4 | **15.5–17.2** (-3.4%, -47.6% off high) | n/m | 88% | **11.5–13.3** (-25.3%, -60.3%) | n/m | 41% | 20.1–20.4 | 26.9–27 |
 | **Index** | | | | | | | | | | | |
-| QQQ | 721.24 | 19% | 714–718 | **700–709** (-2%, -8% off high) | n/m | 81% | **684–688** (-5%, -10%) = the G+ half trigger | n/m | 59% | 722–723 | 744–752 |
+| QQQ | 685.28 | 19% | 680–690 | **648–665** (-3.0%, -13.9% off high) = the −15% drawdown line | n/m | 71% | **606–621** (-9.4%, -19.6%) | n/m | 28% | 700–709 | 714–718 |
 
-Percentages in brackets: distance of the zone's top from the 27 Oct close, then of its middle from the 52-week high. Forward P/E at each zone uses the 13 Oct earnings snapshot (TSM's is therefore too high after the 15 Oct beat-and-raise). Names whose price is *inside* a band on 20 Oct: NVDA (testing 212–218), GOOGL (testing 334–342), MCD (ceiling 242–250), TLN (testing 349–356), IREN (testing 25.6–27.0); NBIS closed 3% above its new 160–168 demand zone, CEG 1% above its 250–256 test.
+Percentages in brackets: distance of the zone's top from the 27 Oct close, then of its middle from the 52-week high. Forward P/E at each zone uses the 13 Oct earnings snapshot (TSM's is therefore too high after the 15 Oct beat-and-raise). Percentages from the 3 Nov close. Names whose price sits *inside* a band on 3 Nov: VST, NVDA, GOOGL, NBIS (testing), TSM (top of the new Zone 1), NU and AMD (Zone 1), MU (testing), QQQ (testing, through the −10% line).
+
+**Changes on 4 Nov (re-mapped on the 30 Oct weekly closes, prices to 3 Nov).** The AI leg down broke nine testing bands on one Friday close. Rule applied the same way to each: the broken band becomes the first ceiling, the band the price now sits in becomes "testing", and the zones below are re-drawn from the script's levels (where it finds no structure, a volatility band, said so).
+- **VST** 146–150 broke (138.37) → ceiling. Testing 136–141: the 52-week closing low (136.21) with seven sources agreeing, the strongest level on the map. Nothing structural below, so Zone 1 is a volatility band, 124–131 (12.5×); Zone 2 115–122 unchanged.
+- **NVDA** 212–218 broke (204.64) → ceiling. Testing 204–210 (the 40-week average, 204.15). Zone 1 192–199 (16.1×) and Zone 2 173–179 (14.5×): weekly swing-close clusters.
+- **TSM** 422–428 broke (406.13) → ceiling. Testing 406–417. Zone 1 393–404 (17.6×; the 40-week average 401.1 and the 399.75 swing), Zone 2 373–387 (a volatility band).
+- **GOOGL** 319–328 and 301–310 both broke (279.84) → ceilings. Testing 271–280 (last week's Zone 2). Zone 1 255–265 (19.3×; the 52-week closing low 259.92), Zone 2 227–237 (17.2×, a volatility band).
+- **NBIS** 168–175 broke (154.14) → ceiling. Testing 148–160 (the 2 Nov close of 141.39 sat under it; not a weekly close). Zone 1 105–118 (last week's Zone 2), Zone 2 80–90 (the 85.2 cluster).
+- **QQQ** 714–718 and 700–709 broke (690.49) → ceilings. Testing 680–690 (the 40-week average 680.4; the −10% line 686.57 sits inside). Zone 1 648–665 starts at the −15% drawdown line ($648.43). Zone 2 606–621 (weekly swing closes, ~−20%).
+- **IREN** 25.6–27 broke (23.95, the 52-week closing low) → ceiling. Testing 23.7–24.5 (the 52-week lows). Zones unchanged; the 2 Nov close (22.02) was inside Zone 1.
+- **MU** 888–903 broke (884.74) → ceiling; testing 800–845; Zone 1 734–784 (the 40-week average); Zone 2 564–615. **TLN** 349–356 broke (343.12) → ceiling; testing 334–344; Zone 1 302–321; Zone 2 283–297. Ranking names only.
+- **Not stepped up yet:** UNP (304.00), MCD (258.12) and V (413.59) closed above their first ceilings on 30 Oct for the first time; a second Friday close above steps each map up. NEE closed inside its first ceiling (83.71 vs 84.0–84.4).
 
 **Changes on 28 Oct (re-mapped on the 23 Oct weekly closes, prices to 27 Oct):** **GOOGL** 334–342 broke (weekly close 320.21) → ceiling; the price is inside 319–328, which becomes "testing"; Zone 1 is now 301–310 (22.6×), Zone 2 271–280 (20.4×, the 40-week-low cluster). **NEE** rallied off the old Zone 1 after its results (82.42): new shelf 81.9–82.1 (the 22–26 Oct closes), Zone 1 79.2–80.6, the old Zone 1 75.4–76.7 becomes Zone 2. **NBIS** closed below the 160–168 demand zone on 23 Oct (158.74), tested Zone 1 on 26 Oct (low 149.48, $1.48 above the $148 buy) and reclaimed it on 27 Oct (170.47, +11%); a Friday close above 168 restores 160–168 as support. **IREN** closed below 25.6–27 on 23 Oct (24.91), set a new 52-week low (23.72) on 26 Oct and reclaimed the band on 27 Oct; bands unchanged. **NU** gapped through both zones on the Brazil runoff (26 Oct, −17%); volatility bands only, watch only since V replaced it. **Added: SOFI** (weapon; results gap 14.46 → 16.40 on 160M shares on 27 Oct): testing 15.67–16.02 (the gap's top), Zone 1 15.25–15.84 (the early-October shelf), Zone 2 13.86–14.60 (gap filled, the 52-week low). Forward P/E isn't in the 13 Oct snapshot; on the company's ~$0.90 2027 EPS outlook, Zone 1 is ~17× and Zone 2 ~16×. Volatility is the 50-session daily figure (53%), since only ten weekly closes are on file. **Added: V** (financial anchor): testing 397–402, Zone 1 375.3–382.7 (26.0×, the September swing lows and the volume shelf), Zone 2 356.1–363.5 (24.7×, the 40-week-average cluster), ceiling the 22 Oct record 414.60. **Not yet stepped up:** UNP (299.88) and MCD (249.47) both closed inside their first ceilings on 23 Oct (292.87, 248.46); one more Friday close above 293 / 250 steps the map up. AVGO (342.33) is inside its 336–343 ceiling. Everything else unchanged.
 
