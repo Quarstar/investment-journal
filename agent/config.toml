@@ -32,7 +32,7 @@ ranking = ["NVDA", "TSM", "AVGO", "AMD", "MU", "VST", "CEG", "TLN", "NEE", "GOOG
 max_source_gap_pct = 0.5
 
 [market]
-qqq_high = 762.86           # 52-week intraday high used by the drawdown plan (6 Oct 2026)
+qqq_high = 759.66           # highest CLOSE (6 Oct 2026): the drawdown plan measures from it (plan, 10 Oct). The intraday high was 762.86.
 drawdown_lines = [-10, -15, -25, -35]
 
 [zones]
