@@ -1,9 +1,9 @@
 {
  "subtype": "success",
  "is_error": false,
- "turns": 52,
- "cost_usd": 1.245198,
- "summary": "I wrote the draft to `weekly-reviews/drafts/2026-11-11.md`. The three most important things in it:\n1. **Market and prints:** QQQ is \u221211.2% from its high and 4.3% above the \u221215% line ($645.71). NVDA is \u221218.3% on the week after the Huang board probe and hot CPI. NBIS and NU report 12 Nov and NVDA 17 Nov, and the draft proposes a bar for each.\n2. **Prediction 6 and the zones:** Prediction 6 (NBIS no close below $140) broke on a close, $129.49 on 6 Nov, and goes to you as decision 3. Thirteen capture-zone bands broke on the 6 Nov weekly close, so the maps need re-running.\n3. **Counts and gaps:** T",
+ "turns": 29,
+ "cost_usd": 0.5914059999999999,
+ "summary": "`weekly-reviews/drafts/2026-11-11.md`. The three most important things in it:\n\n1. **Off-cycle run:** last week's review already used the 10 Nov close, so every running count is carried unchanged (rotation gauge at 4, transition signals at 1 confirmed and 1 to watch). The seven holdings' closes all match the independent quote pages.\n2. **Gates are open, and no capture-zone flags fired:** NBIS reports Thu 12 Nov before the open and NU after the close. NVDA reports Tue 17 Nov, and the bar includes a board statement on the Huang investigation. QQQ is at \u221211.2% from its high, 4.3% above the \u221215% li",
  "denied": 0,
  "draft": "weekly-reviews/drafts/2026-11-11.md",
  "validator": "clean"
