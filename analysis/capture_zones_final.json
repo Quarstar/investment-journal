@@ -5,20 +5,10 @@
   "vol": 0.434,
   "fwd_pe_now": 12.8,
   "testing_now": [
-   136,
-   141
+   124,
+   131
   ],
   "zone1": {
-   "band": [
-    124,
-    131
-   ],
-   "from_last_pct": -0.1,
-   "from_high_pct": -36.7,
-   "fwd_pe": 12.5,
-   "p_touch_13w": 0.93
-  },
-  "zone2": {
    "band": [
     115,
     122
@@ -26,17 +16,27 @@
    "from_last_pct": -7.0,
    "from_high_pct": -41.2,
    "fwd_pe": 11.6,
-   "p_touch_13w": 0.72
+   "p_touch_13w": 0.71
+  },
+  "zone2": {
+   "band": [
+    106,
+    112
+   ],
+   "from_last_pct": -14.6,
+   "from_high_pct": -45.9,
+   "fwd_pe": 10.7,
+   "p_touch_13w": 0.46
   },
   "ceiling1": [
+   136,
+   141
+  ],
+  "ceiling2": [
    146,
    150
   ],
-  "ceiling2": [
-   154,
-   155
-  ],
-  "ceiling1_pct": 11.3
+  "ceiling1_pct": 3.7
  },
  "NEE": {
   "last": 86.27,
@@ -83,38 +83,38 @@
   "vol": 0.338,
   "fwd_pe_now": 13.9,
   "testing_now": [
-   204,
-   210
+   165,
+   173
   ],
   "zone1": {
    "band": [
-    192,
-    199
+    152,
+    162
    ],
-   "from_last_pct": 17.8,
-   "from_high_pct": -19.7,
-   "fwd_pe": 16.1,
-   "p_touch_13w": 1.0
+   "from_last_pct": -4.1,
+   "from_high_pct": -35.5,
+   "fwd_pe": 12.9,
+   "p_touch_13w": 0.77
   },
   "zone2": {
    "band": [
-    173,
-    179
+    137,
+    146
    ],
-   "from_last_pct": 6.0,
-   "from_high_pct": -27.7,
-   "fwd_pe": 14.5,
-   "p_touch_13w": 1.0
+   "from_last_pct": -13.6,
+   "from_high_pct": -41.9,
+   "fwd_pe": 11.6,
+   "p_touch_13w": 0.38
   },
   "ceiling1": [
-   212,
-   218
+   173,
+   179
   ],
   "ceiling2": [
-   219.6,
-   221.1
+   192,
+   199
   ],
-  "ceiling1_pct": 25.5
+  "ceiling1_pct": 2.4
  },
  "TSM": {
   "last": 396.48,
@@ -122,20 +122,10 @@
   "vol": 0.306,
   "fwd_pe_now": 17.5,
   "testing_now": [
-   406,
-   417
+   393,
+   404
   ],
   "zone1": {
-   "band": [
-    393,
-    404
-   ],
-   "from_last_pct": 1.9,
-   "from_high_pct": -18.3,
-   "fwd_pe": 17.6,
-   "p_touch_13w": 1.0
-  },
-  "zone2": {
    "band": [
     373,
     387
@@ -145,15 +135,25 @@
    "fwd_pe": 16.8,
    "p_touch_13w": 0.83
   },
+  "zone2": {
+   "band": [
+    342,
+    360
+   ],
+   "from_last_pct": -9.2,
+   "from_high_pct": -28.0,
+   "fwd_pe": 15.5,
+   "p_touch_13w": 0.51
+  },
   "ceiling1": [
+   406,
+   417
+  ],
+  "ceiling2": [
    422,
    428
   ],
-  "ceiling2": [
-   440,
-   446
-  ],
-  "ceiling1_pct": 6.4
+  "ceiling1_pct": 2.4
  },
  "GOOGL": {
   "last": 287.38,
@@ -172,7 +172,7 @@
    "from_last_pct": -7.8,
    "from_high_pct": -35.1,
    "fwd_pe": 19.3,
-   "p_touch_13w": 0.63
+   "p_touch_13w": 0.62
   },
   "zone2": {
    "band": [
@@ -182,7 +182,7 @@
    "from_last_pct": -17.5,
    "from_high_pct": -42.1,
    "fwd_pe": 17.2,
-   "p_touch_13w": 0.27
+   "p_touch_13w": 0.28
   },
   "ceiling1": [
    301,
@@ -221,7 +221,7 @@
    "from_last_pct": -10.2,
    "from_high_pct": -14.2,
    "fwd_pe": 19.5,
-   "p_touch_13w": 0.31
+   "p_touch_13w": 0.3
   },
   "ceiling1": [
    289,
@@ -317,18 +317,18 @@
   "vol": 0.97,
   "fwd_pe_now": null,
   "testing_now": [
-   148,
-   160
+   125,
+   135
   ],
   "zone1": {
    "band": [
     105,
-    118
+    115
    ],
-   "from_last_pct": -11.9,
-   "from_high_pct": -62.8,
+   "from_last_pct": -14.2,
+   "from_high_pct": -63.3,
    "fwd_pe": null,
-   "p_touch_13w": 0.79
+   "p_touch_13w": 0.76
   },
   "zone2": {
    "band": [
@@ -341,14 +341,14 @@
    "p_touch_13w": 0.46
   },
   "ceiling1": [
+   148,
+   160
+  ],
+  "ceiling2": [
    168,
    175
   ],
-  "ceiling2": [
-   175,
-   183
-  ],
-  "ceiling1_pct": 25.4
+  "ceiling1_pct": 10.4
  },
  "AMD": {
   "last": 515.21,
@@ -484,7 +484,7 @@
    "from_last_pct": -11.1,
    "from_high_pct": -28.6,
    "fwd_pe": 10.4,
-   "p_touch_13w": 0.63
+   "p_touch_13w": 0.64
   },
   "zone2": {
    "band": [
@@ -523,7 +523,7 @@
    "from_last_pct": -2.1,
    "from_high_pct": -28.5,
    "fwd_pe": 18.3,
-   "p_touch_13w": 0.89
+   "p_touch_13w": 0.88
   },
   "zone2": {
    "band": [
@@ -551,38 +551,38 @@
   "vol": 0.195,
   "fwd_pe_now": null,
   "testing_now": [
-   680,
-   690
+   645,
+   665
   ],
   "zone1": {
    "band": [
-    648,
-    665
+    604,
+    622
    ],
-   "from_last_pct": -1.4,
-   "from_high_pct": -13.9,
+   "from_last_pct": -7.8,
+   "from_high_pct": -19.6,
    "fwd_pe": null,
-   "p_touch_13w": 0.83
+   "p_touch_13w": 0.38
   },
   "zone2": {
    "band": [
-    606,
-    621
+    562,
+    596
    ],
-   "from_last_pct": -8.0,
-   "from_high_pct": -19.6,
+   "from_last_pct": -11.7,
+   "from_high_pct": -24.1,
    "fwd_pe": null,
-   "p_touch_13w": 0.37
+   "p_touch_13w": 0.19
   },
   "ceiling1": [
+   680,
+   690
+  ],
+  "ceiling2": [
    700,
    709
   ],
-  "ceiling2": [
-   714,
-   718
-  ],
-  "ceiling1_pct": 3.7
+  "ceiling1_pct": 0.8
  },
  "IREN": {
   "last": 19.73,
@@ -590,38 +590,38 @@
   "vol": 0.895,
   "fwd_pe_now": null,
   "testing_now": [
-   23.7,
-   24.5
+   20.0,
+   22.5
   ],
   "zone1": {
    "band": [
-    20.0,
-    22.5
+    15.0,
+    17.5
    ],
-   "from_last_pct": 14.0,
-   "from_high_pct": -72.4,
+   "from_last_pct": -11.3,
+   "from_high_pct": -78.9,
    "fwd_pe": null,
-   "p_touch_13w": 1.0
+   "p_touch_13w": 0.79
   },
   "zone2": {
    "band": [
-    12.0,
-    15.0
+    9.7,
+    12.6
    ],
-   "from_last_pct": -24.0,
-   "from_high_pct": -82.4,
+   "from_last_pct": -36.1,
+   "from_high_pct": -85.5,
    "fwd_pe": null,
-   "p_touch_13w": 0.57
+   "p_touch_13w": 0.35
   },
   "ceiling1": [
+   23.7,
+   24.5
+  ],
+  "ceiling2": [
    25.6,
    27.0
   ],
-  "ceiling2": [
-   28.8,
-   30.5
-  ],
-  "ceiling1_pct": 29.8
+  "ceiling1_pct": 20.1
  },
  "APLD": {
   "last": 16.68,
@@ -650,7 +650,7 @@
    "from_last_pct": -20.3,
    "from_high_pct": -60.3,
    "fwd_pe": null,
-   "p_touch_13w": 0.52
+   "p_touch_13w": 0.51
   },
   "ceiling1": [
    20.1,
@@ -689,7 +689,7 @@
    "from_last_pct": -10.8,
    "from_high_pct": -56.5,
    "fwd_pe": null,
-   "p_touch_13w": 0.66
+   "p_touch_13w": 0.65
   },
   "ceiling1": [
    16.55,

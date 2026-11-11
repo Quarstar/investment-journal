@@ -9,13 +9,13 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | # | Made | Call | Deadline | Result |
 |---|---|---|---|---|
 | 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | **Miss (scored 4 Nov).** Floor broke 16 Oct; best close in the window 188.41 (15 Oct), then 182.34 (28 Oct); no $230 close. Base rate for both: 23% |
-| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 2: picks 96.4 vs real 98.8 (−2.4); week 3: real ~95.0–95.9, picks to back-fill (three closes unreadable) |
+| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 3: picks 94.4 vs real ~95.0; **week 4: picks 92.6 vs real ~90.9 (+1.7)**, first week the picks lead |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | **Miss (decided 23 Oct).** NBIS closed below $167 on 16, 22, 23, 26 Oct (low close 153.27); IREN below $26 on 22, 23, 26 Oct (low close 24.91). Base rate for both holding: 7% |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
-| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 151.64 on 3 Nov, needs +32% (low close 141.39, 2 Nov) |
-| 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | open, **close call**: low close 141.39 (2 Nov), 1.0% above the line |
+| 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 134.00 on 10 Nov, needs +49% (low close 129.49, 6 Nov) |
+| 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | **Miss (scored 11 Nov):** closed 129.49 on 6 Nov. Base rate for holding: 27% |
 | 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | open; results **Thu 12 Nov** (before the open): base close Wed 11 Nov, test close Fri 13 Nov, follow-through Fri 11 Dec |
-| 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; 206.69 on 3 Nov (−2.5%) |
+| 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; 168.89 on 10 Nov (−20.3%), board probe into the CEO opened 8–9 Nov |
 
 ---
 
@@ -138,7 +138,7 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 
 **What I'll do whatever happens:** the orders as written (sells $215 → $205 → market by 6 Nov; the $148 buy is "that's all"). If it goes below $140, I don't add: the $205 sell is what has to come first, before any rebuy is considered.
 
-**Result:** ____
+**Result (scored Wed 11 Nov 2026): miss.** NBIS closed **$129.49 on Fri 6 Nov**, the day after the Nasdaq's worst day in 18 months (and 134.00 on 10 Nov). The rule counts any daily close below $140.00, so the call is decided early, as Prediction 3 was. The base rate for the floor holding was 27%. **What I take from it:** the "buyers will defend the mid-$100s" read lost to forced selling across the whole AI trade (hedge funds cutting longs ~3.5× faster than adding shorts, per Goldman's prime data), not to news at Nebius. Same lesson as Predictions 1 and 3: a floor call on a 94%-volatility name needs to sit about one weekly standard deviation below the price, and sector-wide de-risking ignores company-level floors.
 
 ---
 

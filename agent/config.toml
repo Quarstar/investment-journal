@@ -38,7 +38,7 @@ drawdown_lines = [-10, -15, -25, -35]
 [zones]
 # The Friday close the hand-drawn map (analysis/capture_zones_final.py) was last re-drawn on.
 # Only Friday closes after this date raise re-map flags. Update it whenever the map is re-drawn.
-map_week = "2026-10-30"
+map_week = "2026-11-06"
 
 [research]
 # Names the agent researches every week (news, ratings, dilution, results date).
