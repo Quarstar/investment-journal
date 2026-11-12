@@ -14,11 +14,11 @@ Both are building faster than they earn, so **how they pay for the build-out** d
 
 | | Nebius (NBIS) | IREN |
 |---|---|---|
-| **Funding mix** (equity / debt / secured / customer prepayments) | Share count +22% in a year (trailing, Oct); $3.5bn secured loan from Citi (22 Oct). Rest to fill from the 12 Nov release | Total debt $7.84bn at fiscal Q4 (from ~$4bn a quarter earlier) ([TipRanks](https://www.tipranks.com/news/iren-reports-q1-2027-earnings-on-nov-5-heres-what-analysts-expect)). Share count to fill from the 5 Nov release |
+| **Funding mix** (equity / debt / secured / customer prepayments) | 9 months to Sep 2026: convertibles $10.1bn, treasury shares sold $3.9bn, pre-funded warrants $2.0bn, Citi $3.5bn secured loan (Oct); customer prepayments (deferred revenue) ~$9.4bn. FY27 capex $40–45bn, 75–85% to be covered by prepayments and contract-backed financing (12 Nov). **Shares 292.9M at 30 Sep (+~24% y/y weighted): kill-line base** | Total debt $7.84bn at fiscal Q4 (from ~$4bn a quarter earlier) ([TipRanks](https://www.tipranks.com/news/iren-reports-q1-2027-earnings-on-nov-5-heres-what-analysts-expect)). Share count to fill from the 5 Nov release |
 | **Contract length / customers** | Multi-year Microsoft and Meta contracts | Microsoft contract (Nov 2025); a multi-year "leading frontier AI lab" contract (Aug 2026, customer unconfirmed) |
 | **Power secured** | to fill | to fill |
 | **GPU useful life** (depreciation years) | to fill | to fill |
-| **Targets** | ARR $7–9bn by year-end; backlog above $37.5bn | ARR above $4bn by year-end |
+| **Targets** | ARR $6.4bn at end-Sep; ARR dropped as a headline metric (12 Nov), $7–9bn year-end not restated. FY26 revenue at the low end of $3.0–3.4bn; FY27 revenue $12–13bn; pre-tax breakeven by end-2027 | ARR above $4bn by year-end |
 | **Capex vs funding lined up** | to fill | FY27 capex $25–30bn vs ~$14bn lined up (28 Oct) |
 
 ## What has to be true
