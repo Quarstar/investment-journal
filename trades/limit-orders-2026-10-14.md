@@ -114,3 +114,12 @@ Decision taken 14 Oct: Option G. The NBIS lines stand. **Amended 17 Oct, 10:32 (
 - **Cash 24.1% of the book, all committed** to a planned withdrawal (details private). The drawdown tranches are unfunded until January; a QQQ close ≤ $645.71 is recorded, not bought.
 - **Sales still needed for the withdrawal:** from NVDA and TSM on **18–20 Nov**, after NVDA's 17 Nov print: limits in their testing bands (NVDA 165–173, TSM 393–404), market backstop Fri 20 Nov after 14:45 UK.
 - **NBIS:** held into Thursday's print (my 5 Nov decision); $212 limit resting (to confirm). If it rallies, the carry rule trims the excess above 10% at its first ceiling ($148–160), two-week deadline.
+
+**Thu 12 Nov, 18:04 UK, my decisions (after Huang resigned at ~14:00 UK):**
+- **NVDA governance kill line adopted:** if Huang leaves (happened 12 Nov) or Nvidia discloses export-control exposure, NVDA goes to its **9% target regardless of price**, re-reviewed at the next print. The 17 Nov results are the re-review.
+- **The ladder (orders placed Tue 17 Nov evening, after the print; sizes against the post-withdrawal book):**
+  - NVDA ~5 sh **limit $178** (top of the 173–179 ceiling)
+  - NVDA ~5 sh **limit $195** (inside 192–199)
+  - TSM ~2.6 sh **limit $410** (inside the 406–417 ceiling)
+  - **Market backstop for anything unfilled: Fri 20 Nov after 14:45 UK.** The date doesn't move for price.
+- Proceeds cover the rest of the planned withdrawal (details private); any surplus stays as cash.

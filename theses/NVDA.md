@@ -13,6 +13,7 @@ Nvidia is the default platform for AI computing: GPUs, networking and the softwa
 - [ ] Gross margins stay in the 70s
 
 ## What would make me sell
+- **Governance kill line (adopted 12 Nov 2026):** if Huang leaves, or Nvidia discloses export-control exposure (fines, restrictions or a revenue restatement tied to China), the position goes to its 9% target regardless of price, re-reviewed at the next results. **Fired 12 Nov 2026:** Huang resigned as CEO, president and director; Colette Kress interim CEO; Harvey Jones named chair; board search under way; the independent investigation remains open. Executed on the 17–20 Nov ladder.
 - **Thesis break:** two quarters of falling data-centre revenue, or a major customer shifting most of its spend to in-house silicon.
 - **Size:** trim back to target if it grows past ~18%.
 
