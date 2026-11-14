@@ -14,7 +14,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 134.00 on 10 Nov, needs +49% (low close 129.49, 6 Nov) |
 | 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | **Miss (scored 11 Nov):** closed 129.49 on 6 Nov. Base rate for holding: 27% |
-| 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | open; results **Thu 12 Nov** (before the open): base close Wed 11 Nov, test close Fri 13 Nov, follow-through Fri 11 Dec |
+| 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | **price part: miss** (~−25% on the week vs +10% needed); follow-through Fri 11 Dec vs $154.69 |
 | 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; 168.89 on 10 Nov (−20.3%), board probe into the CEO opened 8–9 Nov |
 
 ---
@@ -160,7 +160,7 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 
 **What I'll do whatever happens:** the first-half sell as ordered (8 shares: $212 → $205 → market by 6 Nov, holding ~7%, the top of the band), the $148 buy as the last buy, and no rebuy until the 22 Nov dilution check and the 10 Nov share count.
 
-**Result:** ____
+**Result, price part (scored Sat 14 Nov 2026): miss.** Base close Wed 11 Nov **$154.69** (+15.4% that day). Thu 12 Nov **$128.64** (−16.8%) after the print; Fri 13 Nov traded ~$116 (−9.6% at 12:54 ET, low $109.14; exact close to confirm). Roughly −25% on the week against QQQ ~−1%: the +10% bar missed by about 35 points. **Thesis check (recorded):** ARR $6.4bn at end-Sep, but the $7bn run-rate milestone moved from December to February 2027 (capacity delays at third-party sites, notably New Jersey for Microsoft) and ARR was dropped as a headline metric ✗; backlog not verified; FY27 funding 75–85% from prepayments and contract-backed financing ✓ but FY26 capex ~$27bn and ~24% more shares in a year. **Follow-through part:** scored on the Fri 11 Dec close vs $154.69. **What I take from it:** the record of good results weeks came in easier weather, as noted at the time; this time the market punished delays and spending more than it rewarded demand.
 
 ---
 
