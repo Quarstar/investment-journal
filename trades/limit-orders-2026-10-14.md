@@ -123,3 +123,9 @@ Decision taken 14 Oct: Option G. The NBIS lines stand. **Amended 17 Oct, 10:32 (
   - TSM ~2.6 sh **limit $410** (inside the 406–417 ceiling)
   - **Market backstop for anything unfilled: Fri 20 Nov after 14:45 UK.** The date doesn't move for price.
 - Proceeds cover the rest of the planned withdrawal (details private); any surplus stays as cash.
+
+**Mon 16 Nov, 22:25 UK: the planned withdrawal is cancelled** (details private). Consequences:
+- **Cash (~24–25% of the book) is the shield again.** The 15% floor is met; the drawdown tranches are funded again (tranche 1 at a QQQ close ≤ $645.71, split as written 5 Nov: NEE, SOFI, VST/EQQQ).
+- **The NVDA governance kill line still stands** (it was adopted on its own, not for the withdrawal): NVDA to its **9% target of the full book**. Re-sized from ~10 sh to **~6–7 sh** (exact size from Tuesday's close): about half at **$178**, half at **$195**, **market backstop Fri 20 Nov after 14:45 UK**.
+- **TSM $410 trim cancelled:** it existed only to fund the withdrawal; TSM's drift (+2.8 points) is inside its band.
+- **Cash above the floor** (~10% now, ~15% after the NVDA sale) is decided at the Wed 18 Nov review under the written rules (QQQ −10% G+ rule, names below target and in their zones, thesis checks, the 24-hour rule). Nothing is bought before then.
