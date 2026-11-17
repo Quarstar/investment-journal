@@ -129,3 +129,9 @@ Decision taken 14 Oct: Option G. The NBIS lines stand. **Amended 17 Oct, 10:32 (
 - **The NVDA governance kill line still stands** (it was adopted on its own, not for the withdrawal): NVDA to its **9% target of the full book**. Re-sized from ~10 sh to **~6–7 sh** (exact size from Tuesday's close): about half at **$178**, half at **$195**, **market backstop Fri 20 Nov after 14:45 UK**.
 - **TSM $410 trim cancelled:** it existed only to fund the withdrawal; TSM's drift (+2.8 points) is inside its band.
 - **Cash above the floor** (~10% now, ~15% after the NVDA sale) is decided at the Wed 18 Nov review under the written rules (QQQ −10% G+ rule, names below target and in their zones, thesis checks, the 24-hour rule). Nothing is bought before then.
+
+**Tue 17 Nov, 23:33 UK: strategy change (my decision, my words):** *"I've changed my strategy to high growth utilising the dips that have come from this blood bath, the stories haven't changed as much as the prices have and I still think the market has had a huge overreaction which created a huge opportunity … I made these choices from my own judgement … I will shave as the prices heighten."*
+- **NVDA kill line: option C, overridden.** The 12 Nov sale (to 9%) is cancelled; the ladder ($178 / $195) is not placed.
+- **Trades found on the screens (prices and dates to confirm):** **NEE sold (all)**; **TSM +3 sh** (Trading 212, 5.6 → 8.6); **NBIS +10 sh** (Trading 212, 14.45 → 24.45); **NVDA +9 sh** (Trading 212, 2.5 → 11.5). The planned NBIS cut (30–40%, 16 Nov) is reversed.
+- **Weights after (approx., 23:32 UK, Trading 212 cash not shown):** NVDA ~23%, TSM ~21%, NBIS ~17–18%, VST ~12%, GOOGL ~10%, cash ~9–12%, VUKG ~3.5%, MP ~2%. AI-linked ~82–85%; NVDA + TSM (Taiwan) ~44%; energy is VST only.
+- **Rules this breaks, recorded:** single stock ≤ 20% (NVDA, TSM); neocloud ≤ 15% (NBIS); cash floor 15% (unless Trading 212 cash is ≥ ~5% of the book); the 24-hour rule for the new size; the NVDA kill line.
