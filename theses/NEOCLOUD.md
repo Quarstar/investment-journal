@@ -1,6 +1,6 @@
 # Neoclouds: NBIS (Nebius) and IREN
 
-**Sleeves:** NBIS is the carry in the weapons sleeve (rules in the [target portfolio](../plans/target-portfolio.md), 22 Oct); IREN is a sandbox holding (no adds) · **Cap:** 15% neocloud combined
+**Sleeves:** NBIS is the carry in the weapons sleeve (rules in the [target portfolio](../plans/target-portfolio.md), 22 Oct); IREN is a sandbox holding (no adds) · **Cap:** 20% neocloud combined (high-growth rules, 18 Nov; was 15%)
 
 > DRAFT, written 4 Nov 2026: rewrite in my own words before publishing as final.
 
@@ -29,7 +29,8 @@ Both are building faster than they earn, so **how they pay for the build-out** d
 ## What would make me sell (written before it happens)
 - **NBIS (the carry):** only the kill lines: share count +15% over the twelve months **from the count in the 12 Nov 2026 release** (re-based from "10 Nov" now that the date is confirmed), backlog shrinking, or a major customer cutting or delaying a contract. Never on price.
 - **IREN, the "stops burning cash" test** (written 16 Oct, due here): at its results, operating cash flow and whether capex is being funded **without new shares**. It fails if, at the **5 Nov** print, (a) the ARR target is cut, or (b) the funding gap is filled mainly with equity or convertibles, or (c) the frontier-lab contract is delayed or reduced. One fail sells IREN on the order-sheet ladder after the print; it is ~0.7% of the book.
-- **Cap:** neocloud above 15% combined: trim the excess.
+- **Cap:** neocloud above 20% combined (was 15% until 18 Nov): trim the excess that week.
+- **Shaves on strength (18 Nov, GTC):** 3 sh @ $150, then the resting 8 sh @ $212. Nothing between.
 
 ## Key dates
 - **IREN:** Q1 FY27 results **Thu 5 Nov**, call 5:00 pm ET ([company](https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-release-q1-fy27-results-november-5-2026)).

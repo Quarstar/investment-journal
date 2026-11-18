@@ -15,7 +15,7 @@ Nvidia is the default platform for AI computing: GPUs, networking and the softwa
 ## What would make me sell
 - **Governance kill line (adopted 12 Nov 2026):** if Huang leaves, or Nvidia discloses export-control exposure (fines, restrictions or a revenue restatement tied to China), the position goes to its 9% target regardless of price, re-reviewed at the next results. **Fired 12 Nov 2026:** Huang resigned as CEO, president and director; Colette Kress interim CEO; Harvey Jones named chair; board search under way; the independent investigation remains open. **Overridden 17 Nov 2026 (my decision, option C):** the sale to 9% is cancelled and the ladder never placed; I added 9 shares instead as part of a change to a high-growth strategy ([order sheet](../trades/limit-orders-2026-10-14.md), 17 Nov). The line is recorded as fired and overridden, not deleted.
 - **Thesis break:** two quarters of falling data-centre revenue, or a major customer shifting most of its spend to in-house silicon.
-- **Size:** trim back to target if it grows past ~18%. *(Broken since 17 Nov: ~23% of the book. Under the high-growth strategy the proposed limit is 25%, with shaves on strength; to confirm at the 18 Nov review.)*
+- **Size:** trim back to target if it grows past ~18%. *(Replaced 18 Nov by the [high-growth rules](../plans/target-portfolio.md): 25% on its own, 45% with TSM, and an NVDA + TSM breach is trimmed from NVDA. Shave: 2 sh @ $178 GTC; the rest is long term.)*
 
 ## Risks I'm watching
 - **Custom silicon:** Google TPUs, Amazon Trainium, and now Musk's [Terafab](../plans/watch-items.md). xAI is a large Nvidia customer today.

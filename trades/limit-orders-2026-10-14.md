@@ -141,3 +141,8 @@ Decision taken 14 Oct: Option G. The NBIS lines stand. **Amended 17 Oct, 10:32 (
 - **Weights at 09:00 UK (all three accounts; GBPUSD ~1.317 implied):** NVDA 23.0%, TSM 20.5%, NBIS 17.0%, **cash 11.7%**, VST 11.7%, GOOGL 9.8%, VUKG 3.5%, MP 2.1%, IREN 0.6%, BOTJ/LVMH 0.1% each. AI-linked 82.5%; NVDA + TSM 43.5%; neocloud 17.5%; sandbox 2.9%.
 - **Still to confirm:** fill prices and times for TSM +3, NBIS +10 and NVDA +9 (17 Nov).
 
+**Wed 18 Nov, 11:40 UK: my decisions on the review.**
+- **Decision 1 adopted:** the [high-growth rules](../plans/target-portfolio.md) (25% single stock, 45% NVDA + TSM, 20% neocloud, 10% cash hard floor, circuit breaker at a book index below 75 or a QQQ close below $569.75).
+- **Shave ladder, my version (GTC):** **NVDA 2 sh sell @ $178.** **NBIS 3 sh sell @ $150**, then nothing until the **resting 8 sh @ $212**. **TSM: no shaves**, in my words *"that is my true long term hold"*. The review proposed NVDA 2 @ $195, TSM 1.5 @ $410 and NBIS 3 @ $135 / 3 @ $155; not taken.
+- **Where the caps bind first (09:00 weights, one name moving with the rest flat):** NVDA hits 25% at ~$178, so the shave sits right on it. **NVDA + TSM at 43.5% has 1.5 points of room: a ~6% rise in those two alone breaches 45%**, and that trim comes out of NVDA. Neocloud hits 20% at NBIS ~$134, below the $150 shave, so if NBIS leads the rally the Wednesday cap check trims it before the order fills.
+- **Not yet answered:** decision 3 (drawdown tranche 1 suspended until cash is back at 15%), 4–7, and the 17 Nov fill prices and times.
