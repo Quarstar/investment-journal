@@ -135,3 +135,9 @@ Decision taken 14 Oct: Option G. The NBIS lines stand. **Amended 17 Oct, 10:32 (
 - **Trades found on the screens (prices and dates to confirm):** **NEE sold (all)**; **TSM +3 sh** (Trading 212, 5.6 → 8.6); **NBIS +10 sh** (Trading 212, 14.45 → 24.45); **NVDA +9 sh** (Trading 212, 2.5 → 11.5). The planned NBIS cut (30–40%, 16 Nov) is reversed.
 - **Weights after (approx., 23:32 UK, Trading 212 cash not shown):** NVDA ~23%, TSM ~21%, NBIS ~17–18%, VST ~12%, GOOGL ~10%, cash ~9–12%, VUKG ~3.5%, MP ~2%. AI-linked ~82–85%; NVDA + TSM (Taiwan) ~44%; energy is VST only.
 - **Rules this breaks, recorded:** single stock ≤ 20% (NVDA, TSM); neocloud ≤ 15% (NBIS); cash floor 15% (unless Trading 212 cash is ≥ ~5% of the book); the 24-hour rule for the new size; the NVDA kill line.
+
+**Wed 18 Nov, 09:01 UK: the 17 Nov trades, confirmed from the screens.**
+- **NEE sold (all, 13.3 sh) at $84.84** (my figure), 0.5% above the 17 Nov close ($84.42) and 7.4% above the $78.96 paper-plan entry (15 Oct). NEE has left the book; its capture-zone map is frozen (watch only). **Consequence:** the drawdown plan's tranche-1 split (NEE ~2%, SOFI ~2%, VST/EQQQ ~1%, written 5 Nov) no longer fits; re-written at the 18 Nov review.
+- **Weights at 09:00 UK (all three accounts; GBPUSD ~1.317 implied):** NVDA 23.0%, TSM 20.5%, NBIS 17.0%, **cash 11.7%**, VST 11.7%, GOOGL 9.8%, VUKG 3.5%, MP 2.1%, IREN 0.6%, BOTJ/LVMH 0.1% each. AI-linked 82.5%; NVDA + TSM 43.5%; neocloud 17.5%; sandbox 2.9%.
+- **Still to confirm:** fill prices and times for TSM +3, NBIS +10 and NVDA +9 (17 Nov).
+

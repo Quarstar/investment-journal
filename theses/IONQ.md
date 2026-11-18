@@ -1,4 +1,4 @@
-# IONQ: IonQ
+# IONQ: IonQ · **CLOSED** (sold, all, between 5 and 11 Nov 2026; price to confirm)
 
 **First bought:** 2026-10-27 at $30.36 · **Target weight:** fixed (no adds), ~1.2% at the time of writing · **Sleeve:** sandbox, moonshot
 
@@ -31,3 +31,5 @@ My words: *"I realised I just want to own a super long term growth shot. If IonQ
 |---|---|---|---|
 | 2026-10-27 | Bought at $30.36 | ~1.3% | Long-term growth shot (unplanned, logged 28 Oct) |
 | 2026-11-04 | Thesis page drafted | ~1.2% | Due at the 4 Nov review |
+| 5–11 Nov 2026 | **Sold (all)**; price and date to confirm | 0% | Not logged at the time; found on the 11 Nov screens. It broke the page's own "fixed size, no take-profit" rule (it had risen ~17% after its beat-and-raise) |
+| 2026-11-18 | Page closed | 0% | Afterwards: the CFO left on 12 Nov and the stock fell 29% on the week to $24.84 (17 Nov close), 18% below the $30.36 entry. The rule-break avoided that fall; a re-entry needs a new page, not this one |

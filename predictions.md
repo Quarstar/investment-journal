@@ -9,7 +9,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | # | Made | Call | Deadline | Result |
 |---|---|---|---|---|
 | 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | **Miss (scored 4 Nov).** Floor broke 16 Oct; best close in the window 188.41 (15 Oct), then 182.34 (28 Oct); no $230 close. Base rate for both: 23% |
-| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 3: picks 94.4 vs real ~95.0; **week 4: picks 92.6 vs real ~90.9 (+1.7)**, first week the picks lead |
+| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 3: picks 94.4 vs real ~95.0; **week 4: picks 92.6 vs real ~90.9 (+1.7)**, first week the picks lead; **week 5: picks 84.0 vs real ~85.6 (−1.6)**, the real book back ahead, both well behind the plan (92.2) |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | **Miss (decided 23 Oct).** NBIS closed below $167 on 16, 22, 23, 26 Oct (low close 153.27); IREN below $26 on 22, 23, 26 Oct (low close 24.91). Base rate for both holding: 7% |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 134.00 on 10 Nov, needs +49% (low close 129.49, 6 Nov) |
