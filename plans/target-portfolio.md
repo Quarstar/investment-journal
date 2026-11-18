@@ -13,8 +13,8 @@ If any of those change, the weights change.
 My decision on 17 Nov ("I've changed my strategy to high growth utilising the dips"), written down as rules on 18 Nov:
 - **Single stock ≤ 25%.** **NVDA + TSM ≤ 45% combined.** **Neocloud (NBIS + IREN) ≤ 20%.** Energy ≤ 35% and sandbox ≤ 5% unchanged.
 - **Cash hard floor 10%:** no buys that take it below. (The 15% floor is suspended while these rules run.)
-- **Checked every Wednesday.** A breach is trimmed back to the cap that week (after 14:45 UK). **TSM is my true long-term hold, with no shaves**, so an NVDA + TSM breach comes out of NVDA.
-- **Shaves on strength (GTC):** NVDA 2 sh @ $178; NBIS 3 sh @ $150, then the resting 8 sh @ $212. Nothing else is for sale; the rest is long term.
+- **Checked every Wednesday.** A breach is trimmed back to the cap that week (after 14:45 UK). **TSM is my true long-term hold** (one shave at $420, nothing below it), so an NVDA + TSM breach comes out of NVDA.
+- **Shaves on strength (GTC), more the further they rise:** NVDA 2 sh @ $178, 2 sh @ $205; TSM @ $420 (size to confirm); NBIS 3 sh @ $150, then the resting 8 sh @ $212. The caps above still trim anything that outruns the ladder.
 - **Circuit breaker:** if the real-book index closes a Wednesday **below 75**, or **QQQ closes below $569.75** (−25% from the high close), the high-growth rules end and the book returns to the written targets below over two weeks.
 
 ## Revision, 27 Oct 2026: a weapons sleeve (NBIS + SOFI), V for NU, XLVP 12 → 9

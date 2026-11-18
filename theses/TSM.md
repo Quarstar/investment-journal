@@ -15,7 +15,7 @@ TSMC makes the leading-edge chips for almost every AI designer (Nvidia, AMD, Bro
 ## What would make me sell
 - **Thesis break:** a sustained fall in AI-related orders, or a credible second leading-edge ecosystem reaching volume (see [Terafab](../plans/watch-items.md)).
 - **Geopolitics:** a material escalation affecting Taiwan.
-- **Size:** ~~trim back to target if it grows past ~15%~~. **From 18 Nov 2026: my true long-term hold, no shaves.** Limits under the [high-growth rules](../plans/target-portfolio.md): 25% on its own, 45% with NVDA (an NVDA + TSM breach comes out of NVDA).
+- **Size:** ~~trim back to target if it grows past ~15%~~. **From 18 Nov 2026: my true long-term hold; one shave at $420 (size to confirm), nothing below it.** Limits under the [high-growth rules](../plans/target-portfolio.md): 25% on its own, 45% with NVDA (an NVDA + TSM breach comes out of NVDA).
 
 ## Key dates
 - Q3 2026 results: **Thu 15 Oct 2026**
