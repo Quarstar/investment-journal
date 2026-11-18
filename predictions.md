@@ -16,6 +16,7 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | **Miss (scored 11 Nov):** closed 129.49 on 6 Nov. Base rate for holding: 27% |
 | 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | **price part: miss** (~−25% on the week vs +10% needed); follow-through Fri 11 Dec vs $154.69 |
 | 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; 168.89 on 10 Nov (−20.3%), board probe into the CEO opened 8–9 Nov |
+| 10 | 18 Nov 2026 | **The next 2–4 months is QQQ's wave up:** QQQ closes at or above **$720** (about halfway back to the $759.66 high close; 656.95 on 17 Nov) before it closes below **$569.75** (the circuit breaker, −25%). My reasons: QQQ only ~+7% this year with a "fair value gap" to make up by late 2027; the AI names cheap against their earnings; AI adoption everywhere | Thu 18 Mar 2027 | open. **Base rate ~36%** (no-drift simulation, QQQ volatility 19.6%, daily closes; the breaker comes first ~19% of the time, neither ~45%) |
 
 ---
 
