@@ -22,6 +22,8 @@ us = [
   "UBER", "NFLX", "LLY",
   # index and rotation gauge
   "QQQ", "RSP", "XLP", "XLY", "XLK", "XLV",
+  # next-bottleneck shortlist (18 Nov 2026, plans/next-bottleneck.md); BESI.AS is Amsterdam, quoted in EUR, kept last
+  "MRVL", "GEV", "BESI.AS",
 ]
 # London ETFs: reported in the draft, not written to the repo's CSVs (their units differ by source).
 # Yahoo quotes them in GBp (pence): XLVP at 68,740 GBp is £687.40 a share, not mis-scaled.
@@ -43,7 +45,8 @@ map_week = "2026-11-13"
 [research]
 # Names the agent researches every week (news, ratings, dilution, results date).
 names = ["NBIS", "VST", "NVDA", "TSM", "NEE", "MP", "IONQ", "IREN", "GOOGL", "BOTJ",
-         "UNP", "V", "SOFI", "MCD", "NU", "ARM", "MU"]
+         "UNP", "V", "SOFI", "MCD", "NU", "ARM", "MU",
+         "MRVL", "GEV", "BESI"]  # next-bottleneck shortlist, added 18 Nov
 # Sites the agent must never fetch (rate limits, terms). Matched against the URL host and path.
 blocked_url_fragments = [
   "api.stockanalysis.com",
