@@ -18,7 +18,10 @@ Both are building faster than they earn, so **how they pay for the build-out** d
 | **Contract length / customers** | Multi-year Microsoft and Meta contracts | Microsoft contract (Nov 2025); a multi-year "leading frontier AI lab" contract (Aug 2026, customer unconfirmed) |
 | **Power secured** | to fill | to fill |
 | **GPU useful life** (depreciation years) | to fill | to fill |
-| **Targets** | ARR $6.4bn at end-Sep; ARR dropped as a headline metric (12 Nov), $7–9bn year-end not restated. FY26 revenue at the low end of $3.0–3.4bn; FY27 revenue $12–13bn; pre-tax breakeven by end-2027 | ARR above $4bn by year-end |
+| **Targets** | ARR $6.4bn at end-Sep; ARR dropped as a headline metric (12 Nov), $7–9bn year-end not restated; ARR above $7bn expected in **February 2027** (third-party sites slipped ~2 months). FY26 revenue narrowed to $3.0–3.2bn; FY27 revenue $12–13bn; pre-tax breakeven by end-2027 | ARR above $4bn by year-end |
+| **Revenue quality** | Q3 revenue $980.8M (+571% y/y) **includes ~$325M non-recurring** (an initial-phase, partner-funded asset-light deal): ~$656M recurring. **Open question:** a $6.4bn end-Sep ARR is ~$530M a month, against $981M for the whole quarter (incl. the one-off) and a $3.0bn ARR in June. The two only fit if most of the jump landed in the last days of September or the one-off sits inside the run-rate; ARR isn't defined. Check the 10-Q | to fill |
+| **Deal economics** (GPU pricing, payback) | Q3 contract pricing above $25M per MW; payback on comparable deals 19 months (22 in Q2). ~20% quarter-on-quarter GPU price rise claimed (Candles video, 19 Nov), **not verified** | to fill |
+| **Prepayments vs capex** | Q3 wins: prepayments covered **over 100%** of the associated capex (50–60% the quarter before). FY27: **prepayments plus asset-backed financing** fund 75–85% of $40–45bn; asset-backed financing is debt secured on the GPUs and contracts, not customer money | to fill |
 | **Capex vs funding lined up** | to fill | FY27 capex $25–30bn vs ~$14bn lined up (28 Oct) |
 
 ## What has to be true
@@ -28,6 +31,8 @@ Both are building faster than they earn, so **how they pay for the build-out** d
 
 ## What would make me sell (written before it happens)
 - **NBIS (the carry):** only the kill lines: share count +15% over the twelve months **from the count in the 12 Nov 2026 release** (re-based from "10 Nov" now that the date is confirmed), backlog shrinking, or a major customer cutting or delaying a contract. Never on price.
+  - **Added 19 Nov 2026** (from a YouTube breakdown, Candles, which I adopted): **(a)** Nebius's **own** data-centre sites miss their power or delivery deadlines (the 12 Nov delays were third-party sites; the customer criterion above doesn't cover Nebius failing to deliver itself). **(b)** GPU rental pricing rolls over **and** the AI-cloud margin falls while debt funding rises (pricing down plus more debt is the "neoclouds in trouble" case). **(c)** Prepayments on new deals drop back below ~50% of their capex for two quarters (the build-out shifting from customer money to debt).
+  - **The two numbers to read first at every release:** GPU pricing (per MW or per GPU-hour) and prepayments as a share of capex.
 - **IREN, the "stops burning cash" test** (written 16 Oct, due here): at its results, operating cash flow and whether capex is being funded **without new shares**. It fails if, at the **5 Nov** print, (a) the ARR target is cut, or (b) the funding gap is filled mainly with equity or convertibles, or (c) the frontier-lab contract is delayed or reduced. One fail sells IREN on the order-sheet ladder after the print; it is ~0.7% of the book.
 - **Cap:** neocloud above 20% combined (was 15% until 18 Nov): trim the excess that week.
 - **Shaves on strength (18 Nov, GTC):** 3 sh @ $150, then the resting 8 sh @ $212. Nothing between.
@@ -42,3 +47,4 @@ Both are building faster than they earn, so **how they pay for the build-out** d
 | 2026-10-15 | IREN swing stop overridden; moved to the sandbox | ~0.75% | My call; scored as a stop in the swing log |
 | 2026-10-22 | NBIS becomes the carry (fixed share count after the first-half sale) | ~12.5% → ~7% planned | Let the winner run; kill lines keep the downside small |
 | 2026-11-04 | Page drafted; NBIS kill-line base moved to the 12 Nov release | NBIS 13.0%, IREN 0.7% | Due at the 4 Nov review |
+| 2026-11-19 | Trackers: revenue quality ($325M one-off, ARR question), deal economics, prepayments; kill lines (a)–(c) added | NBIS ~17% | A Candles video I watched; claims checked against Quartr's Q3 summary |
