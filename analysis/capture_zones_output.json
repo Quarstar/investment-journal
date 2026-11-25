@@ -1,51 +1,46 @@
 {
  "VST": {
   "ticker": "VST",
-  "testing_now": {
-   "level": 124.8,
-   "strength": 1,
-   "sources": [
-    "52-week closing low"
-   ]
-  },
-  "last_close": 127.15,
-  "last_date": "2026-11-17",
-  "atr14": 8.07,
-  "vol_annual": 0.435,
-  "weekly_sd_usd": 7.68,
-  "ma40w": 151.46,
+  "testing_now": null,
+  "last_close": 120.72,
+  "last_date": "2026-11-24",
+  "atr14": 7.31,
+  "vol_annual": 0.451,
+  "weekly_sd_usd": 7.55,
+  "ma40w": 150.05,
   "high_52w": 201.47,
-  "low_52w_close": 124.8,
-  "fwd_pe_now": 12.4,
+  "low_52w_close": 115.25,
+  "fwd_pe_now": 11.8,
   "zone1": {
-   "level": 110.89,
-   "top": 114.93,
-   "bottom": 106.85,
-   "strength": 1,
+   "level": 113.07,
+   "top": 116.72,
+   "bottom": 109.42,
+   "strength": 2,
    "sources": [
+    "52-week closing low",
     "daily swing low 2026-11-05"
    ],
-   "pct_from_last": -12.8,
-   "pct_from_high": -45.0,
-   "fwd_pe": 10.8,
-   "p_touch_13w": 0.63
+   "pct_from_last": -6.3,
+   "pct_from_high": -43.9,
+   "fwd_pe": 11.0,
+   "p_touch_13w": 0.84
   },
   "zone2": {
-   "level": 95.53,
-   "top": 99.57,
-   "bottom": 91.5,
+   "level": 97.97,
+   "top": 101.63,
+   "bottom": 94.32,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -24.9,
-   "pct_from_high": -52.6,
-   "fwd_pe": 9.3,
-   "p_touch_13w": 0.27
+   "pct_from_last": -18.8,
+   "pct_from_high": -51.4,
+   "fwd_pe": 9.6,
+   "p_touch_13w": 0.44
   },
   "ceiling": {
    "level": 140.12,
-   "pct_from_last": 10.2,
+   "pct_from_last": 16.1,
    "sources": [
     "daily swing high 2026-09-29",
     "daily swing high 2026-11-11"
@@ -53,16 +48,10 @@
   },
   "all_levels_below": [
    {
-    "level": 124.8,
-    "strength": 1,
+    "level": 113.07,
+    "strength": 2,
     "sources": [
-     "52-week closing low"
-    ]
-   },
-   {
-    "level": 110.89,
-    "strength": 1,
-    "sources": [
+     "52-week closing low",
      "daily swing low 2026-11-05"
     ]
    }
@@ -70,86 +59,103 @@
  },
  "NEE": {
   "ticker": "NEE",
-  "testing_now": null,
-  "last_close": 84.42,
-  "last_date": "2026-11-17",
-  "atr14": 1.85,
-  "vol_annual": 0.186,
+  "testing_now": {
+   "level": 84.53,
+   "strength": 1,
+   "sources": [
+    "volume shelf"
+   ]
+  },
+  "last_close": 84.58,
+  "last_date": "2026-11-24",
+  "atr14": 1.56,
+  "vol_annual": 0.185,
   "weekly_sd_usd": 2.17,
-  "ma40w": 87.43,
+  "ma40w": 87.18,
   "high_52w": 96.95,
   "low_52w_close": 76.08,
-  "fwd_pe_now": 20.6,
+  "fwd_pe_now": 20.7,
   "zone1": {
-   "level": 82.3,
-   "top": 83.22,
-   "bottom": 81.37,
-   "strength": 2,
+   "level": 81.84,
+   "top": 82.62,
+   "bottom": 81.06,
+   "strength": 1,
    "sources": [
-    "volume shelf",
     "weekly swing close 2026-08-28"
    ],
-   "pct_from_last": -2.5,
-   "pct_from_high": -15.1,
-   "fwd_pe": 20.1,
-   "p_touch_13w": 0.83
+   "pct_from_last": -3.2,
+   "pct_from_high": -15.6,
+   "fwd_pe": 20.0,
+   "p_touch_13w": 0.75
   },
   "zone2": {
-   "level": 79.05,
-   "top": 79.97,
-   "bottom": 78.12,
+   "level": 76.08,
+   "top": 76.86,
+   "bottom": 75.3,
    "strength": 3,
    "sources": [
-    "daily swing low 2026-10-21",
+    "52-week closing low",
     "volume shelf",
-    "weekly swing close 2025-12-19"
+    "weekly swing close 2026-09-25"
    ],
-   "pct_from_last": -6.4,
-   "pct_from_high": -18.5,
-   "fwd_pe": 19.3,
-   "p_touch_13w": 0.52
+   "pct_from_last": -10.0,
+   "pct_from_high": -21.5,
+   "fwd_pe": 18.6,
+   "p_touch_13w": 0.28
   },
   "ceiling": {
    "level": 90.04,
-   "pct_from_last": 6.7,
+   "pct_from_last": 6.5,
    "sources": [
     "daily swing high 2026-11-05"
    ]
   },
   "all_levels_below": [
    {
-    "level": 82.3,
-    "strength": 2,
+    "level": 84.53,
+    "strength": 1,
     "sources": [
-     "volume shelf",
+     "volume shelf"
+    ]
+   },
+   {
+    "level": 81.84,
+    "strength": 1,
+    "sources": [
      "weekly swing close 2026-08-28"
     ]
    },
    {
-    "level": 80.38,
-    "strength": 2,
+    "level": 79.89,
+    "strength": 3,
     "sources": [
      "daily swing low 2026-10-28",
+     "weekly swing close 2025-12-19",
      "weekly swing close 2026-01-09"
     ]
    },
    {
-    "level": 79.05,
-    "strength": 3,
+    "level": 78.12,
+    "strength": 2,
     "sources": [
      "daily swing low 2026-10-21",
-     "volume shelf",
-     "weekly swing close 2025-12-19"
+     "volume shelf"
     ]
    },
    {
-    "level": 75.71,
-    "strength": 4,
+    "level": 76.08,
+    "strength": 3,
     "sources": [
      "52-week closing low",
-     "daily swing low 2026-10-01",
      "volume shelf",
      "weekly swing close 2026-09-25"
+    ]
+   },
+   {
+    "level": 74.41,
+    "strength": 1,
+    "sources": [
+     "daily swing low 2026-10-01"
     ]
    }
   ]
@@ -163,46 +169,47 @@
     "daily swing low 2026-11-12"
    ]
   },
-  "last_close": 155.46,
-  "last_date": "2026-11-17",
-  "atr14": 11.5,
-  "vol_annual": 0.36,
-  "weekly_sd_usd": 7.76,
-  "ma40w": 203.48,
+  "last_close": 155.38,
+  "last_date": "2026-11-24",
+  "atr14": 16.15,
+  "vol_annual": 0.435,
+  "weekly_sd_usd": 9.36,
+  "ma40w": 202.04,
   "high_52w": 243.37,
-  "low_52w_close": 155.46,
+  "low_52w_close": 125.53,
   "fwd_pe_now": 12.8,
   "zone1": {
-   "level": 143.82,
-   "top": 149.57,
-   "bottom": 138.08,
+   "level": 141.33,
+   "top": 149.41,
+   "bottom": 133.26,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -7.5,
-   "pct_from_high": -40.9,
-   "fwd_pe": 11.8,
-   "p_touch_13w": 0.79
+   "pct_from_last": -9.0,
+   "pct_from_high": -41.9,
+   "fwd_pe": 11.6,
+   "p_touch_13w": 0.82
   },
   "zone2": {
-   "level": 128.31,
-   "top": 134.06,
-   "bottom": 122.56,
-   "strength": 0,
+   "level": 125.53,
+   "top": 133.61,
+   "bottom": 117.45,
+   "strength": 1,
    "sources": [
-    "volatility band (no structural support)"
+    "52-week closing low"
    ],
-   "pct_from_last": -17.5,
-   "pct_from_high": -47.3,
-   "fwd_pe": 10.6,
-   "p_touch_13w": 0.4
+   "pct_from_last": -19.2,
+   "pct_from_high": -48.4,
+   "fwd_pe": 10.3,
+   "p_touch_13w": 0.48
   },
   "ceiling": {
-   "level": 222.19,
-   "pct_from_last": 42.9,
+   "level": 226.08,
+   "pct_from_last": 45.5,
    "sources": [
     "daily swing high 2026-09-22",
+    "daily swing high 2026-09-28",
     "daily swing high 2026-10-21",
     "daily swing high 2026-10-28"
    ]
@@ -214,70 +221,73 @@
     "sources": [
      "daily swing low 2026-11-12"
     ]
+   },
+   {
+    "level": 125.53,
+    "strength": 1,
+    "sources": [
+     "52-week closing low"
+    ]
    }
   ]
  },
  "TSM": {
   "ticker": "TSM",
   "testing_now": {
-   "level": 351.19,
-   "strength": 1,
-   "sources": [
-    "daily swing low 2026-11-05"
-   ]
-  },
-  "last_close": 359.69,
-  "last_date": "2026-11-17",
-  "atr14": 21.05,
-  "vol_annual": 0.308,
-  "weekly_sd_usd": 15.34,
-  "ma40w": 403.49,
-  "high_52w": 487.47,
-  "low_52w_close": 275.06,
-  "fwd_pe_now": 15.9,
-  "zone1": {
    "level": 328.65,
-   "top": 339.17,
-   "bottom": 318.13,
    "strength": 2,
    "sources": [
     "weekly swing close 2026-01-30",
     "weekly swing close 2026-03-27"
-   ],
-   "pct_from_last": -8.6,
-   "pct_from_high": -32.6,
-   "fwd_pe": 14.5,
-   "p_touch_13w": 0.66
+   ]
   },
-  "zone2": {
-   "level": 297.97,
-   "top": 308.5,
-   "bottom": 287.45,
+  "last_close": 349.2,
+  "last_date": "2026-11-24",
+  "atr14": 26.29,
+  "vol_annual": 0.376,
+  "weekly_sd_usd": 18.23,
+  "ma40w": 402.3,
+  "high_52w": 487.47,
+  "low_52w_close": 275.06,
+  "fwd_pe_now": 15.4,
+  "zone1": {
+   "level": 321.85,
+   "top": 335.0,
+   "bottom": 308.71,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -17.2,
-   "pct_from_high": -38.9,
-   "fwd_pe": 13.2,
+   "pct_from_last": -7.8,
+   "pct_from_high": -34.0,
+   "fwd_pe": 14.2,
+   "p_touch_13w": 0.79
+  },
+  "zone2": {
+   "level": 275.06,
+   "top": 288.21,
+   "bottom": 261.91,
+   "strength": 3,
+   "sources": [
+    "52-week closing low",
+    "weekly swing close 2025-11-21",
+    "weekly swing close 2025-12-19"
+   ],
+   "pct_from_last": -21.2,
+   "pct_from_high": -43.6,
+   "fwd_pe": 12.2,
    "p_touch_13w": 0.31
   },
   "ceiling": {
-   "level": 425.98,
-   "pct_from_last": 18.4,
+   "level": 435.16,
+   "pct_from_last": 24.6,
    "sources": [
     "daily swing high 2026-10-21",
+    "daily swing high 2026-10-28",
     "daily swing high 2026-11-11"
    ]
   },
   "all_levels_below": [
-   {
-    "level": 351.19,
-    "strength": 1,
-    "sources": [
-     "daily swing low 2026-11-05"
-    ]
-   },
    {
     "level": 328.65,
     "strength": 2,
@@ -300,68 +310,68 @@
  "GOOGL": {
   "ticker": "GOOGL",
   "testing_now": {
-   "level": 276.92,
-   "strength": 5,
+   "level": 276.67,
+   "strength": 4,
    "sources": [
     "daily swing low 2026-10-30",
     "daily swing low 2026-11-05",
     "weekly swing close 2025-11-14",
-    "weekly swing close 2026-03-27",
-    "weekly swing close 2026-10-30"
+    "weekly swing close 2026-03-27"
    ]
   },
-  "last_close": 280.2,
-  "last_date": "2026-11-17",
-  "atr14": 12.31,
-  "vol_annual": 0.355,
-  "weekly_sd_usd": 13.8,
-  "ma40w": 337.65,
+  "last_close": 279.05,
+  "last_date": "2026-11-24",
+  "atr14": 11.78,
+  "vol_annual": 0.368,
+  "weekly_sd_usd": 14.23,
+  "ma40w": 336.64,
   "high_52w": 400.8,
   "low_52w_close": 259.92,
-  "fwd_pe_now": 20.8,
+  "fwd_pe_now": 20.7,
   "zone1": {
    "level": 259.92,
-   "top": 266.07,
-   "bottom": 253.77,
+   "top": 265.81,
+   "bottom": 254.03,
    "strength": 1,
    "sources": [
     "52-week closing low"
    ],
-   "pct_from_last": -7.2,
+   "pct_from_last": -6.9,
    "pct_from_high": -35.1,
    "fwd_pe": 19.3,
-   "p_touch_13w": 0.74
+   "p_touch_13w": 0.76
   },
   "zone2": {
-   "level": 232.33,
-   "top": 238.48,
-   "bottom": 226.17,
+   "level": 231.46,
+   "top": 237.35,
+   "bottom": 225.56,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
    "pct_from_last": -17.1,
-   "pct_from_high": -42.0,
+   "pct_from_high": -42.3,
    "fwd_pe": 17.2,
-   "p_touch_13w": 0.36
+   "p_touch_13w": 0.38
   },
   "ceiling": {
    "level": 296.49,
-   "pct_from_last": 5.8,
+   "pct_from_last": 6.2,
    "sources": [
-    "daily swing high 2026-11-04"
+    "daily swing high 2026-11-04",
+    "daily swing high 2026-11-13",
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 276.92,
-    "strength": 5,
+    "level": 276.67,
+    "strength": 4,
     "sources": [
      "daily swing low 2026-10-30",
      "daily swing low 2026-11-05",
      "weekly swing close 2025-11-14",
-     "weekly swing close 2026-03-27",
-     "weekly swing close 2026-10-30"
+     "weekly swing close 2026-03-27"
     ]
    },
    {
@@ -376,81 +386,76 @@
  "UNP": {
   "ticker": "UNP",
   "testing_now": {
-   "level": 291.1,
-   "strength": 3,
+   "level": 287.89,
+   "strength": 2,
    "sources": [
     "daily swing low 2026-11-06",
-    "volume shelf",
-    "weekly swing close 2026-07-31"
+    "volume shelf"
    ]
   },
-  "last_close": 297.03,
-  "last_date": "2026-11-17",
-  "atr14": 6.53,
-  "vol_annual": 0.217,
-  "weekly_sd_usd": 8.94,
-  "ma40w": 275.31,
+  "last_close": 290.83,
+  "last_date": "2026-11-24",
+  "atr14": 7.24,
+  "vol_annual": 0.222,
+  "weekly_sd_usd": 8.95,
+  "ma40w": 275.97,
   "high_52w": 309.86,
   "low_52w_close": 216.61,
-  "fwd_pe_now": 21.8,
+  "fwd_pe_now": 21.3,
   "zone1": {
-   "level": 278.59,
-   "top": 281.85,
-   "bottom": 275.33,
-   "strength": 1,
+   "level": 275.97,
+   "top": 279.6,
+   "bottom": 272.35,
+   "strength": 5,
    "sources": [
-    "daily swing low 2026-10-22"
+    "40-week average",
+    "daily swing low 2026-10-08",
+    "daily swing low 2026-10-22",
+    "volume shelf",
+    "weekly swing close 2026-09-25"
    ],
-   "pct_from_last": -6.2,
-   "pct_from_high": -10.1,
-   "fwd_pe": 20.4,
-   "p_touch_13w": 0.6
+   "pct_from_last": -5.1,
+   "pct_from_high": -10.9,
+   "fwd_pe": 20.2,
+   "p_touch_13w": 0.69
   },
   "zone2": {
-   "level": 268.26,
-   "top": 271.52,
-   "bottom": 265.0,
-   "strength": 3,
+   "level": 259.76,
+   "top": 263.38,
+   "bottom": 256.14,
+   "strength": 2,
    "sources": [
-    "daily swing low 2026-09-21",
-    "daily swing low 2026-10-01",
-    "weekly swing close 2026-05-08"
+    "weekly swing close 2026-05-29",
+    "weekly swing close 2026-06-19"
    ],
-   "pct_from_last": -9.7,
-   "pct_from_high": -13.4,
-   "fwd_pe": 19.7,
-   "p_touch_13w": 0.39
+   "pct_from_last": -10.7,
+   "pct_from_high": -16.2,
+   "fwd_pe": 19.1,
+   "p_touch_13w": 0.35
   },
   "ceiling": {
-   "level": 309.86,
-   "pct_from_last": 4.3,
+   "level": 291.93,
+   "pct_from_last": 0.4,
    "sources": [
-    "daily swing high 2026-11-04"
+    "daily swing high 2026-10-16"
    ]
   },
   "all_levels_below": [
    {
-    "level": 291.1,
-    "strength": 3,
+    "level": 287.89,
+    "strength": 2,
     "sources": [
      "daily swing low 2026-11-06",
-     "volume shelf",
-     "weekly swing close 2026-07-31"
+     "volume shelf"
     ]
    },
    {
-    "level": 278.59,
-    "strength": 1,
-    "sources": [
-     "daily swing low 2026-10-22"
-    ]
-   },
-   {
-    "level": 274.0,
-    "strength": 4,
+    "level": 275.97,
+    "strength": 5,
     "sources": [
      "40-week average",
      "daily swing low 2026-10-08",
+     "daily swing low 2026-10-22",
      "volume shelf",
      "weekly swing close 2026-09-25"
     ]
@@ -492,80 +497,67 @@
  "NU": {
   "ticker": "NU",
   "testing_now": {
-   "level": 12.04,
-   "strength": 5,
-   "sources": [
-    "daily swing low 2026-09-30",
-    "daily swing low 2026-11-12",
-    "volume shelf",
-    "weekly swing close 2026-05-15",
-    "weekly swing close 2026-06-05"
-   ]
-  },
-  "last_close": 12.33,
-  "last_date": "2026-11-17",
-  "atr14": 0.55,
-  "vol_annual": 0.49,
-  "weekly_sd_usd": 0.84,
-  "ma40w": 14.03,
-  "high_52w": 18.04,
-  "low_52w_close": 11.61,
-  "fwd_pe_now": 12.9,
-  "zone1": {
    "level": 11.61,
-   "top": 11.89,
-   "bottom": 11.33,
-   "strength": 4,
+   "strength": 5,
    "sources": [
     "52-week closing low",
     "daily swing low 2026-10-26",
     "daily swing low 2026-11-05",
+    "daily swing low 2026-11-12",
     "weekly swing close 2026-10-30"
-   ],
-   "pct_from_last": -5.8,
-   "pct_from_high": -35.6,
-   "fwd_pe": 12.1,
-   "p_touch_13w": 0.85
+   ]
   },
-  "zone2": {
-   "level": 9.93,
-   "top": 10.21,
-   "bottom": 9.66,
+  "last_close": 11.86,
+  "last_date": "2026-11-24",
+  "atr14": 0.6,
+  "vol_annual": 0.508,
+  "weekly_sd_usd": 0.84,
+  "ma40w": 13.89,
+  "high_52w": 18.04,
+  "low_52w_close": 11.27,
+  "fwd_pe_now": 12.4,
+  "zone1": {
+   "level": 10.61,
+   "top": 10.91,
+   "bottom": 10.3,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -19.4,
-   "pct_from_high": -44.9,
-   "fwd_pe": 10.4,
-   "p_touch_13w": 0.44
+   "pct_from_last": -10.6,
+   "pct_from_high": -41.2,
+   "fwd_pe": 11.1,
+   "p_touch_13w": 0.73
+  },
+  "zone2": {
+   "level": 8.93,
+   "top": 9.24,
+   "bottom": 8.63,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
+   ],
+   "pct_from_last": -24.7,
+   "pct_from_high": -50.5,
+   "fwd_pe": 9.3,
+   "p_touch_13w": 0.33
   },
   "ceiling": {
    "level": 12.4,
-   "pct_from_last": 0.6,
+   "pct_from_last": 4.6,
    "sources": [
     "daily swing high 2026-11-09"
    ]
   },
   "all_levels_below": [
    {
-    "level": 12.04,
-    "strength": 5,
-    "sources": [
-     "daily swing low 2026-09-30",
-     "daily swing low 2026-11-12",
-     "volume shelf",
-     "weekly swing close 2026-05-15",
-     "weekly swing close 2026-06-05"
-    ]
-   },
-   {
     "level": 11.61,
-    "strength": 4,
+    "strength": 5,
     "sources": [
      "52-week closing low",
      "daily swing low 2026-10-26",
      "daily swing low 2026-11-05",
+     "daily swing low 2026-11-12",
      "weekly swing close 2026-10-30"
     ]
    }
@@ -574,73 +566,79 @@
  "MCD": {
   "ticker": "MCD",
   "testing_now": {
-   "level": 275.75,
-   "strength": 1,
+   "level": 277.93,
+   "strength": 3,
    "sources": [
+    "40-week average",
+    "volume shelf",
     "weekly swing close 2026-05-08"
    ]
   },
-  "last_close": 275.82,
-  "last_date": "2026-11-17",
-  "atr14": 7.55,
-  "vol_annual": 0.183,
-  "weekly_sd_usd": 6.99,
-  "ma40w": 280.09,
+  "last_close": 280.7,
+  "last_date": "2026-11-24",
+  "atr14": 6.5,
+  "vol_annual": 0.181,
+  "weekly_sd_usd": 7.05,
+  "ma40w": 278.73,
   "high_52w": 341.06,
   "low_52w_close": 231.89,
-  "fwd_pe_now": 20.8,
+  "fwd_pe_now": 21.2,
   "zone1": {
-   "level": 267.26,
-   "top": 271.03,
-   "bottom": 263.49,
-   "strength": 2,
+   "level": 267.47,
+   "top": 270.72,
+   "bottom": 264.22,
+   "strength": 3,
    "sources": [
+    "daily swing low 2026-11-19",
     "weekly swing close 2026-06-26",
     "weekly swing close 2026-07-24"
    ],
-   "pct_from_last": -3.1,
+   "pct_from_last": -4.7,
    "pct_from_high": -21.6,
    "fwd_pe": 20.2,
-   "p_touch_13w": 0.81
+   "p_touch_13w": 0.65
   },
   "zone2": {
-   "level": 248.07,
-   "top": 251.84,
-   "bottom": 244.29,
+   "level": 251.94,
+   "top": 255.19,
+   "bottom": 248.69,
    "strength": 1,
    "sources": [
     "volume shelf"
    ],
-   "pct_from_last": -10.1,
-   "pct_from_high": -27.3,
-   "fwd_pe": 18.7,
-   "p_touch_13w": 0.3
+   "pct_from_last": -10.2,
+   "pct_from_high": -26.1,
+   "fwd_pe": 19.0,
+   "p_touch_13w": 0.27
   },
   "ceiling": {
    "level": 283.53,
-   "pct_from_last": 2.8,
+   "pct_from_last": 1.0,
    "sources": [
     "daily swing high 2026-11-10"
    ]
   },
   "all_levels_below": [
    {
-    "level": 275.75,
-    "strength": 1,
+    "level": 277.93,
+    "strength": 3,
     "sources": [
+     "40-week average",
+     "volume shelf",
      "weekly swing close 2026-05-08"
     ]
    },
    {
-    "level": 267.26,
-    "strength": 2,
+    "level": 267.47,
+    "strength": 3,
     "sources": [
+     "daily swing low 2026-11-19",
      "weekly swing close 2026-06-26",
      "weekly swing close 2026-07-24"
     ]
    },
    {
-    "level": 248.07,
+    "level": 251.94,
     "strength": 1,
     "sources": [
      "volume shelf"
@@ -660,65 +658,65 @@
  },
  "NBIS": {
   "ticker": "NBIS",
-  "testing_now": null,
-  "last_close": 106.04,
-  "last_date": "2026-11-17",
-  "atr14": 18.0,
-  "vol_annual": 0.967,
-  "weekly_sd_usd": 14.23,
-  "ma40w": 180.87,
-  "high_52w": 286.69,
-  "low_52w_close": 83.26,
-  "fwd_pe_now": null,
-  "zone1": {
-   "level": 86.39,
-   "top": 95.39,
-   "bottom": 77.39,
-   "strength": 6,
+  "testing_now": {
+   "level": 83.26,
+   "strength": 3,
    "sources": [
     "52-week closing low",
     "weekly swing close 2025-11-21",
-    "weekly swing close 2025-12-26",
-    "weekly swing close 2026-01-30",
-    "weekly swing close 2026-03-06",
-    "weekly swing close 2026-03-27"
-   ],
-   "pct_from_last": -18.5,
-   "pct_from_high": -69.9,
-   "fwd_pe": null,
-   "p_touch_13w": 0.82
+    "weekly swing close 2026-01-30"
+   ]
   },
-  "zone2": {
-   "level": 57.94,
-   "top": 66.94,
-   "bottom": 48.94,
+  "last_close": 87.31,
+  "last_date": "2026-11-24",
+  "atr14": 18.86,
+  "vol_annual": 1.018,
+  "weekly_sd_usd": 12.32,
+  "ma40w": 180.46,
+  "high_52w": 286.69,
+  "low_52w_close": 81.31,
+  "fwd_pe_now": null,
+  "zone1": {
+   "level": 68.83,
+   "top": 78.26,
+   "bottom": 59.4,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -45.4,
-   "pct_from_high": -79.8,
+   "pct_from_last": -21.2,
+   "pct_from_high": -76.0,
+   "fwd_pe": null,
+   "p_touch_13w": 0.83
+  },
+  "zone2": {
+   "level": 44.19,
+   "top": 53.62,
+   "bottom": 34.76,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
+   ],
+   "pct_from_last": -49.4,
+   "pct_from_high": -84.6,
    "fwd_pe": null,
    "p_touch_13w": 0.39
   },
   "ceiling": {
-   "level": 160.21,
-   "pct_from_last": 51.1,
+   "level": 115.18,
+   "pct_from_last": 31.9,
    "sources": [
-    "daily swing high 2026-11-11"
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 86.39,
-    "strength": 6,
+    "level": 83.26,
+    "strength": 3,
     "sources": [
      "52-week closing low",
      "weekly swing close 2025-11-21",
-     "weekly swing close 2025-12-26",
-     "weekly swing close 2026-01-30",
-     "weekly swing close 2026-03-06",
-     "weekly swing close 2026-03-27"
+     "weekly swing close 2026-01-30"
     ]
    }
   ]
@@ -726,78 +724,62 @@
  "AMD": {
   "ticker": "AMD",
   "testing_now": {
-   "level": 476.15,
-   "strength": 5,
+   "level": 402.1,
+   "strength": 1,
    "sources": [
-    "daily swing low 2026-09-14",
-    "daily swing low 2026-10-22",
-    "weekly swing close 2026-06-05",
-    "weekly swing close 2026-07-31",
-    "weekly swing close 2026-08-28"
+    "daily swing low 2026-11-05"
    ]
   },
-  "last_close": 503.41,
-  "last_date": "2026-11-17",
-  "atr14": 48.8,
-  "vol_annual": 0.649,
-  "weekly_sd_usd": 45.29,
-  "ma40w": 430.29,
+  "last_close": 413.27,
+  "last_date": "2026-11-24",
+  "atr14": 55.6,
+  "vol_annual": 0.684,
+  "weekly_sd_usd": 39.22,
+  "ma40w": 435.72,
   "high_52w": 658.52,
   "low_52w_close": 192.43,
-  "fwd_pe_now": 45.1,
+  "fwd_pe_now": 37.0,
   "zone1": {
-   "level": 416.2,
-   "top": 440.59,
-   "bottom": 391.8,
-   "strength": 2,
-   "sources": [
-    "40-week average",
-    "daily swing low 2026-11-05"
-   ],
-   "pct_from_last": -17.3,
-   "pct_from_high": -36.8,
-   "fwd_pe": 37.3,
-   "p_touch_13w": 0.67
-  },
-  "zone2": {
-   "level": 325.61,
-   "top": 350.01,
-   "bottom": 301.21,
+   "level": 354.44,
+   "top": 382.24,
+   "bottom": 326.64,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -35.3,
-   "pct_from_high": -50.6,
-   "fwd_pe": 29.1,
-   "p_touch_13w": 0.28
+   "pct_from_last": -14.2,
+   "pct_from_high": -46.2,
+   "fwd_pe": 31.7,
+   "p_touch_13w": 0.8
+  },
+  "zone2": {
+   "level": 276.0,
+   "top": 303.8,
+   "bottom": 248.21,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
+   ],
+   "pct_from_last": -33.2,
+   "pct_from_high": -58.1,
+   "fwd_pe": 24.7,
+   "p_touch_13w": 0.39
   },
   "ceiling": {
-   "level": 579.18,
-   "pct_from_last": 15.1,
+   "level": 567.98,
+   "pct_from_last": 37.4,
    "sources": [
     "daily swing high 2026-10-21",
     "daily swing high 2026-10-28",
-    "daily swing high 2026-11-12"
+    "daily swing high 2026-11-12",
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 476.15,
-    "strength": 5,
+    "level": 402.1,
+    "strength": 1,
     "sources": [
-     "daily swing low 2026-09-14",
-     "daily swing low 2026-10-22",
-     "weekly swing close 2026-06-05",
-     "weekly swing close 2026-07-31",
-     "weekly swing close 2026-08-28"
-    ]
-   },
-   {
-    "level": 416.2,
-    "strength": 2,
-    "sources": [
-     "40-week average",
      "daily swing low 2026-11-05"
     ]
    },
@@ -817,85 +799,59 @@
  "CEG": {
   "ticker": "CEG",
   "testing_now": {
-   "level": 265.19,
+   "level": 237.41,
    "strength": 3,
    "sources": [
-    "volume shelf",
-    "weekly swing close 2026-02-06",
-    "weekly swing close 2026-05-15"
+    "52-week closing low",
+    "daily swing low 2026-11-05",
+    "weekly swing close 2026-07-03"
    ]
   },
-  "last_close": 268.07,
-  "last_date": "2026-11-17",
-  "atr14": 13.56,
-  "vol_annual": 0.479,
-  "weekly_sd_usd": 17.79,
-  "ma40w": 278.76,
+  "last_close": 244.84,
+  "last_date": "2026-11-24",
+  "atr14": 14.0,
+  "vol_annual": 0.499,
+  "weekly_sd_usd": 16.93,
+  "ma40w": 277.48,
   "high_52w": 389.19,
-  "low_52w_close": 239.25,
-  "fwd_pe_now": 21.7,
+  "low_52w_close": 237.41,
+  "fwd_pe_now": 19.8,
   "zone1": {
-   "level": 251.09,
-   "top": 257.87,
-   "bottom": 244.31,
-   "strength": 6,
-   "sources": [
-    "daily swing low 2026-09-21",
-    "daily swing low 2026-09-30",
-    "daily swing low 2026-10-23",
-    "volume shelf",
-    "weekly swing close 2026-06-12",
-    "weekly swing close 2026-09-18"
-   ],
-   "pct_from_last": -6.3,
-   "pct_from_high": -35.5,
-   "fwd_pe": 20.3,
-   "p_touch_13w": 0.83
-  },
-  "zone2": {
-   "level": 215.51,
-   "top": 222.29,
-   "bottom": 208.73,
+   "level": 219.45,
+   "top": 226.45,
+   "bottom": 212.45,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -19.6,
-   "pct_from_high": -44.6,
-   "fwd_pe": 17.4,
-   "p_touch_13w": 0.43
+   "pct_from_last": -10.4,
+   "pct_from_high": -43.6,
+   "fwd_pe": 17.7,
+   "p_touch_13w": 0.73
+  },
+  "zone2": {
+   "level": 185.59,
+   "top": 192.59,
+   "bottom": 178.59,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
+   ],
+   "pct_from_last": -24.2,
+   "pct_from_high": -52.3,
+   "fwd_pe": 15.0,
+   "p_touch_13w": 0.34
   },
   "ceiling": {
    "level": 268.64,
-   "pct_from_last": 0.2,
+   "pct_from_last": 9.7,
    "sources": [
     "daily swing high 2026-11-02"
    ]
   },
   "all_levels_below": [
    {
-    "level": 265.19,
-    "strength": 3,
-    "sources": [
-     "volume shelf",
-     "weekly swing close 2026-02-06",
-     "weekly swing close 2026-05-15"
-    ]
-   },
-   {
-    "level": 251.09,
-    "strength": 6,
-    "sources": [
-     "daily swing low 2026-09-21",
-     "daily swing low 2026-09-30",
-     "daily swing low 2026-10-23",
-     "volume shelf",
-     "weekly swing close 2026-06-12",
-     "weekly swing close 2026-09-18"
-    ]
-   },
-   {
-    "level": 239.25,
+    "level": 237.41,
     "strength": 3,
     "sources": [
      "52-week closing low",
@@ -907,63 +863,53 @@
  },
  "MU": {
   "ticker": "MU",
-  "testing_now": {
-   "level": 650.0,
-   "strength": 1,
-   "sources": [
-    "daily swing low 2026-11-05"
-   ]
-  },
-  "last_close": 712.42,
-  "last_date": "2026-11-17",
-  "atr14": 66.91,
-  "vol_annual": 0.757,
-  "weekly_sd_usd": 74.83,
-  "ma40w": 775.37,
+  "testing_now": null,
+  "last_close": 629.79,
+  "last_date": "2026-11-24",
+  "atr14": 75.53,
+  "vol_annual": 0.802,
+  "weekly_sd_usd": 70.02,
+  "ma40w": 779.94,
   "high_52w": 1133.99,
   "low_52w_close": 207.37,
-  "fwd_pe_now": 4.3,
+  "fwd_pe_now": 3.8,
   "zone1": {
-   "level": 600.17,
-   "top": 633.63,
-   "bottom": 566.72,
+   "level": 524.77,
+   "top": 562.53,
+   "bottom": 487.0,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -15.8,
-   "pct_from_high": -47.1,
-   "fwd_pe": 3.6,
-   "p_touch_13w": 0.75
+   "pct_from_last": -16.7,
+   "pct_from_high": -53.7,
+   "fwd_pe": 3.1,
+   "p_touch_13w": 0.77
   },
   "zone2": {
-   "level": 450.51,
-   "top": 483.97,
-   "bottom": 417.06,
-   "strength": 0,
+   "level": 370.3,
+   "top": 408.06,
+   "bottom": 332.54,
+   "strength": 3,
    "sources": [
-    "volatility band (no structural support)"
+    "weekly swing close 2026-02-06",
+    "weekly swing close 2026-03-06",
+    "weekly swing close 2026-03-27"
    ],
-   "pct_from_last": -36.8,
-   "pct_from_high": -60.3,
-   "fwd_pe": 2.7,
-   "p_touch_13w": 0.34
+   "pct_from_last": -41.2,
+   "pct_from_high": -67.3,
+   "fwd_pe": 2.2,
+   "p_touch_13w": 0.31
   },
   "ceiling": {
-   "level": 827.58,
-   "pct_from_last": 16.2,
+   "level": 793.8,
+   "pct_from_last": 26.0,
    "sources": [
-    "daily swing high 2026-11-11"
+    "daily swing high 2026-11-11",
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
-   {
-    "level": 650.0,
-    "strength": 1,
-    "sources": [
-     "daily swing low 2026-11-05"
-    ]
-   },
    {
     "level": 370.3,
     "strength": 3,
@@ -986,58 +932,61 @@
  "TLN": {
   "ticker": "TLN",
   "testing_now": {
-   "level": 334.24,
-   "strength": 5,
+   "level": 337.99,
+   "strength": 3,
    "sources": [
     "daily swing low 2026-10-15",
-    "weekly swing close 2026-02-06",
+    "volume shelf",
+    "weekly swing close 2026-02-06"
+   ]
+  },
+  "last_close": 347.68,
+  "last_date": "2026-11-24",
+  "atr14": 21.09,
+  "vol_annual": 0.531,
+  "weekly_sd_usd": 25.61,
+  "ma40w": 348.77,
+  "high_52w": 436.29,
+  "low_52w_close": 292.3,
+  "fwd_pe_now": 11.6,
+  "zone1": {
+   "level": 324.62,
+   "top": 335.17,
+   "bottom": 314.07,
+   "strength": 6,
+   "sources": [
+    "daily swing low 2026-10-23",
+    "volume shelf",
+    "weekly swing close 2026-04-10",
     "weekly swing close 2026-05-15",
     "weekly swing close 2026-07-31",
     "weekly swing close 2026-10-23"
-   ]
-  },
-  "last_close": 354.71,
-  "last_date": "2026-11-17",
-  "atr14": 21.62,
-  "vol_annual": 0.523,
-  "weekly_sd_usd": 25.74,
-  "ma40w": 349.86,
-  "high_52w": 436.29,
-  "low_52w_close": 292.3,
-  "fwd_pe_now": 11.9,
-  "zone1": {
-   "level": 312.21,
-   "top": 323.02,
-   "bottom": 301.39,
-   "strength": 5,
-   "sources": [
-    "daily swing low 2026-10-23",
-    "daily swing low 2026-11-05",
-    "volume shelf",
-    "weekly swing close 2026-03-20",
-    "weekly swing close 2026-04-10"
    ],
-   "pct_from_last": -12.0,
-   "pct_from_high": -28.4,
-   "fwd_pe": 10.5,
-   "p_touch_13w": 0.7
+   "pct_from_last": -6.6,
+   "pct_from_high": -25.6,
+   "fwd_pe": 10.9,
+   "p_touch_13w": 0.85
   },
   "zone2": {
-   "level": 260.73,
-   "top": 271.54,
-   "bottom": 249.92,
-   "strength": 0,
+   "level": 296.11,
+   "top": 306.65,
+   "bottom": 285.56,
+   "strength": 5,
    "sources": [
-    "volatility band (no structural support)"
+    "52-week closing low",
+    "daily swing low 2026-11-05",
+    "weekly swing close 2026-03-20",
+    "weekly swing close 2026-08-28",
+    "weekly swing close 2026-09-18"
    ],
-   "pct_from_last": -26.5,
-   "pct_from_high": -40.2,
-   "fwd_pe": 8.7,
-   "p_touch_13w": 0.32
+   "pct_from_last": -14.8,
+   "pct_from_high": -32.1,
+   "fwd_pe": 9.9,
+   "p_touch_13w": 0.63
   },
   "ceiling": {
    "level": 368.58,
-   "pct_from_last": 3.9,
+   "pct_from_last": 6.0,
    "sources": [
     "daily swing high 2026-10-21",
     "daily swing high 2026-11-03"
@@ -1045,41 +994,33 @@
   },
   "all_levels_below": [
    {
-    "level": 352.05,
-    "strength": 2,
+    "level": 337.99,
+    "strength": 3,
     "sources": [
-     "40-week average",
-     "weekly swing close 2025-12-05"
+     "daily swing low 2026-10-15",
+     "volume shelf",
+     "weekly swing close 2026-02-06"
     ]
    },
    {
-    "level": 334.24,
-    "strength": 5,
+    "level": 324.62,
+    "strength": 6,
     "sources": [
-     "daily swing low 2026-10-15",
-     "weekly swing close 2026-02-06",
+     "daily swing low 2026-10-23",
+     "volume shelf",
+     "weekly swing close 2026-04-10",
      "weekly swing close 2026-05-15",
      "weekly swing close 2026-07-31",
      "weekly swing close 2026-10-23"
     ]
    },
    {
-    "level": 312.21,
+    "level": 296.11,
     "strength": 5,
     "sources": [
-     "daily swing low 2026-10-23",
-     "daily swing low 2026-11-05",
-     "volume shelf",
-     "weekly swing close 2026-03-20",
-     "weekly swing close 2026-04-10"
-    ]
-   },
-   {
-    "level": 292.3,
-    "strength": 4,
-    "sources": [
      "52-week closing low",
-     "daily swing low 2026-09-15",
+     "daily swing low 2026-11-05",
+     "weekly swing close 2026-03-20",
      "weekly swing close 2026-08-28",
      "weekly swing close 2026-09-18"
     ]
@@ -1089,176 +1030,132 @@
  "AVGO": {
   "ticker": "AVGO",
   "testing_now": {
-   "level": 340.36,
-   "strength": 3,
-   "sources": [
-    "volume shelf",
-    "weekly swing close 2025-11-21",
-    "weekly swing close 2025-12-19"
-   ]
-  },
-  "last_close": 341.6,
-  "last_date": "2026-11-17",
-  "atr14": 20.71,
-  "vol_annual": 0.48,
-  "weekly_sd_usd": 22.76,
-  "ma40w": 366.57,
-  "high_52w": 446.77,
-  "low_52w_close": 293.69,
-  "fwd_pe_now": 19.6,
-  "zone1": {
-   "level": 320.23,
-   "top": 330.59,
-   "bottom": 309.87,
-   "strength": 7,
-   "sources": [
-    "daily swing low 2026-09-16",
-    "daily swing low 2026-10-16",
-    "daily swing low 2026-10-23",
-    "daily swing low 2026-10-30",
-    "volume shelf",
-    "weekly swing close 2026-01-23",
-    "weekly swing close 2026-02-27"
-   ],
-   "pct_from_last": -6.3,
-   "pct_from_high": -28.3,
-   "fwd_pe": 18.4,
-   "p_touch_13w": 0.85
-  },
-  "zone2": {
    "level": 293.69,
-   "top": 304.05,
-   "bottom": 283.33,
-   "strength": 3,
+   "strength": 4,
    "sources": [
     "52-week closing low",
     "daily swing low 2026-11-06",
-    "weekly swing close 2026-03-27"
+    "weekly swing close 2026-03-27",
+    "weekly swing close 2026-11-06"
+   ]
+  },
+  "last_close": 301.08,
+  "last_date": "2026-11-24",
+  "atr14": 24.0,
+  "vol_annual": 0.492,
+  "weekly_sd_usd": 20.56,
+  "ma40w": 366.05,
+  "high_52w": 446.77,
+  "low_52w_close": 293.69,
+  "fwd_pe_now": 17.3,
+  "zone1": {
+   "level": 270.24,
+   "top": 282.24,
+   "bottom": 258.24,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
    ],
-   "pct_from_last": -14.0,
-   "pct_from_high": -34.3,
-   "fwd_pe": 16.8,
-   "p_touch_13w": 0.61
+   "pct_from_last": -10.2,
+   "pct_from_high": -39.5,
+   "fwd_pe": 15.5,
+   "p_touch_13w": 0.77
+  },
+  "zone2": {
+   "level": 229.12,
+   "top": 241.12,
+   "bottom": 217.12,
+   "strength": 0,
+   "sources": [
+    "volatility band (no structural support)"
+   ],
+   "pct_from_last": -23.9,
+   "pct_from_high": -48.7,
+   "fwd_pe": 13.1,
+   "p_touch_13w": 0.37
   },
   "ceiling": {
-   "level": 364.21,
-   "pct_from_last": 6.6,
+   "level": 366.55,
+   "pct_from_last": 21.7,
    "sources": [
     "daily swing high 2026-09-22",
     "daily swing high 2026-09-29",
     "daily swing high 2026-10-28",
-    "daily swing high 2026-11-12"
+    "daily swing high 2026-11-12",
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 340.36,
-    "strength": 3,
-    "sources": [
-     "volume shelf",
-     "weekly swing close 2025-11-21",
-     "weekly swing close 2025-12-19"
-    ]
-   },
-   {
-    "level": 320.23,
-    "strength": 7,
-    "sources": [
-     "daily swing low 2026-09-16",
-     "daily swing low 2026-10-16",
-     "daily swing low 2026-10-23",
-     "daily swing low 2026-10-30",
-     "volume shelf",
-     "weekly swing close 2026-01-23",
-     "weekly swing close 2026-02-27"
-    ]
-   },
-   {
     "level": 293.69,
-    "strength": 3,
+    "strength": 4,
     "sources": [
      "52-week closing low",
      "daily swing low 2026-11-06",
-     "weekly swing close 2026-03-27"
+     "weekly swing close 2026-03-27",
+     "weekly swing close 2026-11-06"
     ]
    }
   ]
  },
  "QQQ": {
   "ticker": "QQQ",
-  "testing_now": {
-   "level": 647.05,
-   "strength": 1,
-   "sources": [
-    "daily swing low 2026-11-05"
-   ]
-  },
-  "last_close": 656.95,
-  "last_date": "2026-11-17",
-  "atr14": 20.01,
-  "vol_annual": 0.196,
-  "weekly_sd_usd": 17.9,
-  "ma40w": 682.99,
+  "testing_now": null,
+  "last_close": 638.1,
+  "last_date": "2026-11-24",
+  "atr14": 24.36,
+  "vol_annual": 0.223,
+  "weekly_sd_usd": 19.73,
+  "ma40w": 683.15,
   "high_52w": 762.86,
   "low_52w_close": 562.58,
   "fwd_pe_now": null,
   "zone1": {
-   "level": 613.37,
-   "top": 623.38,
-   "bottom": 603.37,
-   "strength": 2,
+   "level": 607.52,
+   "top": 619.7,
+   "bottom": 595.34,
+   "strength": 4,
    "sources": [
+    "weekly swing close 2025-11-21",
     "weekly swing close 2025-12-12",
-    "weekly swing close 2026-01-02"
+    "weekly swing close 2026-01-02",
+    "weekly swing close 2026-02-13"
    ],
-   "pct_from_last": -6.6,
-   "pct_from_high": -19.6,
+   "pct_from_last": -4.8,
+   "pct_from_high": -20.4,
    "fwd_pe": null,
-   "p_touch_13w": 0.56
+   "p_touch_13w": 0.75
   },
   "zone2": {
    "level": 562.58,
-   "top": 572.59,
-   "bottom": 552.58,
+   "top": 574.76,
+   "bottom": 550.4,
    "strength": 2,
    "sources": [
     "52-week closing low",
     "weekly swing close 2026-03-27"
    ],
-   "pct_from_last": -14.4,
+   "pct_from_last": -11.8,
    "pct_from_high": -26.3,
    "fwd_pe": null,
-   "p_touch_13w": 0.15
+   "p_touch_13w": 0.33
   },
   "ceiling": {
-   "level": 698.51,
-   "pct_from_last": 6.3,
+   "level": 686.03,
+   "pct_from_last": 7.5,
    "sources": [
-    "daily swing high 2026-11-04",
-    "daily swing high 2026-11-11"
+    "daily swing high 2026-11-11",
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 647.05,
-    "strength": 1,
-    "sources": [
-     "daily swing low 2026-11-05"
-    ]
-   },
-   {
-    "level": 613.37,
-    "strength": 2,
-    "sources": [
-     "weekly swing close 2025-12-12",
-     "weekly swing close 2026-01-02"
-    ]
-   },
-   {
-    "level": 596.0,
-    "strength": 2,
+    "level": 607.52,
+    "strength": 4,
     "sources": [
      "weekly swing close 2025-11-21",
+     "weekly swing close 2025-12-12",
+     "weekly swing close 2026-01-02",
      "weekly swing close 2026-02-13"
     ]
    },
@@ -1274,108 +1171,122 @@
  },
  "IREN": {
   "ticker": "IREN",
-  "testing_now": null,
-  "last_close": 15.81,
-  "last_date": "2026-11-17",
-  "atr14": 2.76,
-  "vol_annual": 0.893,
-  "weekly_sd_usd": 1.96,
-  "ma40w": 35.64,
+  "testing_now": {
+   "level": 11.82,
+   "strength": 1,
+   "sources": [
+    "52-week closing low"
+   ]
+  },
+  "last_close": 12.95,
+  "last_date": "2026-11-24",
+  "atr14": 2.64,
+  "vol_annual": 1.104,
+  "weekly_sd_usd": 1.98,
+  "ma40w": 34.15,
   "high_52w": 49.37,
-  "low_52w_close": 15.81,
+  "low_52w_close": 11.82,
   "fwd_pe_now": null,
   "zone1": {
-   "level": 12.87,
-   "top": 14.25,
-   "bottom": 11.49,
+   "level": 9.98,
+   "top": 11.3,
+   "bottom": 8.65,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -18.6,
-   "pct_from_high": -73.9,
+   "pct_from_last": -23.0,
+   "pct_from_high": -79.8,
    "fwd_pe": null,
    "p_touch_13w": 0.81
   },
   "zone2": {
-   "level": 8.96,
-   "top": 10.34,
-   "bottom": 7.58,
+   "level": 6.01,
+   "top": 7.33,
+   "bottom": 4.69,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -43.3,
-   "pct_from_high": -81.9,
+   "pct_from_last": -53.6,
+   "pct_from_high": -87.8,
    "fwd_pe": null,
-   "p_touch_13w": 0.38
+   "p_touch_13w": 0.36
   },
   "ceiling": {
    "level": 28.88,
-   "pct_from_last": 82.7,
+   "pct_from_last": 123.0,
    "sources": [
     "daily swing high 2026-10-28"
    ]
   },
-  "all_levels_below": []
+  "all_levels_below": [
+   {
+    "level": 11.82,
+    "strength": 1,
+    "sources": [
+     "52-week closing low"
+    ]
+   }
+  ]
  },
  "APLD": {
   "ticker": "APLD",
   "testing_now": {
-   "level": 13.11,
+   "level": 11.49,
    "strength": 1,
    "sources": [
-    "daily swing low 2026-11-05"
+    "52-week closing low"
    ]
   },
-  "last_close": 14.22,
-  "last_date": "2026-11-17",
-  "atr14": 1.82,
-  "vol_annual": 0.669,
-  "weekly_sd_usd": 1.32,
-  "ma40w": 23.66,
+  "last_close": 12.22,
+  "last_date": "2026-11-24",
+  "atr14": 2.03,
+  "vol_annual": 0.836,
+  "weekly_sd_usd": 1.42,
+  "ma40w": 22.89,
   "high_52w": 31.2,
-  "low_52w_close": 14.22,
+  "low_52w_close": 11.49,
   "fwd_pe_now": null,
   "zone1": {
-   "level": 12.24,
-   "top": 13.15,
-   "bottom": 11.33,
+   "level": 10.09,
+   "top": 11.11,
+   "bottom": 9.08,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -13.9,
-   "pct_from_high": -60.8,
+   "pct_from_last": -17.4,
+   "pct_from_high": -67.6,
    "fwd_pe": null,
-   "p_touch_13w": 0.79
+   "p_touch_13w": 0.81
   },
   "zone2": {
-   "level": 9.6,
-   "top": 10.51,
-   "bottom": 8.69,
+   "level": 7.26,
+   "top": 8.27,
+   "bottom": 6.25,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -32.5,
-   "pct_from_high": -69.2,
+   "pct_from_last": -40.6,
+   "pct_from_high": -76.7,
    "fwd_pe": null,
    "p_touch_13w": 0.38
   },
   "ceiling": {
-   "level": 18.6,
-   "pct_from_last": 30.8,
+   "level": 15.69,
+   "pct_from_last": 28.4,
    "sources": [
-    "daily swing high 2026-11-11"
+    "daily swing high 2026-11-19"
    ]
   },
   "all_levels_below": [
    {
-    "level": 13.11,
+    "level": 11.49,
     "strength": 1,
     "sources": [
-     "daily swing low 2026-11-05"
+     "52-week closing low"
     ]
    }
   ]
@@ -1383,50 +1294,50 @@
  "SOFI": {
   "ticker": "SOFI",
   "testing_now": {
-   "level": 13.86,
+   "level": 12.48,
    "strength": 1,
    "sources": [
-    "daily swing low 2026-10-15"
+    "52-week closing low"
    ]
   },
-  "last_close": 14.28,
-  "last_date": "2026-11-17",
-  "atr14": 0.87,
-  "vol_annual": 0.4,
-  "weekly_sd_usd": 0.79,
-  "ma40w": 16.55,
+  "last_close": 12.86,
+  "last_date": "2026-11-24",
+  "atr14": 0.86,
+  "vol_annual": 0.546,
+  "weekly_sd_usd": 0.97,
+  "ma40w": 16.26,
   "high_52w": 18.91,
-  "low_52w_close": 14.28,
+  "low_52w_close": 12.48,
   "fwd_pe_now": null,
   "zone1": {
-   "level": 13.09,
-   "top": 13.53,
-   "bottom": 12.66,
+   "level": 11.4,
+   "top": 11.83,
+   "bottom": 10.97,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -8.3,
-   "pct_from_high": -30.8,
+   "pct_from_last": -11.4,
+   "pct_from_high": -39.7,
    "fwd_pe": null,
-   "p_touch_13w": 0.76
+   "p_touch_13w": 0.74
   },
   "zone2": {
-   "level": 11.51,
-   "top": 11.94,
-   "bottom": 11.07,
+   "level": 9.45,
+   "top": 9.88,
+   "bottom": 9.02,
    "strength": 0,
    "sources": [
     "volatility band (no structural support)"
    ],
-   "pct_from_last": -19.4,
-   "pct_from_high": -39.1,
+   "pct_from_last": -26.5,
+   "pct_from_high": -50.0,
    "fwd_pe": null,
-   "p_touch_13w": 0.37
+   "p_touch_13w": 0.35
   },
   "ceiling": {
    "level": 15.89,
-   "pct_from_last": 11.3,
+   "pct_from_last": 23.6,
    "sources": [
     "daily swing high 2026-10-02",
     "daily swing high 2026-10-16"
@@ -1434,10 +1345,10 @@
   },
   "all_levels_below": [
    {
-    "level": 13.86,
+    "level": 12.48,
     "strength": 1,
     "sources": [
-     "daily swing low 2026-10-15"
+     "52-week closing low"
     ]
    }
   ]
@@ -1445,73 +1356,75 @@
  "V": {
   "ticker": "V",
   "testing_now": {
-   "level": 412.75,
-   "strength": 1,
+   "level": 411.45,
+   "strength": 2,
    "sources": [
-    "daily swing low 2026-11-06"
+    "daily swing low 2026-11-06",
+    "volume shelf"
    ]
   },
-  "last_close": 416.77,
-  "last_date": "2026-11-17",
-  "atr14": 10.26,
-  "vol_annual": 0.198,
-  "weekly_sd_usd": 11.46,
-  "ma40w": 347.91,
+  "last_close": 416.78,
+  "last_date": "2026-11-24",
+  "atr14": 9.71,
+  "vol_annual": 0.205,
+  "weekly_sd_usd": 11.86,
+  "ma40w": 350.1,
   "high_52w": 442.23,
   "low_52w_close": 295.52,
   "fwd_pe_now": 28.6,
   "zone1": {
-   "level": 394.0,
-   "top": 399.13,
-   "bottom": 388.87,
-   "strength": 1,
+   "level": 397.37,
+   "top": 402.22,
+   "bottom": 392.52,
+   "strength": 2,
    "sources": [
-    "daily swing low 2026-10-28"
+    "daily swing low 2026-10-28",
+    "daily swing low 2026-11-19"
    ],
-   "pct_from_last": -5.5,
-   "pct_from_high": -10.9,
-   "fwd_pe": 27.0,
-   "p_touch_13w": 0.62
+   "pct_from_last": -4.7,
+   "pct_from_high": -10.1,
+   "fwd_pe": 27.3,
+   "p_touch_13w": 0.69
   },
   "zone2": {
-   "level": 360.66,
-   "top": 365.79,
-   "bottom": 355.53,
-   "strength": 3,
+   "level": 371.31,
+   "top": 376.17,
+   "bottom": 366.46,
+   "strength": 1,
    "sources": [
-    "daily swing low 2026-09-22",
-    "volume shelf",
-    "weekly swing close 2026-10-02"
+    "volume shelf"
    ],
-   "pct_from_last": -13.5,
-   "pct_from_high": -18.4,
-   "fwd_pe": 24.8,
-   "p_touch_13w": 0.18
+   "pct_from_last": -10.9,
+   "pct_from_high": -16.0,
+   "fwd_pe": 25.5,
+   "p_touch_13w": 0.3
   },
   "ceiling": {
-   "level": 442.23,
-   "pct_from_last": 6.1,
+   "level": 430.99,
+   "pct_from_last": 3.4,
    "sources": [
-    "daily swing high 2026-11-05"
+    "daily swing high 2026-11-16"
    ]
   },
   "all_levels_below": [
    {
-    "level": 412.75,
-    "strength": 1,
+    "level": 411.45,
+    "strength": 2,
     "sources": [
-     "daily swing low 2026-11-06"
+     "daily swing low 2026-11-06",
+     "volume shelf"
     ]
    },
    {
-    "level": 394.0,
-    "strength": 1,
+    "level": 397.37,
+    "strength": 2,
     "sources": [
-     "daily swing low 2026-10-28"
+     "daily swing low 2026-10-28",
+     "daily swing low 2026-11-19"
     ]
    },
    {
-    "level": 372.13,
+    "level": 371.31,
     "strength": 1,
     "sources": [
      "volume shelf"
@@ -1519,18 +1432,17 @@
    },
    {
     "level": 360.66,
-    "strength": 3,
+    "strength": 1,
     "sources": [
-     "daily swing low 2026-09-22",
-     "volume shelf",
      "weekly swing close 2026-10-02"
     ]
    },
    {
-    "level": 352.33,
-    "strength": 2,
+    "level": 356.75,
+    "strength": 3,
     "sources": [
      "40-week average",
+     "daily swing low 2026-09-22",
      "daily swing low 2026-10-02"
     ]
    },

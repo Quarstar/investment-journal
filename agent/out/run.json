@@ -1,10 +1,10 @@
 {
  "subtype": "success",
  "is_error": false,
- "turns": 46,
- "cost_usd": 0.9590266000000001,
- "summary": "`weekly-reviews/drafts/2026-11-18.md` is written. The three most important things in it:\n1. **Market and prices:** QQQ closed at $656.95, 13.5% below its high and 1.7% above the \u221215% line. NBIS fell 20.9% on its results, TSM is in its Zone 2 band, and NVDA is in Zone 1 after a print that passed.\n2. **Decisions:** the NVDA kill-line question is still open. The written sell limits sit 14\u201325% above the price, so the Friday 20 Nov market backstop will probably be the route.\n3. **Verification and gaps:** all seven holding closes matched independent pages. The rotation gauge advances to five reviews",
+ "turns": 38,
+ "cost_usd": 0.8635674999999999,
+ "summary": "`weekly-reviews/drafts/2026-11-25.md` is written. The three most important things in it:\n1. **QQQ closed at $638.10, 16.0% below its high.** That is below the \u221215% line on a close, and the 20 Nov close was \u221219.9%. Last week's open question on drawdown tranche 1 now has to be answered. The \u221225% circuit-breaker line is 10.7% away.\n2. **NVDA fell 14% on 20 Nov** on a reported SEC inquiry from secondary sources. NBIS made a new closing low of $81.31, below the 83.26 low quoted last week. Monday's bounce has no verified reason, and 14 of 19 mapped names need their capture zones re-run.\n3. **Rotatio",
  "denied": 0,
- "draft": "weekly-reviews/drafts/2026-11-18.md",
+ "draft": "weekly-reviews/drafts/2026-11-25.md",
  "validator": "clean"
 }
