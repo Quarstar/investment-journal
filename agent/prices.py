@@ -133,8 +133,13 @@ def run(offline: bool = False) -> dict:
                 rows, meta = sorted(existing, key=lambda r: r["date"]), {}
             else:
                 rows, meta = fetch_yahoo(t, "1mo" if existing else "6mo")
-                today = dt.datetime.now(dt.timezone.utc).date().isoformat()
-                rows = [r for r in rows if r["date"] < today]  # today's bar may still be trading
+                # Drop today's bar only while New York is still trading (before 16:15 ET).
+                from zoneinfo import ZoneInfo
+                now_ny = dt.datetime.now(ZoneInfo("America/New_York"))
+                cutoff = now_ny.date().isoformat()
+                if now_ny.time() >= dt.time(16, 15):
+                    cutoff = (now_ny.date() + dt.timedelta(days=1)).isoformat()
+                rows = [r for r in rows if r["date"] < cutoff]
                 entry["source"] = "yahoo"
                 entry["currency"] = meta.get("currency")
             if not rows:
