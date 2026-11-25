@@ -9,14 +9,14 @@ Alongside each call: a **base rate**, i.e. how often a coin-flip market with the
 | # | Made | Call | Deadline | Result |
 |---|---|---|---|---|
 | 1 | 14 Oct 2026 | NBIS holds (no close below $175) and is back at $230 | Wed 4 Nov 2026 | **Miss (scored 4 Nov).** Floor broke 16 Oct; best close in the window 188.41 (15 Oct), then 182.34 (28 Oct); no $230 close. Base rate for both: 23% |
-| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 3: picks 94.4 vs real ~95.0; **week 4: picks 92.6 vs real ~90.9 (+1.7)**, first week the picks lead; **week 5: picks 84.0 vs real ~85.6 (−1.6)**, the real book back ahead, both well behind the plan (92.2) |
+| 2 | 15 Oct 2026 | My ten picks beat the real book by a big margin by 6 months | Wed 14 Apr 2027 | open; week 3: picks 94.4 vs real ~95.0; **week 4: picks 92.6 vs real ~90.9 (+1.7)**, first week the picks lead; **week 5: picks 84.0 vs real ~85.6 (−1.6)**, the real book back ahead; **week 6: picks 78.9 vs real ~79.6 (−0.7)**, both well behind the plan (92.2) |
 | 3 | 15 Oct 2026 | Today's lows are the bottom: no close below $167 (NBIS) or $26 (IREN) | Wed 13 Jan 2027 | **Miss (decided 23 Oct).** NBIS closed below $167 on 16, 22, 23, 26 Oct (low close 153.27); IREN below $26 on 22, 23, 26 Oct (low close 24.91). Base rate for both holding: 7% |
 | 4 | 15 Oct 2026 | CELH trades at $60 within a year | Fri 15 Oct 2027 | open; 29.96 on 20 Oct (+7–11% since the exits at 27.00 / 27.88) |
 | 5 | 16 Oct 2026 | Bought at $165, NBIS trades back in the $200s within 3 months | Sat 16 Jan 2027 | open (filled 16 Oct); 134.00 on 10 Nov, needs +49% (low close 129.49, 6 Nov) |
 | 6 | 17 Oct 2026 | NBIS does not close below $140 | Wed 13 Jan 2027 | **Miss (scored 11 Nov):** closed 129.49 on 6 Nov. Base rate for holding: 27% |
 | 7 | 22 Oct 2026 | NBIS's Q3 results confirm demand and the stock re-rates | price part: the review after results week; follow-through: 4 weeks after | **price part: miss** (~−25% on the week vs +10% needed); follow-through Fri 11 Dec vs $154.69 |
 | 8 | 30 Oct 2026 | NVDA bought at $212 is worth at least 2× in three years | Mon 29 Oct 2029 | open; 168.89 on 10 Nov (−20.3%), board probe into the CEO opened 8–9 Nov |
-| 10 | 18 Nov 2026 | **The next 2–4 months is QQQ's wave up:** QQQ closes at or above **$720** (about halfway back to the $759.66 high close; 656.95 on 17 Nov) before it closes below **$569.75** (the circuit breaker, −25%). My reasons: QQQ only ~+7% this year with a "fair value gap" to make up by late 2027; the AI names cheap against their earnings; AI adoption everywhere | Thu 18 Mar 2027 | open. **Base rate ~36%** (no-drift simulation, QQQ volatility 19.6%, daily closes; the breaker comes first ~19% of the time, neither ~45%) |
+| 10 | 18 Nov 2026 | **The next 2–4 months is QQQ's wave up:** QQQ closes at or above **$720** (about halfway back to the $759.66 high close; 656.95 on 17 Nov) before it closes below **$569.75** (the circuit breaker, −25%). My reasons: QQQ only ~+7% this year with a "fair value gap" to make up by late 2027; the AI names cheap against their earnings; AI adoption everywhere | Thu 18 Mar 2027 | open; **25 Nov: $633.93**, +13.6% to $720, −10.1% to $569.75; the low close so far $608.45 (20 Nov). **Base rate ~36%** (no-drift simulation, QQQ volatility 19.6%, daily closes; the breaker comes first ~19% of the time, neither ~45%) |
 
 ---
 
@@ -181,3 +181,4 @@ The numbers are low because both stocks swing so much that a level 7–10% below
 
 **Result:** ____
 
+**Prediction 9** (proposed 6 Nov: QQQ ≥ $698.81 by 27 Nov, then < $647.05 by 31 Dec) was **never confirmed and is dropped** (25 Nov). For the record: QQQ closed $633.93 on 25 Nov, needing +10.2% with one half-day left, so the first leg would have missed.
